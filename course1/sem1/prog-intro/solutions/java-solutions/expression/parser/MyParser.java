@@ -203,7 +203,7 @@ public class MyParser extends BaseParser implements TripleParser {
                     }
                 }
                 if (!(checkBetween(expression.charAt(i)))) {
-                    throw error("Invalid symbol found '" + expression.charAt(i) + "', please enter a valid expression OwO");
+                    throw error("Invalid symbol found '" + expression.charAt(i) + "', please enter a valid expression");
                 }
             }
             else {
@@ -211,7 +211,7 @@ public class MyParser extends BaseParser implements TripleParser {
             }
         }
         if (l != r) {
-            throw error("Unexpected parenthesis balance, please ensure that all parentheses are closed UwU");
+            throw error("Unexpected parenthesis balance, please ensure that all parentheses are closed");
         }
         if (sb.toString().equals("2147483648")) {
             throw error("Number is too big");
