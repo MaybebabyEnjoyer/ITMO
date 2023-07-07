@@ -1,0 +1,30 @@
+(load-file "examples/0_1_magic.clj")
+
+(lecture "1. Functions")
+(load-file "examples/1_1_intro.clj")
+(load-file "examples/1_2_functions.clj")
+(load-file "examples/1_3_lists.clj")
+(load-file "examples/1_4_vectors.clj")
+(load-file "examples/1_5_functions-2.clj")
+
+(lecture "2. Outer world")
+(load-file "examples/2_1_io.clj")
+(load-file "examples/2_2_read.clj")
+(load-file "examples/2_3_evaluation-orders.clj")
+(load-file "examples/2_4_streams.clj")
+(load-file "examples/2_5_maps.clj")
+
+(lecture "3. Objects")
+(load-file "examples/3_1_js-objects.clj")
+(load-file "examples/3_2_java-objects.clj")
+(load-file "examples/3_3_mutable-state.clj")
+
+(lecture "4. Parser combinators")
+(load-file "examples/4_1_base.clj")
+(load-file "examples/4_2_combinators.clj")
+(load-file "examples/4_3_json.clj")
+
+(lecture "5. Macros and foundations of math")
+(load-file "examples/5_1_macro.clj")
+(load-file "examples/5_2_parser.clj")
+(load-file "examples/5_3_church.clj")

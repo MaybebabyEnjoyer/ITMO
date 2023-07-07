@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head></head><body>
+<pre id="out"></pre>
+<script>
+    // Helper functions
+    function escape(str) {
+        return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') ;
+    }
+
+    var logArea = document.getElementById("out");
+    function println() {
+        print.apply(null, arguments);
+        logArea.innerHTML += "\n";
+    }
+
+    function print() {
+        const line = Array.prototype.map.call(arguments, String).join(' ');
+        console.log(line);
+        logArea.innerHTML += escape(line);
+    }
+
+    function include(file) {
+        if (file.endsWith(".mjs")) {
+            println(`ES module loading not supported: ${file}`);
+        } else {
+            const script = document.createElement("script");
+            script.src = file;
+            script.charset = "UTF-8";
+            document.head.appendChild(script);
+        }
+    }
+
+    function getParameterByName(name, defaultValue) {
+        const url = window.location.href;
+        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+        const result = regex.exec(url);
+        return result ? decodeURIComponent(result[2].replace(/\+/g, ' ')) : defaultValue;
+    }
+
+    function readLine(prompt) {
+        return window.prompt(prompt);
+    }
+
+    var global = global || window;
+    include(getParameterByName("script", "examples.js"));
+</script>
+</body></html>
