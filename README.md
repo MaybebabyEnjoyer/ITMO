@@ -4,7 +4,7 @@
 
 ## 1 семестр
 
-[Ведение в программирование](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro)
+### [Ведение в программирование](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro)
 1. [Сумма](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/SumDouble.java)
 2. Реверс
 	* [Base](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/Reverse.java)
