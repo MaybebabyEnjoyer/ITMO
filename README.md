@@ -37,7 +37,7 @@
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab1)
 * Лаба 2.
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A02.pdf)
-	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab2)
+	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab2) by Medicamento(https://github.com/Medicamento)
 * Лаба 3.
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A03.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab3)
