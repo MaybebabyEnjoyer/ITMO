@@ -31,7 +31,7 @@
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
 ----
 
-[C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
+### [C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
 * Лаба 1.
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A01.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab1)
