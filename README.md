@@ -2,6 +2,50 @@
 
 Если чего-то нет, можете открыть пр (пожалуйста)
 
+## 2 семестр
+
+### [Парадигмы](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms)
+2. [Бинарный поиск](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms/solutions/java-solutions/search)
+	* [Base](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/java-solutions/search/BinarySearch.java)
+	* [Shift](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/java-solutions/search/BinarySearchShift.java)
+3. [Очередь на массиве](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms/solutions/java-solutions/queue)
+4. [Очереди](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms/solutions/java-solutions/queue)
+5. [Вычисление в различных типах](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms/solutions/java-solutions/expression/generic)
+6. [Функциональные выражения на JavaScript](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/javascript-solutions/functionalExpression.js)
+7. [Объектные выражения на JavaScript](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/javascript-solutions/objectExpression.js)
+8. [Обработка ошибок на JavaScript](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/javascript-solutions/objectExpression.js)
+9. [Линейная алгебра на Clojure](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/linear.clj)
+10. [Функциональные выражения на Clojure](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
+11. [Объектные выражения на Clojure](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
+12. [Комбинаторные парсеры](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
+13. [Простые числа на Prolog](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/primes.pl)
+14. Дерево поиска на Prolog
+	unimplemented
+15. Разбор выражений на Prolog
+	unimplemented
+----
+
+[Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
+----
+
+[ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
+----
+
+[C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
+	* Лаба 1.
+		* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A01.pdf)
+		* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab1)
+	* Лаба 2.
+		* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A02.pdf)
+		* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab2)
+	* Лаба 3.
+		* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A03.pdf)
+		* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab3)
+	* Лаба 4.
+		* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A04.pdf)
+		* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab4)
+----
+
 ## 1 семестр
 
 ### [Ведение в программирование](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro)
