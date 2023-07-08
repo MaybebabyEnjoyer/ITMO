@@ -43,7 +43,8 @@
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab3)
 * Лаба 4.
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A04.pdf)
-	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab4)
+	* [Чек-лист](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/CHECK_LIST.md)
+	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab4) by [GalkinGG](https://github.com/GalkinGG)
 ----
 
 ## 1 семестр
