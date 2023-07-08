@@ -33,16 +33,16 @@
 
 ### [C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
 * Лаба 1.
-	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A01.pdf)
+	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A01.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab1)
 * Лаба 2.
-	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A02.pdf)
+	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A02.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab2)
 * Лаба 3.
-	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A03.pdf)
+	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A03.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab3)
 * Лаба 4.
-	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/C_CPP2023.%20%D0%9B%D0%A04.pdf)
+	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A04.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab4)
 ----
 
