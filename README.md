@@ -69,8 +69,7 @@
 7. [Разметка](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/java-solutions/markup)
 8. [Контест](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/qf-solutions)
 9. [Markdown to HTML](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/java-solutions/md2html)
-10. Игра m,n,k
-	unimplemented
+10. [Игра m,n,k](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/prog-intro/solutions/java-solutions/game) by [felidayka](https://github.com/felidayka)
 11. [Выражения](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/java-solutions/expression)
 12. [Разбор выражений](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/java-solutions/expression/parser)
 	* [Парсер](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/expression/parser/ExpressionParser.java)
