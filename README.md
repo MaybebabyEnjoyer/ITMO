@@ -87,6 +87,7 @@
 * [ДЗ_1(ternary_logic)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab1)
 * [Д3_2(calculator)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab2)
 * [ДЗ_3(mips_cpu)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab3) - WIP
+----
 
 ### [Цифорвая култруа](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
 * [Git](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/git)
