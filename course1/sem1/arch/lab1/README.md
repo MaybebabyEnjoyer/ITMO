@@ -25,7 +25,7 @@
 В данном задании запрещено использование встроенных логических примитивов, их необходимо реализовать
 самостоятельно с помощью транзисторов.
 
-Шаблон для реализации: [`ternary_logic.v`](./templates/ternary_logic.v).
+Шаблон для реализации: [`ternary_logic.v`](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem1/arch/templates/ternary_logic.v).
 
 Ваше решение должно собираться при помощи `iverilog -g2001 ternary_logic.v`.
 
@@ -33,5 +33,5 @@
 
 Необходимо отправить решение в гугл-форму
 
-Для решения части необходимо использовать шаблон [`ternary_logic.v`](./templates/ternary_logic.v), файл с Вашим решением должен называться
+Для решения части необходимо использовать шаблон [`ternary_logic.v`](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem1/arch/templates/ternary_logic.v), файл с Вашим решением должен называться
 `ternary_logic.v`. Изменять имена и сигнатуру модулей (количество, порядок и названия портов) запрещено.
