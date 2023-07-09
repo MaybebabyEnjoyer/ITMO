@@ -34,16 +34,16 @@
 ----
 
 ### [C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
-* Лаба 1.
+* Лаба 1
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A01.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab1)
-* Лаба 2.
+* Лаба 2
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A02.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab2) by [Medicamento](https://github.com/Medicamento)
-* Лаба 3.
+* Лаба 3
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A03.pdf)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab3)
-* Лаба 4.
+* Лаба 4
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A04.pdf)
 	* [Чек-лист](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/CHECK_LIST.md)
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp)/lab4) by [GalkinGG](https://github.com/GalkinGG)
@@ -82,6 +82,11 @@
 
 [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
 ----
+
+### [Архитектура ЭВМ](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch)
+* [ДЗ_1(ternary_logic)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab1)
+* [Д3_2(calculator)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab2)
+* [ДЗ_3(mips_cpu)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab3) - WIP
 
 ### [Цифорвая култруа](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
 * [Git](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/git)
