@@ -1,4 +1,4 @@
-![---Jill-Stingray-VA-11-Hall-A-6010407](https://github.com/MaybebabyEnjoyer/ITMO/assets/114537512/cdf39227-3a16-48c5-ba98-1a7aa798aec4)
+![doc_2023-07-09_14-18-39](https://github.com/MaybebabyEnjoyer/ITMO/assets/114537512/d8cad421-11e9-4f10-9446-97ce05a5d589)
 
 # Большой (не очень) репозиторий
 
