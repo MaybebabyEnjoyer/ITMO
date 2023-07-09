@@ -84,5 +84,10 @@
 [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
 ----
 
-[Цифорвая култруа](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
+### [Цифорвая култруа](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
+* [Git](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/git)
+* [Сети](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/net)
+* [CI/CD](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/maven)
+* [SQL](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/sql)
+* [Docker](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/docker)
 ----
