@@ -79,7 +79,8 @@
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
 ----
 
-[Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
+### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
+* [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem1/algo/problem.pdf)
 ----
 
 ### [Архитектура ЭВМ](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch)
