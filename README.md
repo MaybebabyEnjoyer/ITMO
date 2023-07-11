@@ -51,7 +51,7 @@
 
 ## 1 семестр
 
-### [Ведение в программирование](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro)
+### [Введение в программирование](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro)
 2. [Сумма](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/SumDouble.java)
 3. Реверс
 	* [Base](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/Reverse.java)
@@ -90,7 +90,7 @@
 * [ДЗ_3(mips_cpu)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab3) by [GalkinGG](https://github.com/GalkinGG)
 ----
 
-### [Цифорвая култруа](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
+### [Цифровая культура](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
 * [Git](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/git)
 * [Сети](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/net)
 * [CI/CD](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/maven)
