@@ -74,6 +74,8 @@
 	* [Парсер](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/expression/parser/ExpressionParser.java)
 13. [Обработка ошибок](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/prog-intro/solutions/java-solutions/expression/exceptions)
 	* [Парсер](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem1/prog-intro/solutions/java-solutions/expression/parser/MyParser.java)
+
+[prog-intro (для крутых)](https://github.com/etozhestass/prog-intro-itmo) by [never-ever-live](https://github.com/etozhestass)
 ----
 
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
