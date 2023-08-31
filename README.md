@@ -26,6 +26,7 @@
 ----
 
 [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
+* [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/algo/problem.pdf)
 ----
 
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
