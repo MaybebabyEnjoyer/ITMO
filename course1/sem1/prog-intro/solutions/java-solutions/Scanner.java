@@ -9,7 +9,7 @@ public class Scanner {
     private final int BUFFER_SIZE = 4096;
     private final char[] buffer = new char[BUFFER_SIZE];
     private char c = 0;
-    char[] separatorArray = System.lineSeparator().toCharArray();
+    private final char[] separatorArray = System.lineSeparator().toCharArray();
     private final char sep = separatorArray[separatorArray.length - 1];
     private boolean BufferedChar = false;
     private boolean isBufferEmpty = true;
