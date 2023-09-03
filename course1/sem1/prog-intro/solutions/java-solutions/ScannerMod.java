@@ -18,7 +18,7 @@ public class ScannerMod implements AutoCloseable {
     private char c = 0;
     private int lines = 1;
     private int words = 0;
-    char[] separatorArray = System.lineSeparator().toCharArray();
+    private final char[] separatorArray = System.lineSeparator().toCharArray();
     private final char sep = separatorArray[separatorArray.length - 1];
     private boolean BufferedChar = false;
     private boolean isBufferEmpty = true;
