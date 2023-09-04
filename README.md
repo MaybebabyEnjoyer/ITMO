@@ -25,7 +25,7 @@
 15. [Разбор выражений на Prolog](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/expression.pl) by [NikitaMsln](https://github.com/NikitaMsln)
 ----
 
-[Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
+### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
 * [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/algo/problem.pdf)
 ----
 
