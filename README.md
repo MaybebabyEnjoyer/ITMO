@@ -33,6 +33,8 @@
 ----
 [C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln)
 ----
+[C++ (2 поток)](https://github.com/mnj2kk/cpp-course) by [mnj2kk](https://github.com/mnj2kk)
+----
 ### [C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
 * Лаба 1
 	* [ТЗ](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/c(pp)/spec/C_CPP2023.%20%D0%9B%D0%A01.pdf)
