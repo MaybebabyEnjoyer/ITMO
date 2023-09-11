@@ -105,3 +105,6 @@
 * [SQL](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/sql) by [never-ever-live](https://github.com/etozhestass)
 * [Docker](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/docker)
 ----
+
+## Разное
+### [ДМ(практики)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
