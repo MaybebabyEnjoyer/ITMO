@@ -86,6 +86,7 @@
 
 ### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
 * [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem1/algo/problem.pdf)
+* [Solutions](https://github.com/kryag/ct-itmo-algorithms/tree/main/sem-1) by [kryag](https://github.com/kryag)
 ----
 
 ### [Архитектура ЭВМ(36-)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch)
