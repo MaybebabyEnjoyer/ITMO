@@ -4,6 +4,12 @@
 
 Если чего-то нет (или где-то ошибка/плохое решение) можете открыть пр (пожалуйста)
 
+## 3 семестр
+
+### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
+* Lab-1
+	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
+
 ## 2 семестр
 
 ### [Парадигмы](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms)
