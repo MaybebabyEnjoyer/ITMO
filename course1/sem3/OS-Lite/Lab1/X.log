@@ -1,0 +1,296 @@
+[    53.328] (WW) Failed to open protocol names file /usr/lib64/xorg/protocol.txt
+[    53.328] 
+X.Org X Server 1.20.6
+X Protocol Version 11, Revision 0
+[    53.328] Build Operating System:  4.19.34-300.el7.x86_64 
+[    53.328] Current Operating System: Linux localhost 4.18.0-193.el8.x86_64 #1 SMP Fri May 8 10:59:10 UTC 2020 x86_64
+[    53.328] Kernel command line: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS-8-2-2004-x86_64-dvd rd.live.check quiet
+[    53.328] Build Date: 24 April 2020  02:49:29AM
+[    53.328] Build ID: xorg-x11-server 1.20.6-3.el8 
+[    53.328] Current version of pixman: 0.38.4
+[    53.328] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    53.328] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    53.328] (++) Log file: "/tmp/X.log", Time: Thu Aug 27 21:02:18 2020
+[    53.332] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    53.332] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    53.336] (==) No Layout section.  Using the first Screen section.
+[    53.336] (==) No screen section available. Using defaults.
+[    53.336] (**) |-->Screen "Default Screen Section" (0)
+[    53.336] (**) |   |-->Monitor "<default monitor>"
+[    53.341] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    53.341] (==) Automatically adding devices
+[    53.341] (==) Automatically enabling devices
+[    53.341] (==) Automatically adding GPU devices
+[    53.341] (==) Automatically binding GPU devices
+[    53.341] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    53.341] (==) FontPath set to:
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    53.341] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    53.341] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    53.341] (II) Loader magic: 0x5617ea10e020
+[    53.341] (II) Module ABI versions:
+[    53.341] 	X.Org ANSI C Emulation: 0.4
+[    53.341] 	X.Org Video Driver: 24.0
+[    53.341] 	X.Org XInput driver : 24.1
+[    53.341] 	X.Org Server Extension : 10.0
+[    53.342] (++) using VT number 6
+
+[    53.342] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    53.343] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    53.343] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    53.346] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xf0000000/16777216, 0xf1000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[    53.346] (II) LoadModule: "glx"
+[    53.348] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    53.376] (II) Module glx: vendor="X.Org Foundation"
+[    53.376] 	compiled for 1.20.6, module version = 1.0.0
+[    53.376] 	ABI class: X.Org Server Extension, version 10.0
+[    53.376] (==) Matched vmware as autoconfigured driver 0
+[    53.376] (==) Matched modesetting as autoconfigured driver 1
+[    53.376] (==) Matched fbdev as autoconfigured driver 2
+[    53.376] (==) Matched vesa as autoconfigured driver 3
+[    53.376] (==) Assigned the driver to the xf86ConfigLayout
+[    53.376] (II) LoadModule: "vmware"
+[    53.376] (II) Loading /usr/lib64/xorg/modules/drivers/vmware_drv.so
+[    54.401] (II) Module vmware: vendor="X.Org Foundation"
+[    54.401] 	compiled for 1.20.3, module version = 13.2.1
+[    54.401] 	Module class: X.Org Video Driver
+[    54.401] 	ABI class: X.Org Video Driver, version 24.0
+[    54.401] (II) LoadModule: "modesetting"
+[    54.401] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    54.411] (II) Module modesetting: vendor="X.Org Foundation"
+[    54.411] 	compiled for 1.20.6, module version = 1.20.6
+[    54.411] 	Module class: X.Org Video Driver
+[    54.411] 	ABI class: X.Org Video Driver, version 24.0
+[    54.411] (II) LoadModule: "fbdev"
+[    54.411] (II) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    54.414] (II) Module fbdev: vendor="X.Org Foundation"
+[    54.414] 	compiled for 1.20.3, module version = 0.5.0
+[    54.414] 	Module class: X.Org Video Driver
+[    54.414] 	ABI class: X.Org Video Driver, version 24.0
+[    54.414] (II) LoadModule: "vesa"
+[    54.414] (II) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    54.414] (II) Module vesa: vendor="X.Org Foundation"
+[    54.414] 	compiled for 1.20.3, module version = 2.4.0
+[    54.414] 	Module class: X.Org Video Driver
+[    54.414] 	ABI class: X.Org Video Driver, version 24.0
+[    54.414] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[    54.414] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    54.414] (II) FBDEV: driver for framebuffer: fbdev
+[    54.415] (II) VESA: driver for VESA chipsets: vesa
+[    54.415] (WW) Falling back to old probe method for modesetting
+[    54.415] (WW) Falling back to old probe method for fbdev
+[    54.415] (II) Loading sub module "fbdevhw"
+[    54.415] (II) LoadModule: "fbdevhw"
+[    54.415] (II) Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    54.425] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    54.425] 	compiled for 1.20.6, module version = 0.0.2
+[    54.425] 	ABI class: X.Org Video Driver, version 24.0
+[    54.425] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    54.425] (--) vmware(0): DRM driver version is 2.15.0
+[    54.425] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[    54.425] (==) vmware(0): RGB weight 888
+[    54.425] (==) vmware(0): Default visual is TrueColor
+[    54.425] (--) vmware(0): Min width 1, Max Width 8192.
+[    54.425] (--) vmware(0): Min height 1, Max Height 8192.
+[    54.429] (II) vmware(0): Output Virtual1 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual2 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual3 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual4 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual5 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual6 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual7 has no monitor section
+[    54.430] (II) vmware(0): Output Virtual8 has no monitor section
+[    54.430] (II) vmware(0): Printing probed modes for output Virtual1
+[    54.430] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+[    54.430] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    54.430] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    54.430] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    54.430] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    54.430] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    54.430] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    54.430] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    54.430] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    54.430] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    54.430] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    54.430] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    54.430] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    54.430] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+[    54.430] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    54.430] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    54.430] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    54.430] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    54.430] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+[    54.430] (II) vmware(0): EDID for output Virtual2
+[    54.430] (II) vmware(0): EDID for output Virtual3
+[    54.430] (II) vmware(0): EDID for output Virtual4
+[    54.430] (II) vmware(0): EDID for output Virtual5
+[    54.430] (II) vmware(0): EDID for output Virtual6
+[    54.430] (II) vmware(0): EDID for output Virtual7
+[    54.430] (II) vmware(0): EDID for output Virtual8
+[    54.430] (II) vmware(0): Output Virtual1 connected
+[    54.430] (II) vmware(0): Output Virtual2 disconnected
+[    54.430] (II) vmware(0): Output Virtual3 disconnected
+[    54.430] (II) vmware(0): Output Virtual4 disconnected
+[    54.430] (II) vmware(0): Output Virtual5 disconnected
+[    54.430] (II) vmware(0): Output Virtual6 disconnected
+[    54.430] (II) vmware(0): Output Virtual7 disconnected
+[    54.430] (II) vmware(0): Output Virtual8 disconnected
+[    54.430] (II) vmware(0): Using exact sizes for initial modes
+[    54.430] (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+[    54.430] (++) vmware(0): DPI set to (96, 96)
+[    54.430] (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+[    54.430] (II) Loading sub module "fb"
+[    54.430] (II) LoadModule: "fb"
+[    54.430] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    54.431] (II) Module fb: vendor="X.Org Foundation"
+[    54.431] 	compiled for 1.20.6, module version = 1.0.0
+[    54.431] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    54.431] (II) Loading sub module "dri2"
+[    54.431] (II) LoadModule: "dri2"
+[    54.431] (II) Module "dri2" already built-in
+[    54.431] (II) UnloadModule: "modesetting"
+[    54.431] (II) Unloading modesetting
+[    54.431] (II) UnloadModule: "fbdev"
+[    54.431] (II) Unloading fbdev
+[    54.431] (II) UnloadSubModule: "fbdevhw"
+[    54.431] (II) Unloading fbdevhw
+[    54.431] (II) UnloadModule: "vesa"
+[    54.431] (II) Unloading vesa
+[    54.440] (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[    54.478] (WW) vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+[    54.478] (WW) vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+[    54.478] (--) vmware(0): Render acceleration is disabled.
+[    54.478] (==) vmware(0): Rendercheck mode is disabled.
+[    54.478] (--) vmware(0): Direct rendering (3D) is disabled.
+[    54.478] (==) vmware(0): Backing store enabled
+[    54.478] (==) vmware(0): Silken mouse enabled
+[    54.478] (==) vmware(0): DPMS enabled
+[    54.478] (II) vmware(0): No 3D acceleration. Not setting up textured video.
+[    54.478] (WW) vmware(0): Disabling Xv because no adaptors could be initialized.
+[    54.478] (II) Initializing extension Generic Event Extension
+[    54.478] (II) Initializing extension SHAPE
+[    54.478] (II) Initializing extension MIT-SHM
+[    54.478] (II) Initializing extension XInputExtension
+[    54.478] (II) Initializing extension XTEST
+[    54.478] (II) Initializing extension BIG-REQUESTS
+[    54.478] (II) Initializing extension SYNC
+[    54.479] (II) Initializing extension XKEYBOARD
+[    54.479] (II) Initializing extension XC-MISC
+[    54.479] (II) Initializing extension XFIXES
+[    54.479] (II) Initializing extension RENDER
+[    54.479] (II) Initializing extension RANDR
+[    54.479] (II) Initializing extension COMPOSITE
+[    54.479] (II) Initializing extension DAMAGE
+[    54.479] (II) Initializing extension MIT-SCREEN-SAVER
+[    54.479] (II) Initializing extension DOUBLE-BUFFER
+[    54.479] (II) Initializing extension RECORD
+[    54.479] (II) Initializing extension DPMS
+[    54.479] (II) Initializing extension Present
+[    54.479] (II) Initializing extension DRI3
+[    54.479] (II) Initializing extension X-Resource
+[    54.479] (II) Initializing extension XVideo
+[    54.479] (II) Initializing extension XVideo-MotionCompensation
+[    54.479] (II) Initializing extension SELinux
+[    54.479] (II) SELinux: Disabled by boolean
+[    54.479] (II) Initializing extension GLX
+[    54.479] (II) AIGLX: Screen 0 is not DRI2 capable
+[    54.725] (II) IGLX: Loaded and initialized swrast
+[    54.725] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    54.725] (II) Initializing extension XFree86-VidModeExtension
+[    54.725] (II) Initializing extension XFree86-DGA
+[    54.725] (II) Initializing extension XFree86-DRI
+[    54.725] (II) Initializing extension DRI2
+[    54.727] (II) vmware(0): Setting screen physical size to 211 x 158
+[    54.834] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    54.834] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    54.834] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    54.834] (II) LoadModule: "libinput"
+[    54.834] (II) Loading /usr/lib64/xorg/modules/input/libinput_drv.so
+[    54.853] (II) Module libinput: vendor="X.Org Foundation"
+[    54.853] 	compiled for 1.20.3, module version = 0.29.0
+[    54.853] 	Module class: X.Org XInput Driver
+[    54.853] 	ABI class: X.Org XInput driver, version 24.1
+[    54.853] (II) Using input driver 'libinput' for 'Power Button'
+[    54.853] (**) Power Button: always reports core events
+[    54.853] (**) Option "Device" "/dev/input/event0"
+[    54.853] (**) Option "_source" "server/udev"
+[    54.870] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    54.870] (II) event0  - Power Button: device is a keyboard
+[    54.870] (II) event0  - Power Button: device removed
+[    54.870] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    54.870] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    54.871] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    54.871] (II) event0  - Power Button: device is a keyboard
+[    54.872] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    54.872] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[    54.872] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    54.872] (II) Using input driver 'libinput' for 'Sleep Button'
+[    54.872] (**) Sleep Button: always reports core events
+[    54.872] (**) Option "Device" "/dev/input/event1"
+[    54.872] (**) Option "_source" "server/udev"
+[    54.872] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    54.872] (II) event1  - Sleep Button: device is a keyboard
+[    54.872] (II) event1  - Sleep Button: device removed
+[    54.873] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    54.873] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    54.873] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    54.873] (II) event1  - Sleep Button: device is a keyboard
+[    54.874] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[    54.874] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    54.874] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    54.874] (II) Using input driver 'libinput' for 'Video Bus'
+[    54.874] (**) Video Bus: always reports core events
+[    54.874] (**) Option "Device" "/dev/input/event4"
+[    54.874] (**) Option "_source" "server/udev"
+[    54.875] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    54.875] (II) event4  - Video Bus: device is a keyboard
+[    54.875] (II) event4  - Video Bus: device removed
+[    54.875] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5/event4"
+[    54.875] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    54.877] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    54.877] (II) event4  - Video Bus: device is a keyboard
+[    54.878] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    54.878] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    54.878] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    54.878] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    54.878] (**) AT Translated Set 2 keyboard: always reports core events
+[    54.878] (**) Option "Device" "/dev/input/event2"
+[    54.878] (**) Option "_source" "server/udev"
+[    54.879] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    54.879] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    54.879] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    54.879] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    54.879] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 9)
+[    54.880] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    54.880] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    54.881] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    54.881] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    54.881] (**) Option "Device" "/dev/input/event3"
+[    54.881] (**) Option "_source" "server/udev"
+[    54.881] (II) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    54.881] (II) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    54.881] (II) event3  - ImExPS/2 Generic Explorer Mouse: device removed
+[    54.881] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event3"
+[    54.881] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 10)
+[    54.881] (**) Option "AccelerationScheme" "none"
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    54.881] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    54.883] (II) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    54.883] (II) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    54.884] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    54.884] (II) No input driver specified, ignoring this device.
+[    54.884] (II) This device may have been added with another device file.
+[    54.884] (II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[    54.884] (II) No input driver specified, ignoring this device.
+[    54.884] (II) This device may have been added with another device file.
