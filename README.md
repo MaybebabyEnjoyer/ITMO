@@ -9,6 +9,7 @@
 ### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
 * Lab-1
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
+----
 
 ## 2 семестр
 
