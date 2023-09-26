@@ -35,7 +35,6 @@ _Автор категорически против списывания_ by [ma
 
 ### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
 * [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/algo/problem.pdf)
-* [1 Семестр (38-39)](https://github.com/awwaw/ITMO_algo_39) by [awwaw](https://github.com/awwaw)
 ----
 
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
@@ -96,6 +95,8 @@ _Автор категорически против списывания_ by [ma
 ### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
 * [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem1/algo/problem.pdf)
 * [Solutions](https://github.com/kryag/ct-itmo-algorithms/tree/main/sem-1) by [kryag](https://github.com/kryag)
+* [Solutions (38-39) (извините)](https://github.com/awwaw/ITMO_algo_39) by [awwaw](https://github.com/awwaw)
+
 ----
 
 ### [Архитектура ЭВМ(36-)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch)
