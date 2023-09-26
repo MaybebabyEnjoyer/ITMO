@@ -35,6 +35,7 @@ _Автор категорически против списывания_ by [ma
 
 ### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/algo)
 * [Условия](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/algo/problem.pdf)
+* [1 Семестр (38-39)](https://github.com/awwaw/ITMO_algo_39) by [awwaw](https://github.com/awwaw)
 ----
 
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
