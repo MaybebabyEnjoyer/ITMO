@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{arcs}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{stackrel}
+\usepackage{xcolor}
+
+\begin{document}
+\pagestyle{empty}
+\normalsize
+\section{Матанализ от Виноградова}
+\subsection{}
+Конечная аддитивность $v_g$ очевидна
+
+$v_g$ $-$ мера.
+
+Переход от конечной к счётной аддитивности осуществляется так же, как и для классического объема (ВСТАВИТЬ РЕФ). При этом используется, что в силу непрерывности $g$ слева \\
+$$v_{g}[a,b) = \lim_{t \rightarrow {0+}} v_{g}[a-t,b) = \lim_{t \rightarrow {0+}} v_{g}[a,b-t)$$
+
+Стандартное распространение объема $v_g$ с полукольца ячеек $\mathbb{P}_{\Delta}$ на некоторую $\sigma$-алгебру $\mathbb{A}_g$ называется \textbf{мерой Лебега-Стилтьеса}, порождённой функцией $g$. Мера Лебега-Стильтеса, порождённая функцией $g$, будет обозначаться $\mu_g$.
+\subsection{}
+Пространство $L_p$ есть множество $2 \pi$-периодических измеримых функций $f$: п.в. $\mathbb{R} \rightarrow \overline{\mathbb{R}}$(или $\overline{\mathbb{C}}$), для которых величина
+
+
+$$\left|\left|f\right|\right|_p =
+\begin{cases}
+\Big(\int^{\pi}_{- \pi} \left|f\right|^p \Big)^\frac{1}{p}, & 1 \leq p < +\infty \\
+\text{ess } \sup_{x \in \mathbb{R}}, & p = +\infty
+\end{cases}
+$$
+\par конечна, с нормой $\left|\left| f \right|\right|_p$. Эквивалентные функции отождествляются.
+\section{Большое задание от доктора Тренча}
+\subsection{}
+The Fourier cosine series of $f_4$ on $[0,2L]$ is $\displaystyle{A_0 + \sum_{n=1}^{\infty}A_n\cos{\frac{n \pi x}{2L}}}$, where
+$$A_0 = \frac{1}{2L} \int^{2L}_0 f_4(x) dx = \frac{1}{2L} \Bigg[ \int^{L}_{0} f(x)dx + \int^{2L}_{L} f(2L - x)dx\Bigg] = \frac{1}{L} \int^{L}_0 f(x)dx$$ \\
+and
+$$A_n = \frac{1}{L} \int^{2L}_{0} f_4(x)\cos{\frac{n \pi x}{2L}}dx = \frac{1}{L} \Bigg[ \int^{L}_{0} f(x) \cos{\frac{n \pi x}{2L}} dx + \int^{2L}_{L} f(2L - x) \cos{\frac{n \pi x}{2L}} dx\Bigg].$$
+Replacing $x$ by $2L - x$ yields
+$$\int^{2L}_{L} f(2L - x) \cos{\frac{n \pi x}{2L}}dx = -\int^{0}_{L} f(x) \cos{\frac{n \pi (2L - x)}{2L}} dx = \int^{L}_{0} f(x) \cos{\frac{n \pi (2L - x)}{2L}} dx.$$
+Since $\displaystyle{\cos{\frac{n \pi (2L - x)}{2L}} = \cos{n \pi} \cos{\frac{n \pi x}{2L}} =(-1)^n \cos{\frac{n \pi x}{2L}}}$
+$$A_n = \frac{1 + (-1)^n}{L} \int^{L}_{0} f(x) \cos{\frac{n \pi x}{2L}} dx =
+\begin{cases}
+\begin{array}{cl}
+0 &  \text{if } n = 2m -1\\
+\displaystyle{\frac{2}{L} \int^{L}_{0} f(x)} \cos{\frac{m \pi x}{L}}dx & \text{if } n = 2m.
+\end{array}
+\end{cases}$$
+Therefore,the Fourier cosine series of $f_4$ on $[0,2L]$ is $\displaystyle{A_0 + \sum\limits^{\infty}_{n=0} A_{2n}\cos{\frac{n \pi x}{L}} = a_0 + \sum\limits^{\infty}_{n = 0} a_n \cos{\frac{n \pi x}{L}}.}$
+\section{Маленькие задания от доктора Тренча}
+\subsection{}
+$\displaystyle{\sin{at} \leftrightarrow \frac{a}{s^2 + a^2}}$ and $\displaystyle{\cos{bt} \leftrightarrow \frac{s}{s^2 + b^2}}$, so $\displaystyle{H(s)= \frac{as}{(s^2 + a^2)(s^2 + b^2)}}$.
+\subsection{}
+$\displaystyle{t\sin{\omega t} \leftrightarrow \frac{2 \omega s}{(s^2 + \omega^2)^2}}$ and $\displaystyle{t \cos{\omega t} \leftrightarrow \frac{s^2 - w^2}{(s^2 + \omega^2)^2}}$, so $\displaystyle{H(s) = \frac{2 \omega s(s^2- \omega^2)}{(s^2 + \omega^2)^4}.}$
+\subsection{}
+$\displaystyle{t^4 \leftrightarrow \frac{24}{s^5}}$ and $\displaystyle{\sin{2t} \leftrightarrow \frac{2}{s^2 + 4}}$, so $\displaystyle{H(s) = \frac{48}{s^5(s^2 + 4)}.}$
+\end{document}
