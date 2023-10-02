@@ -10,6 +10,7 @@ _Автор категорически против списывания_ by [ma
 ### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
 * Lab-1
 	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
+* В связи с открытием гитхаб классная комнта оси временно закрыты на [РЕМОНТ] просим прощения за доставленные неудобства
 ----
 
 ## 2 семестр
