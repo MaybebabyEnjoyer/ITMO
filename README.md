@@ -40,7 +40,7 @@ _Автор категорически против списывания_ by [ma
 
 [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
 ----
-[C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln)
+[C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln) (ДАННЫЕ УДАЛЕНЫ)
 ----
 [C++ (2 поток)](https://github.com/mnj2kk/cpp-course) by [mnj2kk](https://github.com/mnj2kk)
 ----
