@@ -14,7 +14,7 @@ sudo apt-install OpenVPN
 ```
 sudo openvpn config.ovpn
 ```
-3. оставить VPN работать в бг ```ctrl + Z```
+3. оставить VPN работать в бг ```ctrl + Z``` + bg
 4. подключить IP к VPN
 ```
 sudo ip addr add 10.8.0.214/24 dev tap0
