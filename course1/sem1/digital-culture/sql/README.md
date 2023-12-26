@@ -32,7 +32,7 @@ SELECT DATE(creationTime) as postCreationDate, COUNT(*) as postCount FROM Post G
 
 ```SQL
 CREATE TABLE Comment(
-	id bigint(20) PRIMARY KEY AUTO_INCERTMENT NOT NULL,
+	id bigint(20) PRIMARY KEY AUTO_INCREMENT NOT NULL,
 	postId bigint(20) NOT NULL,
 	userId bigint(20) NOT NULL,
 	text longtext,
