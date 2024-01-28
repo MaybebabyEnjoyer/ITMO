@@ -15,9 +15,12 @@ _Автор категорически против списывания_ by [ma
 ## 3 семестр
 
 ### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
-* Lab-1
-	* [Реализация](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
-* В связи с открытием гитхаб классная комнта оси временно закрыты на [РЕМОНТ] просим прощения за доставленные неудобства
+* [Lab-1](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
+* [Lab-2](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab2)
+* [Lab-3](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab3)
+* [Lab-4](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab4)
+* [Lab-5](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab5)
+* [Lab-6](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab6)
 ----
 
 ## 2 семестр
