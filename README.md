@@ -123,6 +123,7 @@ _Автор категорически против списывания_ by [ma
 * [CI/CD](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/maven)
 * [SQL](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/sql) by [never-ever-live](https://github.com/etozhestass)
 * [Docker](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/docker)
+* [y2023 new tasks (Virt + Vim + Crypto](https://github.com/4EZZZZ/ITMO_CT_DC) by [4EZZZZ](https://github.com/4EZZZZ)
 ----
 
 ## Разное
