@@ -1,0 +1,14 @@
+type: marketplace
+title: Kotlin Lectures. Functions and Extensions
+language: English
+summary: Kotlin Lectures. Functions and Extensions
+programming_language: Kotlin
+content:
+- functional interfaces
+- useful extensions
+- practice
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_11
+vendor:
+  name: CT ITMO
