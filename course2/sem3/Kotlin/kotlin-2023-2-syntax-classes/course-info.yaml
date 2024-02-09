@@ -1,0 +1,14 @@
+type: marketplace
+title: Kotlin Syntaxis. Classes
+language: Russian
+summary: Kotlin Syntaxis. Classes
+programming_language: Kotlin
+content:
+- containers
+- practice
+mode: Study
+environment_settings:
+    jvm_language_level: JDK_17
+solutions_hidden: true
+vendor:
+    name: ITMO CTD

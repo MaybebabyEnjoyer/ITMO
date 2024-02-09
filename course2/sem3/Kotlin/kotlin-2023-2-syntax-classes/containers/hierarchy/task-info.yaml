@@ -1,0 +1,12 @@
+type: theory
+files:
+-   name: src/Main.kt
+    visible: true
+    encrypted_text: ZTzm8QIsbec3Jbr9q6Echw==
+    learner_created: false
+-   name: Diagram.png
+    visible: true
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

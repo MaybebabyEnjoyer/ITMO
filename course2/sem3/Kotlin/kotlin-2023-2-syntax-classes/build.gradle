@@ -1,0 +1,97 @@
+buildscript {
+    ext.kotlin_version = '1.9.0'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+def printOutput(def output) {
+    return tasks.create("printOutput") {
+        println "#educational_plugin_checker_version 1"
+        def separator = System.lineSeparator()
+        def lines = output.toString().split("(?<=${separator})|(?=${separator})")
+        for (line in lines) {
+            println "#educational_plugin" + line
+        }
+    }
+}
+
+subprojects {
+    apply plugin: 'application'
+    apply plugin: 'java'
+    apply plugin: 'kotlin'
+
+    sourceCompatibility = 17
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+        testImplementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+        testImplementation "io.kotest:kotest-runner-junit5:5.7.2"
+        testImplementation "io.mockk:mockk:1.13.7"
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "17"
+    }
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "17"
+    }
+
+    sourceSets {
+        main {
+            kotlin.srcDir 'src'
+            java.srcDir 'src'
+        }
+        test {
+            kotlin.srcDir 'test'
+            java.srcDir 'test'
+        }
+    }
+
+    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+    test {
+        useJUnitPlatform()
+
+        outputs.upToDateWhen { false }
+        afterTest { TestDescriptor test, TestResult result ->
+            if (result.resultType == TestResult.ResultType.FAILURE) {
+                def message = result.exception?.message ?: "Wrong answer"
+                def lines = message.readLines()
+                println "#educational_plugin FAILED + " + lines[0]
+                lines.subList(1, lines.size()).forEach { line ->
+                    println "#educational_plugin" + line
+                }
+                // we need this to separate output of different tests
+                println()
+            }
+        }
+    }
+
+    if (project.hasProperty("educationalRun") && "true".equalsIgnoreCase(project.getProperty("educationalRun"))) {
+        def runOutput = new ByteArrayOutputStream()
+        tasks.run.setStandardOutput(runOutput)
+        tasks.run.doLast { printOutput(runOutput) }
+    }
+}
+
+project(':util') {
+    dependencies {
+        implementation group: 'junit', name: 'junit', version: '4.12'
+    }
+}
+
+configure(subprojects.findAll { it.name != 'util' }) {
+    dependencies {
+        implementation project(':util').sourceSets.main.output
+        testImplementation project(':util').sourceSets.test.output
+    }
+}

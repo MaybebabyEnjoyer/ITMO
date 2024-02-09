@@ -1,0 +1,9 @@
+type: theory
+files:
+-   name: src/Main.kt
+    visible: true
+    encrypted_text: NDA7NYDJ4pT3F7ChgC7OnZTCXuS74l1CtAMpAtGEYzduWMIXv1pdCm0kDAT/bveTJjvj6N+B8b2rhep/+w9KVDs7QiE2Owj6wjDFrLDVZj4Qaz6UV+6y/OnSQYjM+F1DFt0jgAQfbDwJ0oj2bkc6uHYcwwZjV6H5Kbm5eGYIex4=
+    learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

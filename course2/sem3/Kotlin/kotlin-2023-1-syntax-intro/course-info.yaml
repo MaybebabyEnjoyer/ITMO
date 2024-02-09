@@ -1,0 +1,22 @@
+type: marketplace
+title: ITMO Kotlin. Syntax Intro
+language: Russian
+summary: |-
+  Первое домашнее задание в курсе по языку Kotlin.
+  - Базовый синтаксис языка
+  - Объявление перенных
+  - Система типов
+  - Null safety
+programming_language: Kotlin
+content:
+- variables and basic types
+- type system
+- null safety
+- fibonacci
+- practice
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_11
+solutions_hidden: true
+vendor:
+  name: ITMO CTD
