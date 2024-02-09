@@ -1,0 +1,35 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 223
+    placeholder_text: |-
+      import kotlin.math.sqrt
+
+      fun failNegativeValue() {
+          throw ArithmeticException("sqrt with negative value")
+      }
+
+      fun checkedSqrt(x: Double): Double {
+          if (x >= 0.0) {
+              return sqrt(x)
+          }
+          failNegativeValue()
+      }
+    initial_state:
+      length: 223
+      offset: 0
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: E1SJj7jPmwPW/Y8TGBLEktpaT5k6YDsPCgdeRrfPy+vlwmJ5rIDIL3EnuDuhh0QSNwt/lsOstDDOR0ec7WlYHC8J1qqWj8sqOfp5sKDHZcpnYx4tTk/4fNZhu7kTA9GRRRSgZGV6jdbj/ylH49qXWNQq/RSH9EhMTG2PH4bi960lXDGxk0jxQCyJyIHEfyyPEUSq+144JzUXct82Zo8KsQAq6w2GsDg1Pque1pxARE+UNnppoOHwx8YWwjDT8h7u/TE3hWqscOFuH9+fxU8NutsnBJSZ9zMwQU8Z4Q2DUjO5COV6zz8WkCWNmso4phoU
+  encrypted_text: E1SJj7jPmwPW/Y8TGBLEktpaT5k6YDsPCgdeRrfPy+vlwmJ5rIDIL3EnuDuhh0QSJhz9sLyMkH0TZe+124+tJytbf8IEXdib+achyHRcqaFjAwZw22uBGrvIaM7ZxQ1j05HZlKAYWlw30fWCQ4d8xN3NZKD2e0NuJEi10AvqpXkQZyIt1YVrlRYF8DrYs0QLXVN+ZauGEhYruGUvc+DcINpyJX46KB9So7u5C3FFImx/AsLpthj7kH0hxVukfZAwcGz2J6vZudsdUb26IpIlHP+90TOCcgUC+lvm6/ckYRo=
+  learner_created: false
+- name: test/Tests.kt
+  visible: true
+  encrypted_text: ITs8Nv8EH6QWJG5nufD7nCbrLPoZNTYAX8EbQHppKy+TR7uFhZF7JnSL5/nnFJttt8jaZEsEYuk2AvMjy7bdg+M/BMpPJMxYHI9PcxshHfhDGJBO52ObclZmPPM7pKPz4hb73JRRplzBDds3mszFmC/gelUAdPYnlgU7Ca19EK6+2eqgMkjhPUmh9OIpAn5695VLWR90wKieMuz5R5wu5OMhS4vRkB/kva2Kn0AIwaDRejlvEMryuJl+68NUUjJ5MqE1wgWq2rZLw3Y3fHNF0Amlf4Yi3GcMT1Z3hRyrXguxn6Gw7TlDyJTNr8lNoKjCJTI/CZ4H4nMFZrv+GISGHHp8W8z4z5yVIBRQG92d3ozDVORTUzsIB7RDip3Zavz9GWDG0wF3hSiuGSIyPa/67J9+Q0r8VXXcvN6lg71JtJd0JDJQcTcr/k9/6pDfneRDbYkQkp89N2o5l7O54W4W9nxP6XaaWxlTAQ1BTzsan1LzuMZ3PD5FYuNji3LIXpj9nOfKXEmBGa0Vojoylw+/OamXgGxVbwCrBDwlV4p369g=
+  learner_created: false
+status: Unchecked
+record: -1
