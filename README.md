@@ -21,6 +21,7 @@ _Автор категорически против списывания_ by [ma
 * [Lab-4](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab4)
 * [Lab-5](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab5)
 * [Lab-6](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab6)
+---
 ### [Swift](https://github.com/imperator30000/study/tree/main/Swift-Solutions) by imperator30000
 ----
 
