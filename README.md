@@ -24,6 +24,8 @@ _Автор категорически против списывания_ by [ma
 ---
 ### [Swift](https://github.com/imperator30000/study/tree/main/Swift-Solutions) by [imperator30000](https://github.com/imperator30000)
 ---
+### [Kotlin](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/Kotlin) by [GalkinGG](https://github.com/GalkinGG)
+---
 
 ## 2 семестр
 
