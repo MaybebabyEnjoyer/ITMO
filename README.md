@@ -22,6 +22,8 @@ _Автор категорически против списывания_ by [ma
 * [Lab-5](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab5)
 * [Lab-6](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab6)
 ---
+### [OS-Hard](https://github.com/RuslanHkmoff/os-hard) by [RuslanHkmoff](https://github.com/RuslanHkmoff)
+---
 ### [Swift](https://github.com/imperator30000/study/tree/main/Swift-Solutions) by [imperator30000](https://github.com/imperator30000)
 ---
 ### [Kotlin](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/Kotlin) by [GalkinGG](https://github.com/GalkinGG)
