@@ -58,7 +58,7 @@ _Автор категорически против списывания_ by [ma
 ----
 [C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln) (ДАННЫЕ УДАЛЕНЫ)
 ----
-[C++ (2 поток)](https://github.com/mnj2kk/cpp-course) by [mnj2kk](https://github.com/mnj2kk)
+[C++ (2 поток)](https://github.com/mnj2kk/cpp-2023) by [mnj2kk](https://github.com/mnj2kk)
 ----
 ### [C/C++ skkv](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/c(pp))
 * Лаба 1
