@@ -12,6 +12,11 @@
 Если чего-то нет (или где-то ошибка/плохое решение) можете открыть пр (пожалуйста)
 
 _Автор категорически против списывания_ by [mavlyut](https://github.com/mavlyut)
+
+## 4 семестр
+
+### [Java Advanced](https://github.com/mavlyut/JavaAdvanced) by [mavlyut](https://github.com/mavlyut)
+
 ## 3 семестр
 
 ### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
