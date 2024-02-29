@@ -122,6 +122,7 @@ _Автор категорически против списывания_ by [ma
 * [ДЗ_3(mips_cpu)](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/arch/lab3) by [GalkinGG](https://github.com/GalkinGG)
 
 ### [Архитектура ЭВМ(36+)](https://github.com/NikitaMsln/ct-homework/tree/main/1-sem/architecture) by [NikitaMsln](https://github.com/NikitaMsln)
+### [Архитектура ЭВМ(36+) y23](https://github.com/urokanen/comp-arch) by [urokanen](https://github.com/urokanen)
 
 ----
 
