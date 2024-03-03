@@ -148,7 +148,7 @@ _Автор категорически против списывания_ by [ma
 
 ### [Цифровая культура](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
 
-- [Bash](https://github.com/Nikkirche/Ct-Homework/tree/master/sem1/digital-culture) by [Nikkirche](https://github.com/nikkirche)
+- [Bash](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/bash) by [urokanen](https://github.com/urokanen) 
 - [Git](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/git)
 - [Сети](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/net)
 - [CI/CD](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/maven)
