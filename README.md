@@ -144,6 +144,8 @@ _Автор категорически против списывания_ by [ma
 
 ### [Архитектура ЭВМ(36+) y23](https://github.com/urokanen/comp-arch) by [urokanen](https://github.com/urokanen)
 
+### [Архитектура ЭВМ(36+) y23](https://github.com/Icy-13/CT-ITMO-Labs-and-HWs/tree/main/Sem1/Comp%20Arch) by [Icy-13](https://github.com/Icy-13)
+
 ---
 
 ### [Цифровая культура](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/digital-culture)
