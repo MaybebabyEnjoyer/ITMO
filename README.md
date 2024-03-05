@@ -49,6 +49,10 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
+### [ДМ лабы](https://github.com/internet-director/ITMO_y2021/tree/main/term3/dm) by [internet_director](https://github.com/internet-director)
+
+---
+
 ## 2 семестр
 
 ### [Парадигмы](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms)
