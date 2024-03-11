@@ -72,6 +72,8 @@ _Автор категорически против списывания_ by [ma
 12. [Комбинаторные парсеры](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
 13. [Простые числа на Prolog](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/primes.pl)
 14. [Дерево поиска на Prolog](https://github.com/mavlyut/Paradigms/blob/main/solutions/prolog-solutions/tree-map.pl) by [mavlyut](https://github.com/mavlyut) УДАЛЕНО 11.03
+    
+    [Дерево поиска на Prolog](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/tree-map.pl)
 15. [Разбор выражений на Prolog](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/expression.pl) by [NikitaMsln](https://github.com/NikitaMsln)
 
 ---
