@@ -71,7 +71,7 @@ _Автор категорически против списывания_ by [ma
 11. [Объектные выражения на Clojure](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
 12. [Комбинаторные парсеры](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/clojure-solutions/expression.clj)
 13. [Простые числа на Prolog](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/primes.pl)
-14. [Дерево поиска на Prolog](https://github.com/mavlyut/Paradigms/blob/main/solutions/prolog-solutions/tree-map.pl) by [mavlyut](https://github.com/mavlyut)
+14. [Дерево поиска на Prolog](https://github.com/mavlyut/Paradigms/blob/main/solutions/prolog-solutions/tree-map.pl) by [mavlyut](https://github.com/mavlyut) УДАЛЕНО 11.03
 15. [Разбор выражений на Prolog](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/paradigms/solutions/prolog-solutions/expression.pl) by [NikitaMsln](https://github.com/NikitaMsln)
 
 ---
@@ -82,7 +82,7 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
-## [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
+## [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut) УДАЛЕНО 11.03
 
 ## [C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln) (ДАННЫЕ УДАЛЕНЫ)
 
@@ -136,7 +136,7 @@ _Автор категорически против списывания_ by [ma
 
 ## [prog-intro (для крутых)](https://github.com/etozhestass/prog-intro-itmo) by [never-ever-live](https://github.com/etozhestass)
 
-## [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut)
+## [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut) УДАЛЕНО 11.03
 
 ### [Алгоритмы и структуры данных](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem1/algo)
 
