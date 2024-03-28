@@ -14,10 +14,6 @@ _Автор категорически против списывания_ by [ma
 
 ## 4 семестр
 
-### [Java Advanced](https://github.com/mavlyut/JavaAdvanced) by [mavlyut](https://github.com/mavlyut)
-
----
-
 ### [Алгоритмы и структуры данных](https://github.com/internet-director/ITMO_y2021/tree/main/term4/alko) by [internet_director](https://github.com/internet-director)
 
 ## 3 семестр
