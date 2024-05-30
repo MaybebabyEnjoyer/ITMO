@@ -1,0 +1,59 @@
+NEW EPOCH 100
+epoch: 78
+SGD (Time: 2.86260s, Mem: 0.741MB, Epoch:78)
+last loss: 0.36129582
+epoch: 36
+Momentum (Time: 1.58865s, Mem: 0.137MB, Epoch:36)
+last loss: 0.25244832
+epoch: 100
+Nesterov (Time: 4.54847s, Mem: 0.039MB, Epoch:100)
+last loss: 1.3044668
+epoch: 100
+AdaGrad (Time: 4.19963s, Mem: 0.045MB, Epoch:100)
+last loss: 23.84958
+epoch: 100
+RMSProp (Time: 4.92560s, Mem: 0.045MB, Epoch:100)
+last loss: 1.186209
+epoch: 51
+Adam (Time: 3.19932s, Mem: 0.048MB, Epoch:51)
+last loss: 0.31196016
+NEW EPOCH 250
+epoch: 42
+SGD (Time: 1.41389s, Mem: 0.052MB, Epoch:42)
+last loss: 0.35486978
+epoch: 96
+Momentum (Time: 3.88902s, Mem: 0.048MB, Epoch:96)
+last loss: 0.39616936
+epoch: 85
+Nesterov (Time: 4.02705s, Mem: 0.023MB, Epoch:85)
+last loss: 0.37479392
+epoch: 250
+AdaGrad (Time: 10.56995s, Mem: 0.027MB, Epoch:250)
+last loss: 39.491844
+epoch: 184
+RMSProp (Time: 8.78368s, Mem: 0.032MB, Epoch:184)
+last loss: 0.20193847
+epoch: 171
+Adam (Time: 10.69374s, Mem: 0.025MB, Epoch:171)
+last loss: 0.37248117
+NEW EPOCH 500
+epoch: 35
+SGD (Time: 1.20097s, Mem: 0.038MB, Epoch:35)
+last loss: 0.38519502
+epoch: 119
+Momentum (Time: 5.07901s, Mem: 0.048MB, Epoch:119)
+last loss: 0.35536003
+epoch: 141
+Nesterov (Time: 6.43115s, Mem: 0.025MB, Epoch:141)
+last loss: 0.3965428
+epoch: 500
+AdaGrad (Time: 20.94433s, Mem: 0.035MB, Epoch:500)
+last loss: 18.542995
+epoch: 84
+RMSProp (Time: 4.13047s, Mem: 0.023MB, Epoch:84)
+last loss: 0.39927512
+epoch: 18
+Adam (Time: 1.16373s, Mem: 0.021MB, Epoch:18)
+last loss: 0.29287413
+
+Process finished with exit code 0

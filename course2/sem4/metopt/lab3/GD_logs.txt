@@ -1,0 +1,1338 @@
+/Users/vadim0953/lab3/venv/bin/python /Users/vadim0953/lab3/GD.py
+NEW EPOCH 200
+decay_rate: 0.1
+learning_rate: 0.1
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.11942s, Mem: 0.019MB, Epoch:200)
+last loss: 0.9924393039182161
+epoch: 200
+Batch size 10 (Time: 0.01504s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992627127708904
+epoch: 200
+Batch size 20 (Time: 0.00947s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0061074454303498
+epoch: 200
+Batch size 50 (Time: 0.00588s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0460405934155974
+epoch: 200
+Batch size 100 (Time: 0.00469s, Mem: 0.015MB, Epoch:200)
+last loss: 0.997705275664746
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12118s, Mem: 0.016MB, Epoch:200)
+last loss: 0.9924396747542054
+epoch: 200
+Batch size 10 (Time: 0.01475s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924390033220721
+epoch: 200
+Batch size 20 (Time: 0.00896s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9927672190042219
+epoch: 200
+Batch size 50 (Time: 0.00547s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0192359324070503
+epoch: 200
+Batch size 100 (Time: 0.00435s, Mem: 0.015MB, Epoch:200)
+last loss: 1.082451935253841
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12263s, Mem: 0.015MB, Epoch:200)
+last loss: 1.496472914699911
+epoch: 200
+Batch size 10 (Time: 0.01462s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9949935854034253
+epoch: 200
+Batch size 20 (Time: 0.00927s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9927483271421916
+epoch: 200
+Batch size 50 (Time: 0.00571s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9941328279123332
+epoch: 200
+Batch size 100 (Time: 0.00440s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924394537521597
+learning_rate: 0.05
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12205s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992439923756807
+epoch: 200
+Batch size 10 (Time: 0.01483s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0138549191822575
+epoch: 200
+Batch size 20 (Time: 0.00921s, Mem: 0.015MB, Epoch:200)
+last loss: 1.3762975026261233
+epoch: 200
+Batch size 50 (Time: 0.00586s, Mem: 0.015MB, Epoch:200)
+last loss: 1.2714928880549552
+epoch: 200
+Batch size 100 (Time: 0.00457s, Mem: 0.015MB, Epoch:200)
+last loss: 1.743067869347434
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12091s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924391315092588
+epoch: 200
+Batch size 10 (Time: 0.01501s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9932739978884123
+epoch: 200
+Batch size 20 (Time: 0.00907s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9955108797862632
+epoch: 200
+Batch size 50 (Time: 0.00578s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9993261514845293
+epoch: 200
+Batch size 100 (Time: 0.00449s, Mem: 0.015MB, Epoch:200)
+last loss: 1.3270354043825814
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12180s, Mem: 0.015MB, Epoch:200)
+last loss: 1.3541009397989838
+epoch: 200
+Batch size 10 (Time: 0.01442s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9943900910941794
+epoch: 200
+Batch size 20 (Time: 0.00873s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925638639035465
+epoch: 200
+Batch size 50 (Time: 0.00545s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924627646149144
+epoch: 200
+Batch size 100 (Time: 0.00426s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9954523507608751
+learning_rate: 0.025
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12347s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924394468740435
+epoch: 200
+Batch size 10 (Time: 0.01569s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9962909145855271
+epoch: 200
+Batch size 20 (Time: 0.00985s, Mem: 0.015MB, Epoch:200)
+last loss: 1.45027438919876
+epoch: 200
+Batch size 50 (Time: 0.00597s, Mem: 0.015MB, Epoch:200)
+last loss: 1.4948518084639384
+epoch: 200
+Batch size 100 (Time: 0.00471s, Mem: 0.015MB, Epoch:200)
+last loss: 11.359300525880219
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12144s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924388780610677
+epoch: 200
+Batch size 10 (Time: 0.01455s, Mem: 0.015MB, Epoch:200)
+last loss: 1.076629448790573
+epoch: 200
+Batch size 20 (Time: 0.00935s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9974428075573085
+epoch: 200
+Batch size 50 (Time: 0.00574s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0036981633739968
+epoch: 200
+Batch size 100 (Time: 0.00451s, Mem: 0.015MB, Epoch:200)
+last loss: 2.6112219152438847
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12268s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0816431769663064
+epoch: 200
+Batch size 10 (Time: 0.01508s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924442303523872
+epoch: 200
+Batch size 20 (Time: 0.00951s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924421591011953
+epoch: 200
+Batch size 50 (Time: 0.00556s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9935102299532794
+epoch: 200
+Batch size 100 (Time: 0.00452s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0118194560377278
+decay_rate: 0.01
+learning_rate: 0.1
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12480s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9939269910585325
+epoch: 200
+Batch size 10 (Time: 0.01499s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924441141375274
+epoch: 200
+Batch size 20 (Time: 0.00931s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924485130475408
+epoch: 200
+Batch size 50 (Time: 0.00605s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924419784272124
+epoch: 200
+Batch size 100 (Time: 0.00467s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9937921440118178
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12236s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924386833971043
+epoch: 200
+Batch size 10 (Time: 0.01487s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924387766318535
+epoch: 200
+Batch size 20 (Time: 0.00937s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924433570418151
+epoch: 200
+Batch size 50 (Time: 0.00590s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0111418351771935
+epoch: 200
+Batch size 100 (Time: 0.00462s, Mem: 0.015MB, Epoch:200)
+last loss: 1.088668446438749
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12095s, Mem: 0.015MB, Epoch:200)
+last loss: 1.1351692801022222
+epoch: 200
+Batch size 10 (Time: 0.01446s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0202418490383989
+epoch: 200
+Batch size 20 (Time: 0.00878s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924454479397719
+epoch: 200
+Batch size 50 (Time: 0.00539s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992440269239526
+epoch: 200
+Batch size 100 (Time: 0.00427s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924393062146531
+learning_rate: 0.05
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12227s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0017451454031865
+epoch: 200
+Batch size 10 (Time: 0.01520s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924559863097435
+epoch: 200
+Batch size 20 (Time: 0.00942s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924399697323182
+epoch: 200
+Batch size 50 (Time: 0.00588s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9980678533967731
+epoch: 200
+Batch size 100 (Time: 0.00466s, Mem: 0.015MB, Epoch:200)
+last loss: 1.004556068375937
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12153s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924387965933458
+epoch: 200
+Batch size 10 (Time: 0.01503s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9941567810550651
+epoch: 200
+Batch size 20 (Time: 0.00925s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925077082312623
+epoch: 200
+Batch size 50 (Time: 0.00561s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0100315762716172
+epoch: 200
+Batch size 100 (Time: 0.00447s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0900340667635338
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12037s, Mem: 0.015MB, Epoch:200)
+last loss: 1.000550480708068
+epoch: 200
+Batch size 10 (Time: 0.01436s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925039416580222
+epoch: 200
+Batch size 20 (Time: 0.00880s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9930831263726957
+epoch: 200
+Batch size 50 (Time: 0.00536s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992440368470267
+epoch: 200
+Batch size 100 (Time: 0.00423s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9942274633322509
+learning_rate: 0.025
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12567s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9942865801458113
+epoch: 200
+Batch size 10 (Time: 0.01513s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924390206349551
+epoch: 200
+Batch size 20 (Time: 0.00965s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925801645628444
+epoch: 200
+Batch size 50 (Time: 0.00613s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0322129313270627
+epoch: 200
+Batch size 100 (Time: 0.00473s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0013511890837072
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12191s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924389672214582
+epoch: 200
+Batch size 10 (Time: 0.01501s, Mem: 0.015MB, Epoch:200)
+last loss: 1.021539099018059
+epoch: 200
+Batch size 20 (Time: 0.00902s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0990719149987698
+epoch: 200
+Batch size 50 (Time: 0.00601s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0044946792425875
+epoch: 200
+Batch size 100 (Time: 0.00485s, Mem: 0.015MB, Epoch:200)
+last loss: 2.430538394959145
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12192s, Mem: 0.015MB, Epoch:200)
+last loss: 1.099704230123996
+epoch: 200
+Batch size 10 (Time: 0.01445s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925485297297938
+epoch: 200
+Batch size 20 (Time: 0.00887s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9927250425251744
+epoch: 200
+Batch size 50 (Time: 0.00548s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9930787313222063
+epoch: 200
+Batch size 100 (Time: 0.00439s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9945073605462946
+decay_rate: 0.001
+learning_rate: 0.1
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.13401s, Mem: 0.015MB, Epoch:200)
+last loss: 1.2528886610813357
+epoch: 200
+Batch size 10 (Time: 0.01590s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0032692009410706
+epoch: 200
+Batch size 20 (Time: 0.00985s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9933900079380709
+epoch: 200
+Batch size 50 (Time: 0.00612s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992642605606778
+epoch: 200
+Batch size 100 (Time: 0.00471s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924386910818163
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.11992s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924389915588187
+epoch: 200
+Batch size 10 (Time: 0.01442s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924394026829111
+epoch: 200
+Batch size 20 (Time: 0.00881s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9969333291117062
+epoch: 200
+Batch size 50 (Time: 0.00544s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0100739227117663
+epoch: 200
+Batch size 100 (Time: 0.00426s, Mem: 0.015MB, Epoch:200)
+last loss: 1.1439197146894882
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12118s, Mem: 0.015MB, Epoch:200)
+last loss: 1.043007327773847
+epoch: 200
+Batch size 10 (Time: 0.01434s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0470825349747308
+epoch: 200
+Batch size 20 (Time: 0.00873s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9938874494530271
+epoch: 200
+Batch size 50 (Time: 0.00535s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924407398060018
+epoch: 200
+Batch size 100 (Time: 0.00423s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924389241217555
+learning_rate: 0.05
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12334s, Mem: 0.015MB, Epoch:200)
+last loss: 1.014529686243529
+epoch: 200
+Batch size 10 (Time: 0.01469s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9936058762960194
+epoch: 200
+Batch size 20 (Time: 0.00919s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924894999952312
+epoch: 200
+Batch size 50 (Time: 0.00572s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924557041412663
+epoch: 200
+Batch size 100 (Time: 0.00457s, Mem: 0.015MB, Epoch:200)
+last loss: 0.993146357508441
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12125s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992438871246008
+epoch: 200
+Batch size 10 (Time: 0.01426s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924535539399518
+epoch: 200
+Batch size 20 (Time: 0.00875s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9948519544698438
+epoch: 200
+Batch size 50 (Time: 0.00542s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0236457554746827
+epoch: 200
+Batch size 100 (Time: 0.00424s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0193511930348442
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12223s, Mem: 0.015MB, Epoch:200)
+last loss: 1.1757763455208339
+epoch: 200
+Batch size 10 (Time: 0.01513s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9940112287731516
+epoch: 200
+Batch size 20 (Time: 0.00952s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9938509484601287
+epoch: 200
+Batch size 50 (Time: 0.00573s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925695268528173
+epoch: 200
+Batch size 100 (Time: 0.00438s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925550593849037
+learning_rate: 0.025
+function_name: exp
+epoch: 200
+Batch size 1 (Time: 0.12036s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9936803307637204
+epoch: 200
+Batch size 10 (Time: 0.01474s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924686892808703
+epoch: 200
+Batch size 20 (Time: 0.00921s, Mem: 0.015MB, Epoch:200)
+last loss: 0.992460016166782
+epoch: 200
+Batch size 50 (Time: 0.00572s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9958316901298754
+epoch: 200
+Batch size 100 (Time: 0.00454s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0253270160050711
+function_name: step
+epoch: 200
+Batch size 1 (Time: 0.12115s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924387591594686
+epoch: 200
+Batch size 10 (Time: 0.01484s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0267983893133763
+epoch: 200
+Batch size 20 (Time: 0.00889s, Mem: 0.015MB, Epoch:200)
+last loss: 1.1611329253499179
+epoch: 200
+Batch size 50 (Time: 0.00542s, Mem: 0.015MB, Epoch:200)
+last loss: 1.0059436594553421
+epoch: 200
+Batch size 100 (Time: 0.00443s, Mem: 0.015MB, Epoch:200)
+last loss: 1.9785570508521013
+function_name: const
+epoch: 200
+Batch size 1 (Time: 0.12107s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9938801708725271
+epoch: 200
+Batch size 10 (Time: 0.01495s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9925237382889572
+epoch: 200
+Batch size 20 (Time: 0.00917s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9924631627046542
+epoch: 200
+Batch size 50 (Time: 0.00542s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9931416621852165
+epoch: 200
+Batch size 100 (Time: 0.00445s, Mem: 0.015MB, Epoch:200)
+last loss: 0.9932975403008002
+NEW EPOCH 500
+decay_rate: 0.1
+learning_rate: 0.1
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30344s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924398333415044
+epoch: 500
+Batch size 10 (Time: 0.03821s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9932850169007726
+epoch: 500
+Batch size 20 (Time: 0.02321s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926336669629521
+epoch: 500
+Batch size 50 (Time: 0.01478s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0017721815817486
+epoch: 500
+Batch size 100 (Time: 0.01218s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0569214959464452
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29814s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924399458383918
+epoch: 500
+Batch size 10 (Time: 0.03629s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387807275272
+epoch: 500
+Batch size 20 (Time: 0.02311s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9933444095445141
+epoch: 500
+Batch size 50 (Time: 0.01436s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9928485321057563
+epoch: 500
+Batch size 100 (Time: 0.01094s, Mem: 0.025MB, Epoch:500)
+last loss: 1.070332576132143
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.30572s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0478744595349385
+epoch: 500
+Batch size 10 (Time: 0.03805s, Mem: 0.025MB, Epoch:500)
+last loss: 1.05303650671857
+epoch: 500
+Batch size 20 (Time: 0.02250s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924939368031231
+epoch: 500
+Batch size 50 (Time: 0.01443s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925470398093782
+epoch: 500
+Batch size 100 (Time: 0.01091s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386487246505
+learning_rate: 0.05
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30517s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992439861418659
+epoch: 500
+Batch size 10 (Time: 0.03833s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9951847298547024
+epoch: 500
+Batch size 20 (Time: 0.02448s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0277852438275326
+epoch: 500
+Batch size 50 (Time: 0.01473s, Mem: 0.025MB, Epoch:500)
+last loss: 1.2044244718868335
+epoch: 500
+Batch size 100 (Time: 0.01200s, Mem: 0.025MB, Epoch:500)
+last loss: 1.4812848270784444
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.30728s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924394562441842
+epoch: 500
+Batch size 10 (Time: 0.03738s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926033011322023
+epoch: 500
+Batch size 20 (Time: 0.02331s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9980933868724339
+epoch: 500
+Batch size 50 (Time: 0.01459s, Mem: 0.025MB, Epoch:500)
+last loss: 1.070120923296468
+epoch: 500
+Batch size 100 (Time: 0.01128s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0720714292416482
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29736s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0901013408445057
+epoch: 500
+Batch size 10 (Time: 0.03743s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9971190270090621
+epoch: 500
+Batch size 20 (Time: 0.02255s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924534184773119
+epoch: 500
+Batch size 50 (Time: 0.01423s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924767055783061
+epoch: 500
+Batch size 100 (Time: 0.01089s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387178233505
+learning_rate: 0.025
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30531s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924402388623993
+epoch: 500
+Batch size 10 (Time: 0.03795s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1413514936928573
+epoch: 500
+Batch size 20 (Time: 0.02343s, Mem: 0.025MB, Epoch:500)
+last loss: 1.134122391275304
+epoch: 500
+Batch size 50 (Time: 0.01462s, Mem: 0.025MB, Epoch:500)
+last loss: 1.52982186309169
+epoch: 500
+Batch size 100 (Time: 0.01176s, Mem: 0.025MB, Epoch:500)
+last loss: 5.800530507347117
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29176s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924393782610076
+epoch: 500
+Batch size 10 (Time: 0.03665s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9934002835859134
+epoch: 500
+Batch size 20 (Time: 0.02275s, Mem: 0.025MB, Epoch:500)
+last loss: 0.995430661952219
+epoch: 500
+Batch size 50 (Time: 0.01364s, Mem: 0.025MB, Epoch:500)
+last loss: 1.2309126062485918
+epoch: 500
+Batch size 100 (Time: 0.01068s, Mem: 0.025MB, Epoch:500)
+last loss: 2.257203428642055
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.31201s, Mem: 0.025MB, Epoch:500)
+last loss: 1.03668881920032
+epoch: 500
+Batch size 10 (Time: 0.03720s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926616425772694
+epoch: 500
+Batch size 20 (Time: 0.02234s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925014297849755
+epoch: 500
+Batch size 50 (Time: 0.01373s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387069530718
+epoch: 500
+Batch size 100 (Time: 0.01097s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992446572615616
+decay_rate: 0.01
+learning_rate: 0.1
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.35432s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924388409110587
+epoch: 500
+Batch size 10 (Time: 0.03941s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386496904906
+epoch: 500
+Batch size 20 (Time: 0.02394s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386519361021
+epoch: 500
+Batch size 50 (Time: 0.01498s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386706462961
+epoch: 500
+Batch size 100 (Time: 0.01224s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924606419333919
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29379s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924397004260364
+epoch: 500
+Batch size 10 (Time: 0.03643s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386880449008
+epoch: 500
+Batch size 20 (Time: 0.02219s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925346885799168
+epoch: 500
+Batch size 50 (Time: 0.01354s, Mem: 0.025MB, Epoch:500)
+last loss: 1.142268951528852
+epoch: 500
+Batch size 100 (Time: 0.01073s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0200620039481147
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29542s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1272609673318306
+epoch: 500
+Batch size 10 (Time: 0.03650s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9941389421514192
+epoch: 500
+Batch size 20 (Time: 0.02242s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0022454920340573
+epoch: 500
+Batch size 50 (Time: 0.01407s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925414734584121
+epoch: 500
+Batch size 100 (Time: 0.01074s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386487246482
+learning_rate: 0.05
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.29940s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924396511748439
+epoch: 500
+Batch size 10 (Time: 0.03693s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386518321561
+epoch: 500
+Batch size 20 (Time: 0.02327s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387089277645
+epoch: 500
+Batch size 50 (Time: 0.01447s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924461696323154
+epoch: 500
+Batch size 100 (Time: 0.01145s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0155154158087425
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29520s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387247035037
+epoch: 500
+Batch size 10 (Time: 0.03601s, Mem: 0.025MB, Epoch:500)
+last loss: 0.993228080669774
+epoch: 500
+Batch size 20 (Time: 0.02258s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926270209961037
+epoch: 500
+Batch size 50 (Time: 0.01393s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9948150116130295
+epoch: 500
+Batch size 100 (Time: 0.01109s, Mem: 0.025MB, Epoch:500)
+last loss: 1.379724788279116
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29454s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0639680578708692
+epoch: 500
+Batch size 10 (Time: 0.03666s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0012986798084522
+epoch: 500
+Batch size 20 (Time: 0.02178s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924917129869564
+epoch: 500
+Batch size 50 (Time: 0.01347s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924847267697134
+epoch: 500
+Batch size 100 (Time: 0.01069s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992438651433286
+learning_rate: 0.025
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30021s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924391664905368
+epoch: 500
+Batch size 10 (Time: 0.03707s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386573752736
+epoch: 500
+Batch size 20 (Time: 0.02321s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924390569506055
+epoch: 500
+Batch size 50 (Time: 0.01471s, Mem: 0.025MB, Epoch:500)
+last loss: 1.011642968300932
+epoch: 500
+Batch size 100 (Time: 0.01184s, Mem: 0.025MB, Epoch:500)
+last loss: 1.078067191151974
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29579s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387774886994
+epoch: 500
+Batch size 10 (Time: 0.03662s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0148626016493651
+epoch: 500
+Batch size 20 (Time: 0.02185s, Mem: 0.025MB, Epoch:500)
+last loss: 1.080415327736331
+epoch: 500
+Batch size 50 (Time: 0.01364s, Mem: 0.025MB, Epoch:500)
+last loss: 0.995065846737928
+epoch: 500
+Batch size 100 (Time: 0.01063s, Mem: 0.025MB, Epoch:500)
+last loss: 1.5387848212057653
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29960s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9954514681157681
+epoch: 500
+Batch size 10 (Time: 0.03647s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926615209903248
+epoch: 500
+Batch size 20 (Time: 0.02211s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9931212019976902
+epoch: 500
+Batch size 50 (Time: 0.01372s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924418930238823
+epoch: 500
+Batch size 100 (Time: 0.01085s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924734793048211
+decay_rate: 0.001
+learning_rate: 0.1
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30285s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1082955464870028
+epoch: 500
+Batch size 10 (Time: 0.03714s, Mem: 0.025MB, Epoch:500)
+last loss: 1.006619528970306
+epoch: 500
+Batch size 20 (Time: 0.02321s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9940463701898656
+epoch: 500
+Batch size 50 (Time: 0.01433s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925011076183368
+epoch: 500
+Batch size 100 (Time: 0.01139s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386487250182
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29381s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924387376370979
+epoch: 500
+Batch size 10 (Time: 0.03771s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924391416432772
+epoch: 500
+Batch size 20 (Time: 0.02277s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926667683024283
+epoch: 500
+Batch size 50 (Time: 0.01480s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1409451965124384
+epoch: 500
+Batch size 100 (Time: 0.01122s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1188536188051272
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29793s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0601217948772454
+epoch: 500
+Batch size 10 (Time: 0.03745s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9957495503645996
+epoch: 500
+Batch size 20 (Time: 0.02217s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9979518203908051
+epoch: 500
+Batch size 50 (Time: 0.01368s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9933521553071424
+epoch: 500
+Batch size 100 (Time: 0.01064s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386487246509
+learning_rate: 0.05
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30976s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1923728238661297
+epoch: 500
+Batch size 10 (Time: 0.03839s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9926885559474503
+epoch: 500
+Batch size 20 (Time: 0.02410s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924446366866906
+epoch: 500
+Batch size 50 (Time: 0.01461s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924517193078697
+epoch: 500
+Batch size 100 (Time: 0.01163s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992439162653424
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.30407s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924388379003899
+epoch: 500
+Batch size 10 (Time: 0.03701s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9929204296223125
+epoch: 500
+Batch size 20 (Time: 0.02314s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0443132490636793
+epoch: 500
+Batch size 50 (Time: 0.01407s, Mem: 0.025MB, Epoch:500)
+last loss: 1.104073019572342
+epoch: 500
+Batch size 100 (Time: 0.01117s, Mem: 0.025MB, Epoch:500)
+last loss: 1.2044174885591354
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29480s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1999760694734691
+epoch: 500
+Batch size 10 (Time: 0.03735s, Mem: 0.025MB, Epoch:500)
+last loss: 0.995305908973983
+epoch: 500
+Batch size 20 (Time: 0.02266s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9929599206206043
+epoch: 500
+Batch size 50 (Time: 0.01416s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924460768228038
+epoch: 500
+Batch size 100 (Time: 0.01100s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924386559091642
+learning_rate: 0.025
+function_name: exp
+epoch: 500
+Batch size 1 (Time: 0.30519s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9931238369337393
+epoch: 500
+Batch size 10 (Time: 0.03922s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924601339439705
+epoch: 500
+Batch size 20 (Time: 0.02362s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992458676653363
+epoch: 500
+Batch size 50 (Time: 0.01510s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924400991887413
+epoch: 500
+Batch size 100 (Time: 0.01246s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9929708207147125
+function_name: step
+epoch: 500
+Batch size 1 (Time: 0.29736s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992438723094139
+epoch: 500
+Batch size 10 (Time: 0.03708s, Mem: 0.025MB, Epoch:500)
+last loss: 1.0268605483484996
+epoch: 500
+Batch size 20 (Time: 0.02263s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9932524075620078
+epoch: 500
+Batch size 50 (Time: 0.01388s, Mem: 0.025MB, Epoch:500)
+last loss: 1.1127301684248738
+epoch: 500
+Batch size 100 (Time: 0.01109s, Mem: 0.025MB, Epoch:500)
+last loss: 2.4829457300111657
+function_name: const
+epoch: 500
+Batch size 1 (Time: 0.29669s, Mem: 0.025MB, Epoch:500)
+last loss: 0.993057884506974
+epoch: 500
+Batch size 10 (Time: 0.03701s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992846553139831
+epoch: 500
+Batch size 20 (Time: 0.02345s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9925196844708428
+epoch: 500
+Batch size 50 (Time: 0.01373s, Mem: 0.025MB, Epoch:500)
+last loss: 0.9924402442987476
+epoch: 500
+Batch size 100 (Time: 0.01102s, Mem: 0.025MB, Epoch:500)
+last loss: 0.992439326996672
+NEW EPOCH 1000
+decay_rate: 0.1
+learning_rate: 0.1
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.60872s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924410015184911
+epoch: 1000
+Batch size 10 (Time: 0.07528s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9928739619644605
+epoch: 1000
+Batch size 20 (Time: 0.04625s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9928317610157571
+epoch: 1000
+Batch size 50 (Time: 0.02995s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.1141335345073429
+epoch: 1000
+Batch size 100 (Time: 0.02376s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2003906324765161
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.58840s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924387106841361
+epoch: 1000
+Batch size 10 (Time: 0.07459s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924389330345156
+epoch: 1000
+Batch size 20 (Time: 0.04722s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9925229761260165
+epoch: 1000
+Batch size 50 (Time: 0.02841s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9992076895179138
+epoch: 1000
+Batch size 100 (Time: 0.02206s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2426921313530728
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.59633s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.4390904444122408
+epoch: 1000
+Batch size 10 (Time: 0.07370s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.995125989284669
+epoch: 1000
+Batch size 20 (Time: 0.04561s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9925890271572222
+epoch: 1000
+Batch size 50 (Time: 0.02851s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9932181525877755
+epoch: 1000
+Batch size 100 (Time: 0.02179s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246482
+learning_rate: 0.05
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.59382s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924394391561906
+epoch: 1000
+Batch size 10 (Time: 0.07668s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9957034093563614
+epoch: 1000
+Batch size 20 (Time: 0.04760s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.027711921399707
+epoch: 1000
+Batch size 50 (Time: 0.02942s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0610476064548082
+epoch: 1000
+Batch size 100 (Time: 0.02405s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.9700998176100812
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.58855s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924392844375355
+epoch: 1000
+Batch size 10 (Time: 0.07315s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924553894276102
+epoch: 1000
+Batch size 20 (Time: 0.04474s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0022662183564188
+epoch: 1000
+Batch size 50 (Time: 0.02705s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9940447086085772
+epoch: 1000
+Batch size 100 (Time: 0.02130s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.264881886059845
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.58953s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0413445588949442
+epoch: 1000
+Batch size 10 (Time: 0.07495s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9946244778133139
+epoch: 1000
+Batch size 20 (Time: 0.04507s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9925148276713253
+epoch: 1000
+Batch size 50 (Time: 0.02833s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924419333301906
+epoch: 1000
+Batch size 100 (Time: 0.02203s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246514
+learning_rate: 0.025
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.59588s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.992442171634746
+epoch: 1000
+Batch size 10 (Time: 0.07585s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0739018928618274
+epoch: 1000
+Batch size 20 (Time: 0.04672s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.9975789514583928
+epoch: 1000
+Batch size 50 (Time: 0.02971s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.81930167139359
+epoch: 1000
+Batch size 100 (Time: 0.02407s, Mem: 0.042MB, Epoch:1000)
+last loss: 7.840248935093026
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.58918s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924395739005852
+epoch: 1000
+Batch size 10 (Time: 0.07426s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0042192817141733
+epoch: 1000
+Batch size 20 (Time: 0.04549s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.1166349646813294
+epoch: 1000
+Batch size 50 (Time: 0.02815s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.138910513708571
+epoch: 1000
+Batch size 100 (Time: 0.02230s, Mem: 0.042MB, Epoch:1000)
+last loss: 2.958133288840417
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.60507s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0437072390782127
+epoch: 1000
+Batch size 10 (Time: 0.07560s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924998087960718
+epoch: 1000
+Batch size 20 (Time: 0.04422s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924406984400106
+epoch: 1000
+Batch size 50 (Time: 0.02733s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924398517866411
+epoch: 1000
+Batch size 100 (Time: 0.02182s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386641478948
+decay_rate: 0.01
+learning_rate: 0.1
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.59132s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386499482455
+epoch: 1000
+Batch size 10 (Time: 0.07537s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386525267525
+epoch: 1000
+Batch size 20 (Time: 0.04739s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386523400314
+epoch: 1000
+Batch size 50 (Time: 0.02960s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.99244129160015
+epoch: 1000
+Batch size 100 (Time: 0.02298s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9927080049608474
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.59426s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924388203606819
+epoch: 1000
+Batch size 10 (Time: 0.07265s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386753881715
+epoch: 1000
+Batch size 20 (Time: 0.04596s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9932583039668892
+epoch: 1000
+Batch size 50 (Time: 0.02787s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0801039633393585
+epoch: 1000
+Batch size 100 (Time: 0.02242s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2811779029585255
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.59207s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0045301381947989
+epoch: 1000
+Batch size 10 (Time: 0.07246s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9954518789953086
+epoch: 1000
+Batch size 20 (Time: 0.04461s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0067530596096288
+epoch: 1000
+Batch size 50 (Time: 0.02786s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9928441764863715
+epoch: 1000
+Batch size 100 (Time: 0.02195s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246482
+learning_rate: 0.05
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.61352s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.99243865069246
+epoch: 1000
+Batch size 10 (Time: 0.07986s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386499282282
+epoch: 1000
+Batch size 20 (Time: 0.04758s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386496710942
+epoch: 1000
+Batch size 50 (Time: 0.02944s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9929946497778686
+epoch: 1000
+Batch size 100 (Time: 0.02406s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9926145094203229
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.60316s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924389685037558
+epoch: 1000
+Batch size 10 (Time: 0.07376s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924435293997874
+epoch: 1000
+Batch size 20 (Time: 0.04475s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0421285348945695
+epoch: 1000
+Batch size 50 (Time: 0.02825s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2439026117184924
+epoch: 1000
+Batch size 100 (Time: 0.02207s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2181812813010617
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.59649s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.052194805205919
+epoch: 1000
+Batch size 10 (Time: 0.07895s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9952331574108793
+epoch: 1000
+Batch size 20 (Time: 0.04665s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9928892688468194
+epoch: 1000
+Batch size 50 (Time: 0.02859s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9925395784318273
+epoch: 1000
+Batch size 100 (Time: 0.02335s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246489
+learning_rate: 0.025
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.60155s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386505923692
+epoch: 1000
+Batch size 10 (Time: 0.07511s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386956895458
+epoch: 1000
+Batch size 20 (Time: 0.04599s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9927047455361587
+epoch: 1000
+Batch size 50 (Time: 0.02914s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9955451261539514
+epoch: 1000
+Batch size 100 (Time: 0.02310s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9959828338489968
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.59935s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924387101856285
+epoch: 1000
+Batch size 10 (Time: 0.07375s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9989523800113771
+epoch: 1000
+Batch size 20 (Time: 0.04421s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.1298163257165206
+epoch: 1000
+Batch size 50 (Time: 0.02783s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.3724433827898568
+epoch: 1000
+Batch size 100 (Time: 0.02171s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.9652915357299088
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.59887s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.048199445321376
+epoch: 1000
+Batch size 10 (Time: 0.07342s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924575069896465
+epoch: 1000
+Batch size 20 (Time: 0.04466s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924707374476255
+epoch: 1000
+Batch size 50 (Time: 0.02825s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924417161898748
+epoch: 1000
+Batch size 100 (Time: 0.02218s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386651914997
+decay_rate: 0.001
+learning_rate: 0.1
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.60217s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9959475462470246
+epoch: 1000
+Batch size 10 (Time: 0.07617s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.99257446170093
+epoch: 1000
+Batch size 20 (Time: 0.04676s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924625982062818
+epoch: 1000
+Batch size 50 (Time: 0.02950s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924597752914454
+epoch: 1000
+Batch size 100 (Time: 0.02340s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246483
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.59572s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.992439221081879
+epoch: 1000
+Batch size 10 (Time: 0.07369s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924391857251524
+epoch: 1000
+Batch size 20 (Time: 0.04578s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9930817833733511
+epoch: 1000
+Batch size 50 (Time: 0.02703s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0306321056151662
+epoch: 1000
+Batch size 100 (Time: 0.02282s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0129747421373592
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.58963s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0046878011656002
+epoch: 1000
+Batch size 10 (Time: 0.07335s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924567855566298
+epoch: 1000
+Batch size 20 (Time: 0.04413s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9957892581336162
+epoch: 1000
+Batch size 50 (Time: 0.02779s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9936877500934425
+epoch: 1000
+Batch size 100 (Time: 0.02142s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246482
+learning_rate: 0.05
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.58460s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.996288556479308
+epoch: 1000
+Batch size 10 (Time: 0.07405s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924387726645931
+epoch: 1000
+Batch size 20 (Time: 0.04528s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924425574379641
+epoch: 1000
+Batch size 50 (Time: 0.02900s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924453016783822
+epoch: 1000
+Batch size 100 (Time: 0.02289s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386490349895
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.59252s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924392808762882
+epoch: 1000
+Batch size 10 (Time: 0.07497s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9929298257747426
+epoch: 1000
+Batch size 20 (Time: 0.04529s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9945409312089051
+epoch: 1000
+Batch size 50 (Time: 0.02805s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0138781296756099
+epoch: 1000
+Batch size 100 (Time: 0.02206s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0612409710140918
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.58949s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9927425951483306
+epoch: 1000
+Batch size 10 (Time: 0.07450s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9926886514592956
+epoch: 1000
+Batch size 20 (Time: 0.04483s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924492016271875
+epoch: 1000
+Batch size 50 (Time: 0.02772s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924387304191592
+epoch: 1000
+Batch size 100 (Time: 0.02187s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924386487246483
+learning_rate: 0.025
+function_name: exp
+epoch: 1000
+Batch size 1 (Time: 0.60334s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0040512797738796
+epoch: 1000
+Batch size 10 (Time: 0.07592s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924740196111861
+epoch: 1000
+Batch size 20 (Time: 0.04721s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924390870062852
+epoch: 1000
+Batch size 50 (Time: 0.02990s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924389885729299
+epoch: 1000
+Batch size 100 (Time: 0.02330s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924620380856832
+function_name: step
+epoch: 1000
+Batch size 1 (Time: 0.59702s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924390804799156
+epoch: 1000
+Batch size 10 (Time: 0.07151s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9935323216393865
+epoch: 1000
+Batch size 20 (Time: 0.04441s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.2309838049219977
+epoch: 1000
+Batch size 50 (Time: 0.02822s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0943016500618001
+epoch: 1000
+Batch size 100 (Time: 0.02156s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.5188464910025252
+function_name: const
+epoch: 1000
+Batch size 1 (Time: 0.58206s, Mem: 0.042MB, Epoch:1000)
+last loss: 1.0105980210124272
+epoch: 1000
+Batch size 10 (Time: 0.07253s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9929833878082962
+epoch: 1000
+Batch size 20 (Time: 0.04388s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924730143210779
+epoch: 1000
+Batch size 50 (Time: 0.02752s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924405101219762
+epoch: 1000
+Batch size 100 (Time: 0.02134s, Mem: 0.042MB, Epoch:1000)
+last loss: 0.9924387022333092
+
+Process finished with exit code 0

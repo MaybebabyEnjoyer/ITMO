@@ -10,17 +10,19 @@ y = 4 + 3 * X + np.random.randn(100, 1)
 # Добавление единичного столбца для учета смещения
 X_b = np.c_[np.ones((100, 1)), X]
 batch_sizes = [1, 10, 20, 50, 100]  # Различные размеры батчей
-plt.figure(figsize=(16, 8))
 
 lr_types = {
     'exp': lambda epoch, lr_initial, decay_rate: lr_initial * np.exp(-decay_rate * epoch),
-    'step': lambda epoch, lr_initial, decay_rate: lr_initial * (0.5 ** (epoch // 10))
+    'step': lambda epoch, lr_initial, decay_rate: lr_initial * (0.5 ** (epoch // 10)),
+    'const': lambda epoch, lr_initial, decay_rate: lr_initial
 }
 
 
+# много запусков сделать
 @utils.memory_decorator
 @utils.time_decorator
-def stochastic_gradient_descent(X, y, lr_function, learning_rate=0.01, n_epochs=50, batch_size=1, decay_rate=0.1):
+def stochastic_gradient_descent(X, y, lr_function, learning_rate=0.01, n_epochs=500, batch_size=1, decay_rate=0.1,
+                                eps=0.4):
     m = len(X)
     theta = np.random.randn(2, 1)
     loss_history = []
@@ -36,20 +38,37 @@ def stochastic_gradient_descent(X, y, lr_function, learning_rate=0.01, n_epochs=
             theta = theta - current_lr * gradients
         loss = np.sum((X.dot(theta) - y) ** 2) / m
         loss_history.append(loss)
-    return loss_history
+        if loss <= eps:
+            return loss_history, epoch
+
+    return loss_history, n_epochs
 
 
-results = {}
-for batch_size in batch_sizes:
-    for function_name in lr_types:
-        utils.solve_by_name_by_solver(plt,
-                                      f'Batch size {batch_size}, LR Type: {function_name}',
-                                      lambda: stochastic_gradient_descent(X_b, y, lr_types[function_name],
-                                                                          learning_rate=0.01, n_epochs=50,
-                                                                          batch_size=batch_size, decay_rate=0.1))
+learning_rates = [0.1, 0.05, 0.025]
+decay_rates = [0.1, 0.01, 0.001]
+epochs = [200, 500, 1000]
+for epoch in epochs:
+    print("NEW EPOCH", epoch)
+    for decay_rate in decay_rates:
+        print("decay_rate:", decay_rate)
+        for learning_rate in learning_rates:
+            print("learning_rate:", learning_rate)
+            for function_name in lr_types:
+                print("function_name:", function_name)
+                plt.figure(figsize=(20, 10))
+                for batch_size in batch_sizes:
+                    utils.solve_by_name_by_solver(plt,
+                                                  f'Batch size {batch_size}',
+                                                  lambda: stochastic_gradient_descent(X_b, y, lr_types[function_name],
+                                                                                      learning_rate=learning_rate,
+                                                                                      n_epochs=epoch,
+                                                                                      batch_size=batch_size,
+                                                                                      decay_rate=decay_rate))
 
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.title('SGD Loss Reduction by Batch Size and Learning Rate Type')
-plt.legend()
-plt.show()
+                plt.xlabel('Epoch')
+                plt.ylabel('Loss')
+                plt.title(f'SGD LR Type: {function_name}, '
+                          f'learning rate: {learning_rate}, '
+                          f'epoch: {epoch}, decay rate: {decay_rate}, ')
+                plt.legend()
+                plt.savefig(f"graphics_GD/SGD_{function_name}_{learning_rate}_{epoch}_{decay_rate}.png")
