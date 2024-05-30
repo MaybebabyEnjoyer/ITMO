@@ -1,0 +1,32 @@
+NEW EPOCH 100
+epoch: 100
+l1 (Time: 1.19946s, Mem: 1.845MB, Epoch:100)
+last loss: 0.05514894425868988
+epoch: 100
+l2 (Time: 1.14818s, Mem: 0.584MB, Epoch:100)
+last loss: 0.04210420697927475
+epoch: 100
+elastic (Time: 1.09672s, Mem: 0.592MB, Epoch:100)
+last loss: 0.08222725987434387
+NEW EPOCH 200
+epoch: 200
+l1 (Time: 2.07671s, Mem: 0.642MB, Epoch:200)
+last loss: 0.03550434485077858
+epoch: 200
+l2 (Time: 2.09871s, Mem: 0.601MB, Epoch:200)
+last loss: 0.02925042435526848
+epoch: 200
+elastic (Time: 2.19005s, Mem: 0.512MB, Epoch:200)
+last loss: 0.06389506906270981
+NEW EPOCH 500
+epoch: 500
+l1 (Time: 4.98334s, Mem: 0.547MB, Epoch:500)
+last loss: 0.033903174102306366
+epoch: 500
+l2 (Time: 4.88584s, Mem: 0.523MB, Epoch:500)
+last loss: 0.026814453303813934
+epoch: 500
+elastic (Time: 5.00131s, Mem: 0.527MB, Epoch:500)
+last loss: 0.04251746088266373
+
+Process finished with exit code 0

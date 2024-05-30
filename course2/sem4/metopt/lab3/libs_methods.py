@@ -71,7 +71,6 @@ def solve():
         plt.title(f'SGD epoch: {epoch}')
         plt.legend()
         plt.savefig(f"graphics_lib/SGD_epoch={epoch}.png")
-        plt.show()
 
 solve()
 
