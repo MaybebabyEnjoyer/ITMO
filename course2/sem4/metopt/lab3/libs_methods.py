@@ -36,18 +36,18 @@ optimizers = {
 
 loss_fn = tf.keras.losses.MeanSquaredError()
 
-plt.figure(figsize=(16, 8))
+
 
 
 @utils.memory_decorator
 @utils.time_decorator
-def solve_by_optimizer(optimizer):
+def solve_by_optimizer(optimizer, epoch_count=500, eps=0.4):
     # Ресет весов перед тренировкой для оптимизатора
     weights = [np.random.randn(2, 1).astype(np.float32), np.random.randn(1).astype(np.float32)]
     model.set_weights(weights)
 
     loss_history = []
-    for epoch in range(50):
+    for epoch in range(epoch_count):
         for step, (x_batch_train, y_batch_train) in enumerate(dataset):
             with tf.GradientTape() as tape:
                 predictions = model(x_batch_train, training=True)
@@ -55,17 +55,23 @@ def solve_by_optimizer(optimizer):
             grads = tape.gradient(loss, model.trainable_weights)
             optimizer.apply_gradients(zip(grads, model.trainable_weights))
         loss_history.append(loss.numpy())
-    return loss_history
+        if loss <= eps:
+            return loss_history, epoch
+    return loss_history, epoch_count
 
-
+epochs = [100, 250, 500]
 def solve():
-    for name in optimizers:
-        utils.solve_by_name_by_solver(plt, name, lambda: solve_by_optimizer(optimizers[name]))
-
+    for epoch in epochs:
+        print("NEW EPOCH", epoch)
+        plt.figure(figsize=(20, 10))
+        for name in optimizers:
+            utils.solve_by_name_by_solver(plt, name, lambda: solve_by_optimizer(optimizers[name], epoch))
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.title(f'SGD epoch: {epoch}')
+        plt.legend()
+        plt.savefig(f"graphics_lib/SGD_epoch={epoch}.png")
+        plt.show()
 
 solve()
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.title('Comparison of SGD and its Variants on Synthetic Data')
-plt.legend()
-plt.show()
+
