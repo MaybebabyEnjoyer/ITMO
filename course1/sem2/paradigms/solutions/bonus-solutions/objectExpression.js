@@ -1,8 +1,5 @@
 "use strict"
 
-// Я считаю, что лучше пусть в случае бамбука будет квадрат, нежели запоминать кучу бесполезной информации
-// Но если @kgeorgiy сильно придирается, то мемоизуйте вызовы .isEvalConst() и .evaluate()
-
 const exprBuilder = (ctor, methods) => {
     Object.assign(ctor.prototype, methods)
     return ctor
