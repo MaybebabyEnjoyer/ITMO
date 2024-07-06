@@ -61,7 +61,7 @@ _Автор категорически против списывания_ by [ma
 
 ### [Парадигмы](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms)
 
-#### [simplify](https://github.com/alnmlbcha/ITMO/blob/main/course1/sem2/paradigms/bonus-solutions/objectExpression.js) by [alnmlbcha](https://github.com/alnmlbcha)
+#### [simplify](https://github.com/MaybebabyEnjoyer/ITMO/blob/main/course1/sem2/paradigms/solutions/bonus-solutions/objectExpression.js) by [alnmlbcha](https://github.com/alnmlbcha)
 
 2. [Бинарный поиск](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms/solutions/java-solutions/search)
    - [Base](https://github.com/MaybebabyEnjoyer/ITMOxd/blob/main/course1/sem2/paradigms/solutions/java-solutions/search/BinarySearch.java)
