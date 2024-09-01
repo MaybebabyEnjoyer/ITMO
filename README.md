@@ -33,15 +33,19 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
-### [Web](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/web) by [LollySensei](https://github.com/LollySensei)
-
----
-
 ### [OS-Hard](https://github.com/RuslanHkmoff/os-hard) by [RuslanHkmoff](https://github.com/RuslanHkmoff)
 
 ---
 
 ### [OS-Hard v2.0](https://github.com/NikitaMsln/ct-homework/tree/main/3-sem/OSHard) by [NikitaMsln](https://github.com/NikitaMsln)
+
+---
+
+### [Scala](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/Scala)
+
+---
+
+### [Web](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/web) by [LollySensei](https://github.com/LollySensei)
 
 ---
 
