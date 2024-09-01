@@ -1,0 +1,19 @@
+header nav .search {
+    display: inline;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header nav .search input {
+    border: 1px solid #D4D4D4;
+    background: #F4F4F4 url("../img/search-16x16.png") 2px 0 no-repeat;
+    font-size: 0.8rem;
+    height: 0.9rem;
+    padding: 1px 1px 1px 20px;
+    margin: 0 4px 0 0;
+}
+
+header nav .search input:focus {
+    outline-color: #A6C8FF;
+}

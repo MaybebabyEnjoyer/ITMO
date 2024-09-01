@@ -1,0 +1,125 @@
+:root {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: rgb(34, 34, 34);
+
+    --border-color: rgb(185, 185, 185);
+    --border: 1px solid var(--border-color);
+    --border-radius: 6px;
+    --caption-color: #3B5998;
+    --table-color: #E1E1E1;
+}
+
+html {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: calc(24px + 0.5rem);
+    right: 0;
+}
+
+header nav {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0 2rem 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding-top: 0.3rem;
+    margin-right: 1rem;
+}
+
+header nav ul li .current-item {
+    border-bottom: 0.2rem solid blue;
+}
+
+.middle {
+    display: flow-root;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+aside section {
+    border: var(--border);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+aside section .header {
+    border-bottom: var(--border);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→ ";
+    font-size: 1.1rem;
+}
+
+aside section .body {
+    padding: 0.25rem;
+}
+
+aside section .footer {
+    border-top: var(--border);
+    padding: 0.25rem;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+main {
+    margin-right: 21rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: var(--border);
+    text-align: center;
+}
+
+.user-handle {
+    text-decoration: none;
+    font-weight: bold;
+}

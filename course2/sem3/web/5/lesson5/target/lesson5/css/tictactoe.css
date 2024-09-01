@@ -1,0 +1,26 @@
+.tictactoe-form {
+    display: inline;
+}
+
+.tictactoe-message {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+}
+
+.tictactoe-cell {
+    width: 5rem;
+    height: 5rem;
+    margin: 2px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.tictactoe-cell:disabled {
+    cursor: auto;
+}
+
+.tictactoe-new-game {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+}

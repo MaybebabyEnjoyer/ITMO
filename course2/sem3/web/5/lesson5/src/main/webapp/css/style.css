@@ -1,0 +1,141 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    --error-color: red;
+    --datatable-color: #E1E1E1;
+    --datatable-dark-cell-color: #f8f8f8;
+    --message-border-color: #1E88E5;
+    --message-background-color: #E3F2FD;
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    padding: 1rem;
+    min-width: 600px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+header {
+    position: relative;
+}
+
+header .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .enter-or-register-box {
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+
+header nav {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 0.25rem;
+    margin-top: 1rem;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.middle {
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 20rem;
+}
+
+main {
+    margin-right: 21rem;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+aside section {
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+aside section .header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→ ";
+}
+
+aside section .body {
+    padding: 1rem;
+}
+
+aside section .footer {
+    border-top: 1px solid var(--border-color);
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+aside section .footer a {
+    float: right;
+    font-size: 0.75rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+.message {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--message-border-color);
+    background-color: var(--message-background-color);
+    text-align: center;
+}

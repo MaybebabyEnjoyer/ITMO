@@ -1,0 +1,23 @@
+main .user-page {
+    width: 98%;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 0.6rem;
+}
+
+main .user-page .username {
+    font-size: 1.7rem;
+}
+
+main .user-page .user-img {
+    float: right;
+}
+
+main .links {
+    font-size: 2rem;
+    color: grey;
+}
+
+main .links a {
+    text-decoration: none;
+}

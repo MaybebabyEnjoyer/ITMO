@@ -1,0 +1,73 @@
+/* article */
+main article {
+    margin-bottom: 2em;
+}
+
+main article .title {
+    color: var(--caption-color);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+main article .title a {
+    text-decoration: none;
+    color: var(--caption-color);
+}
+
+main article .information {
+    margin-top: 0.25rem;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+main article .body {
+    border-left: 4px solid var(--border-color);
+    padding-left: 0.75rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main article .body p:last-child {
+    margin: 0;
+}
+
+main article .attachment {
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+}
+
+main article .footer {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    padding: 0.1rem;
+    margin-top: 0.25rem;
+}
+
+main article .footer .left {
+    float: left;
+    padding-left: 0.5rem;
+}
+
+main article .footer .left img {
+    position: relative;
+    top: 5px;
+}
+
+main article .footer .right img {
+    position: relative;
+    margin-left: 0.5rem;
+    top: 2px;
+}
+
+main article .footer .right {
+    float: right;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
+
+main article .footer .positive-score {
+    color: green;
+    font-weight: bold;
+    line-height: 1.75rem;
+}

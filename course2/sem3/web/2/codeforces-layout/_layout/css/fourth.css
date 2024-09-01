@@ -1,0 +1,80 @@
+main .login-form-box {
+    border: var(--border);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .login-form-box .header {
+    border-bottom: var(--border);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+main .login-form-box .body {
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+main .login-form-box .body .field {
+    padding: 0.7rem 0.7rem 0;
+    margin-top: 0.7rem;
+}
+
+main .login-form-box .body .field .name {
+    display: inline-block;
+    width: 10rem;
+    text-align: right;
+}
+
+main .login-form-box .body .field .value {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+main .login-form-box .body .field .value input {
+    width: 15rem;
+}
+
+main .login-form-box .body .field .error {
+    color: red;
+    font-size: 0.75rem;
+    margin-left: 10.8rem;
+}
+
+main .login-form-box .body .checkbox-field {
+    margin-left: 11.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+main .login-form-box .body .checkbox-field label {
+    font-size: 0.75rem;
+}
+
+main .login-form-box .body .button-field {
+    margin-left: 11.5rem;
+}
+
+main .login-form-box .body .button-field input {
+    width: 5.5rem;
+}
+
+main .login-form-box .body .links {
+    float: right;
+    font-size: 0.75rem;
+}
+
+main .login-form-box .footer {
+    border-top: var(--border);
+    overflow: auto;
+}
+
+main .login-form-box .footer a {
+    float: right;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+}

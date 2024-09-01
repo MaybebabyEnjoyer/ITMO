@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codeforces</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/messages.css">
+    <script type="application/javascript" src="js/jquery-1.8.3.js"></script>
+</head>
+<body>
+<header>
+    <a href="/"><img src="img/logo.png" alt="Codeforces" title="Codeforces"/></a>
+    <div class="languages">
+        <a href="#"><img src="img/gb.png" alt="In English" title="In English"/></a>
+        <a href="#"><img src="img/ru.png" alt="In Russian" title="In Russian"/></a>
+    </div>
+    <div class="enter-or-register-box">
+        <a href="#">Enter</a>
+        |
+        <a href="#">Register</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Top</a></li>
+            <li><a href="#">Contests</a></li>
+            <li><a href="#">Gym</a></li>
+            <li><a href="#">Problemset</a></li>
+            <li><a href="#">Groups</a></li>
+            <li><a href="#">Rating</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="middle">
+    <aside>
+        <section>
+            <div class="header">
+                Pay attention
+            </div>
+            <div class="body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus enim facere impedit nobis,
+                nulla placeat quam suscipit unde voluptatibus.
+            </div>
+            <div class="footer">
+                <a href="#">View all</a>
+            </div>
+        </section>
+    </aside>
+    <main>
+        <ul class="messages">
+        </ul>
+        <div class="messages-auth-form" style="display: none;">
+            <form action="message/auth" method="post">
+                <label for="messages-auth-form__user">Enter your name:</label>
+                <input name="user" id="messages-auth-form__user">
+            </form>
+        </div>
+        <div class="messages-add-form" style="display: none;">
+            <form action="message/add" method="post">
+                <label for="messages-add-form__text">Enter your text:</label>
+                <input name="text" id="messages-add-form__text">
+            </form>
+        </div>
+        <script>
+            $(function () {
+                setInterval(function () {
+                    $.post("message/findAll", {}, function (messages) {
+                        $("ul.messages").empty();
+                        jQuery.each(messages, function (i) {
+                            const $li = $("<li></li>");
+                            $li.text(messages[i].user + ": " + messages[i].text);
+                            $("ul.messages").append($li);
+                        });
+                    }, "json");
+                }, 500);
+
+                $.post("message/auth", {}, function(user) {
+                    if (user) {
+                        $(".messages-add-form").show();
+                        $(".messages-auth-form").hide();
+                    } else {
+                        $(".messages-add-form").hide();
+                        $(".messages-auth-form").show();
+                    }
+                }, "json");
+
+                $(".messages-auth-form form").submit(function () {
+                    $.post("message/auth", {"user": $(".messages-auth-form form input").val()}, function(user) {
+                        if (user && user.length > 0) {
+                            $(".messages-add-form").show();
+                            $(".messages-auth-form").hide();
+                        } else {
+                            $(".messages-add-form").hide();
+                            $(".messages-auth-form").show();
+                        }
+                    }, "json");
+
+                    return false;
+                });
+
+                $(".messages-add-form form").submit(function () {
+                    $.post("message/add", {"text": $(".messages-add-form form input").val()}, function() {
+                        $(".messages-add-form form input").val("");
+                    }, "json");
+                    return false;
+                });
+            })
+        </script>
+    </main>
+</div>
+<footer>
+    <a href="#">Codeforces</a> &copy; 2010-2022 by Mike Mirzayanov
+</footer>
+</body>
+</html>

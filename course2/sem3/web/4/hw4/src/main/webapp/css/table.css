@@ -1,0 +1,30 @@
+main .datatable .caption {
+    background: var(--table-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    padding: 0.25rem;
+    font-size: 0.8rem;
+}
+
+main .datatable table,
+main .datatable table th,
+main .datatable table td {
+    border: 1px solid var(--table-color);
+    border-collapse: collapse;
+}
+
+main .datatable table {
+    width: 100%;
+}
+
+
+main .datatable table th,
+main .datatable table td {
+    text-align: center;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+}
+
+main .datatable table tbody tr:nth-child(2n-1) {
+    background-color: #F8F8F8;
+}
