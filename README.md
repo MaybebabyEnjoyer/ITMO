@@ -16,6 +16,15 @@
 
 _Автор категорически против списывания_ by [mavlyut](https://github.com/mavlyut)
 
+---
+
+
+## Разное
+
+### [ДМ практики (форк джувика)](https://github.com/MaybebabyEnjoyer/Jovvik-fork)
+
+---
+
 ## 4 семестр
 
 ### [Алгоритмы и структуры данных](https://github.com/internet-director/ITMO_y2021/tree/main/term4/alko) by [internet_director](https://github.com/internet-director)
@@ -178,6 +187,8 @@ _Автор категорически против списывания_ by [ma
 
 ### [Архитектура ЭВМ(36+)](https://github.com/NikitaMsln/ct-homework/tree/main/1-sem/architecture) by [NikitaMsln](https://github.com/NikitaMsln)
 
+---
+
 ### [Архитектура ЭВМ(36+) y23](https://github.com/urokanen/comp-arch) by [urokanen](https://github.com/urokanen)
 
 ---
@@ -192,8 +203,3 @@ _Автор категорически против списывания_ by [ma
 - [Docker](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course1/sem1/digital-culture/docker)
 - [y2023 new tasks (Virt + Vim + Crypto)](https://github.com/4EZZZZ/ITMO_CT_DC) by [4EZZZZ](https://github.com/4EZZZZ)
 
----
-
-## Разное
-
-### [ДМ(практики)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
