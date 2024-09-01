@@ -69,6 +69,10 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
+### [Алгосы лабы](https://github.com/kryag/ct-itmo-algorithms/tree/main/sem-3) by [kryag](https://github.com/kryag)
+
+---
+
 ## 2 семестр
 
 ### [Парадигмы](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/paradigms)
