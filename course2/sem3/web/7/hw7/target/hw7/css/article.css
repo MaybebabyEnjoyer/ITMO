@@ -1,0 +1,27 @@
+main article .title {
+    padding: 0.25rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--caption-color);
+}
+
+main article .information {
+    padding: 0.25rem;
+    font-size: 0.83rem;
+    color: var(--attachment-color);
+}
+
+main article .body {
+    border-left: 0.3rem solid var(--border-color);
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+main article .body p:last-child {
+    margin-bottom: 0.5rem
+}
+
+
+
+

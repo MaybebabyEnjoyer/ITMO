@@ -1,0 +1,29 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>lesson4</display-name>
+
+    <servlet>
+        <servlet-name>staticServlet</servlet-name>
+        <servlet-class>ru.itmo.web.hw4.web.StaticServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>staticServlet</servlet-name>
+        <url-pattern>/js/*</url-pattern>
+        <url-pattern>/img/*</url-pattern>
+        <url-pattern>/css/*</url-pattern>
+        <url-pattern>/index.html</url-pattern>
+        <url-pattern>/favicon.ico</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>freemarkerServlet</servlet-name>
+        <servlet-class>ru.itmo.web.hw4.web.FreemarkerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>freemarkerServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,23 @@
+main article .title {
+    padding: 0.25rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+main article .title a {
+    text-decoration: none;
+    color: var(--caption-color);
+}
+
+main article .information {
+    padding: 0.25rem;
+    font-size: 0.83rem;
+    color: #888888;
+}
+
+main article .body {
+    border-left: 0.3rem solid var(--border-color);
+    margin-left: 0.3rem;
+    padding-left: 0.5rem;
+    margin-bottom: 2rem;
+}
