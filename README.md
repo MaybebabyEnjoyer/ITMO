@@ -31,6 +31,10 @@ _Автор категорически против списывания_ by [ma
 
 ## 3 семестр
 
+### [Матлог](https://www.instagram.com/modus_ponos/) by я + Варя
+
+---
+
 ### [OS-Lite](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite)
 
 - [Lab-1](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/OS-Lite/Lab1)
