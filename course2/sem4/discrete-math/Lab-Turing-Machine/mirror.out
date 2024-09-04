@@ -1,0 +1,28 @@
+start: Q0
+accept: q_accept
+reject: qr
+blank: _
+
+Q0 0 -> Q0 0 >
+Q0 1 -> Q0 1 >
+Q0 _ -> R X <
+
+Q1 X -> Q1 0 >
+Q1 0 -> Q1 0 >
+Q1 1 -> Q1 1 >
+Q1 _ -> QB 0 <
+
+Q2 X -> Q2 1 >
+Q2 0 -> Q2 0 >
+Q2 1 -> Q2 1 >
+Q2 _ -> QB 1 <
+
+QB 0 -> QB 0 <
+QB 1 -> QB 1 <
+QB X -> R X <
+
+R 0 -> Q1 X >
+R 1 -> Q2 X >
+R _ -> QF _ >
+
+QF X -> q_accept _ >
