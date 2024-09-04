@@ -1,0 +1,15 @@
+start: A
+accept: q_accept
+reject: qr
+blank: _
+
+A ( -> A ( >
+A x -> A x >
+A ) -> B x <
+A _ -> C _ <
+
+B x -> B x <
+B ( -> A x >
+
+C x -> C x <
+C _ -> q_accept _ ^
