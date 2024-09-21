@@ -119,6 +119,8 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
+### [ДМ практики](https://github.com/MaybebabyEnjoyer/ITMOxd/tree/main/course1/sem2/discrete-math/lol) by [urokanen](https://github.com/urokanen)
+
 ## [ДМ лабы](https://github.com/mavlyut/dm-labs-itmo/tree/main) by [mavlyut](https://github.com/mavlyut) УДАЛЕНО 11.03
 
 ## [C++ (1 поток)](https://github.com/NikitaMsln/ct-homework/tree/main/2-sem/cpp) by [NikitaMsln](https://github.com/NikitaMsln) (ДАННЫЕ УДАЛЕНЫ)

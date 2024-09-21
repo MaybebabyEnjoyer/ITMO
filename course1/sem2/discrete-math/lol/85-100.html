@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>85-100</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#весна-2020-задания-85-100">Весна 2020, задания 85-100</a>
+<ul>
+<li><a href="#пусть-l---формальный-язык.-докажите-что-ll">85. Пусть
+<span class="math inline">\(L\)</span> - формальный язык. Докажите, что
+<span class="math inline">\((L^*)^*=L^*\)</span></a></li>
+<li><a
+href="#пусть-r-и-s---языки.-докажите-или-опровергните-дистрибутивность-замыкния-клини-по-объединению-r-cup-s-stackrel-r-cup-s">86.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните
+дистрибутивность замыкния Клини по объединению: <span
+class="math inline">\((R \cup S)^* \stackrel{?}= R^* \cup
+S^*\)</span></a></li>
+<li><a
+href="#пусть-r-и-s---языки.-докажите-или-опровергните-дистрибутивность-замыкния-клини-по-пересечению-r-cap-s-r-cap-s">87.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните
+дистрибутивность замыкния Клини по пересечению: <span
+class="math inline">\((R \cap S)^* = R^* \cap S^*\)</span></a></li>
+<li><a
+href="#пусть-r-и-s---языки.-докажите-или-опровергните-что-r-cup-s-rs">88.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните, что
+<span class="math inline">\((R \cup S)^* = (R^*S^*)^*\)</span></a></li>
+<li><a
+href="#пусть-r-и-s---языки.-обозначим-как-rs-язык-слов-представимых-в-виде-конкатенации-слова-из-r-и-слова-из-s-в-этом-порядке.-докажите-или-опровергните-что-rcup-strt-cup-st-rcap-strt-cap-st">89.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Обозначим как <span
+class="math inline">\(RS\)</span> язык слов, представимых в виде
+конкатенации слова из <span class="math inline">\(R\)</span> и слова из
+<span class="math inline">\(S\)</span> (в этом порядке). Докажите или
+опровергните, что <span class="math inline">\((R\cup S)T=RT \cup
+ST\)</span>, <span class="math inline">\((R\cap S)T=RT \cap
+ST\)</span></a></li>
+<li><a
+href="#пусть-l---язык.-обозначим-как-lc-язык-который-получается-из-l-дописыванием-в-конец-каждому-слову-символа-c.-обозначим-как-lc-1-язык-который-получается-из-l-откидыванием-всех-слов-которые-не-заканчиваются-на-c-а-затем-у-оставшихся-слов-откидыванием-конечного-символа-c.-докажите-или-опровергните-что-lcc-1l-lc-1cl">90.
+Пусть <span class="math inline">\(L\)</span> - язык. Обозначим как <span
+class="math inline">\(Lc\)</span> язык, который получается из <span
+class="math inline">\(L\)</span> дописыванием в конец каждому слову
+символа <span class="math inline">\(c\)</span>. Обозначим как <span
+class="math inline">\(Lc^{-1}\)</span> язык, который получается из <span
+class="math inline">\(L\)</span> откидыванием всех слов, которые не
+заканчиваются на <span class="math inline">\(c\)</span>, а затем у
+оставшихся слов откидыванием конечного символа <span
+class="math inline">\(c\)</span>. Докажите или опровергните, что <span
+class="math inline">\((Lc)c^{-1}=L\)</span>, <span
+class="math inline">\((Lc^{-1})c=L\)</span></a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-четность-числа-0-равна-четности-числа-1.">91.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых четность числа <span class="math inline">\(0\)</span> равна
+четности числа <span class="math inline">\(1\)</span>.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3.">92.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-не-кратно-3.-сделайте-вывод-из-последних-двух-заданий.">93.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей не кратно 3. Сделайте вывод из последних двух
+заданий.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-нет-трех-нулей-подряд.">94.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых нет трех нулей подряд.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-есть-три-нуля-подряд.">95.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых есть три нуля подряд.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-которые-представляют-собой-двоичную-запись-чисел-кратных-5">96.
+Постройте конечный автомат для языка слов над бинарным алфавитом,
+которые представляют собой двоичную запись чисел, кратных 5</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3-и-которые-представляют-собой-двоичную-запись-чисел-кратных-5.">97.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3 и которые представляют собой двоичную
+запись чисел кратных 5.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3-или-которые-представляют-собой-двоичную-запись-чисел-кратных-5.-сделайте-вывод-из-последних-двух-заданий.">98.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3 или которые представляют собой двоичную
+запись чисел кратных 5. Сделайте вывод из последних двух
+заданий.</a></li>
+<li><a
+href="#постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-единиц-кратно-3.-сделайте-вывод.">99.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число единиц кратно 3. Сделайте вывод.</a></li>
+<li><a
+href="#постройте-детерминированный-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-второй-символ-с-конца-равен-последнему-символу.">100.
+Постройте детерминированный конечный автомат для языка слов над бинарным
+алфавитом, в которых второй символ с конца равен последнему
+символу.</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="весна-2020-задания-85-100">Весна 2020, задания 85-100</h1>
+<h3 id="пусть-l---формальный-язык.-докажите-что-ll">85. Пусть <span
+class="math inline">\(L\)</span> - формальный язык. Докажите, что <span
+class="math inline">\((L^*)^*=L^*\)</span></h3>
+<p>Докажем, что <span class="math inline">\((L^*)^*\subset L^*\)</span>
+и <span class="math inline">\((L^*)^*\supset L^*\)</span>.</p>
+<p><span class="math display">\[L^*=(L^*)^1\subset \bigcup (L^*)^i \quad
+\square\]</span></p>
+<p><span class="math display">\[\sphericalangle w\in (S^*)^*
+\xRightarrow{def} w=w_1w_2\ldots w_n, n\geq 0, w_j\in S^*
+\xRightarrow{def}\]</span> <span
+class="math display">\[\xRightarrow{def}w_j=w_{j1}w_{j2}\ldots w_{jm_j},
+m_j\geq 0, w_{ji}\in S\]</span> Итого <span
+class="math display">\[w=(w_{11}w_{12}\ldots
+w_{1m_1})(w_{21}w_{22}\ldots w_{2m_2})\ldots (w_{n1}w_{n2}\ldots
+w_{nm_n})\]</span> Заметим, что это не более чем счётная конкатенация
+строк <span class="math inline">\(\in S \Rightarrow w\in S^*\)</span>.
+Тогда <span class="math inline">\(w\in (S^*)^*\Rightarrow w\in
+S^*\)</span>, поэтому <span class="math inline">\((L^*)^*\subset
+L^*\)</span></p>
+<h3
+id="пусть-r-и-s---языки.-докажите-или-опровергните-дистрибутивность-замыкния-клини-по-объединению-r-cup-s-stackrel-r-cup-s">86.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните
+дистрибутивность замыкния Клини по объединению: <span
+class="math inline">\((R \cup S)^* \stackrel{?}= R^* \cup
+S^*\)</span></h3>
+<p>Опровергнем. <span class="math display">\[R:=\{a\} \quad S:=\{b\}
+\quad R\cup S = \{a, b\}\]</span> <span
+class="math display">\[R^*=\{\varepsilon, a, aa, aaa\ldots \} \quad
+S^*=\{\varepsilon, b, bb, bbb\ldots\} \quad (R \cup S)^*=\{\varepsilon,
+a, b, aa, ab, bb, aaa, aab \ldots\}\]</span> <span
+class="math display">\[ab\not\in (R^* \cup S^*) \Rightarrow
+\text{опровержение}\]</span></p>
+<h3
+id="пусть-r-и-s---языки.-докажите-или-опровергните-дистрибутивность-замыкния-клини-по-пересечению-r-cap-s-r-cap-s">87.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните
+дистрибутивность замыкния Клини по пересечению: <span
+class="math inline">\((R \cap S)^* = R^* \cap S^*\)</span></h3>
+<p>Опровергнем. <span class="math display">\[R:=\{a\} \quad S:=\{aa\}
+\quad R\cap S = \{\}\]</span> <span
+class="math display">\[R^*=\{\varepsilon, a, aa, aaa\ldots \} \quad
+S^*=\{\varepsilon, aa, aaaa, aaaaaa\ldots\} \quad (R \cap
+S)^*=\{\varepsilon\}\]</span> <span class="math display">\[R^* \cap
+S^*=\{\varepsilon, aa, aaaa,
+aaaaaa\ldots\}\not=\{\varepsilon\}\]</span></p>
+<h3
+id="пусть-r-и-s---языки.-докажите-или-опровергните-что-r-cup-s-rs">88.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Докажите или опровергните, что
+<span class="math inline">\((R \cup S)^* = (R^*S^*)^*\)</span></h3>
+<p><span class="math display">\[\sphericalangle w\in (R \cup S)^*
+\xRightarrow{def}w=w_1w_2\ldots w_n, n\geq 0, w_j\in R \cup S
+\Leftrightarrow w_j\in R \text{ или } w_j\in S\]</span> Заметим, что
+<span class="math inline">\(R=R^1S^0\subset R^*S^* \quad S=R^0S^1
+\subset R^*S^*\)</span>, поэтому <span class="math inline">\(w_j\in
+(R^*S^*) \Rightarrow w\in (R^*S^*)^*\)</span></p>
+<p><span class="math display">\[\sphericalangle w\in (R^*S^*)^*
+\xRightarrow{def} w=w_1w_2\ldots w_n, n\geq 0, w_j\in
+R^*S^*\Rightarrow\]</span> <span class="math display">\[\Rightarrow
+w_j=rs, r\in R^*, s\in S^* \Rightarrow\]</span> <span
+class="math display">\[\Rightarrow w_j=r_{j1}r_{j2}\ldots
+r_{jm_j}s_{j1}s_{j_2}\ldots s_{jk_j}\]</span> Итого <span
+class="math inline">\(w=(r_{11}r_{12}\ldots r_{1m_1}s_{11}s_{12}\ldots
+s_{1k_1})(r_{21}r_{22}\ldots r_{2m_2}s_{21}s_{22}\ldots
+s_{2k_2})\ldots(r_{n1}r_{n2}\ldots r_{nm_1}s_{n1}s_{n2}\ldots
+s_{nk_n})\)</span> - не более чем счётная конкатенация строк из <span
+class="math inline">\(R\)</span> и <span class="math inline">\(S
+\Rightarrow w\in (R \cup S)^*\)</span></p>
+<h3
+id="пусть-r-и-s---языки.-обозначим-как-rs-язык-слов-представимых-в-виде-конкатенации-слова-из-r-и-слова-из-s-в-этом-порядке.-докажите-или-опровергните-что-rcup-strt-cup-st-rcap-strt-cap-st">89.
+Пусть <span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> - языки. Обозначим как <span
+class="math inline">\(RS\)</span> язык слов, представимых в виде
+конкатенации слова из <span class="math inline">\(R\)</span> и слова из
+<span class="math inline">\(S\)</span> (в этом порядке). Докажите или
+опровергните, что <span class="math inline">\((R\cup S)T=RT \cup
+ST\)</span>, <span class="math inline">\((R\cap S)T=RT \cap
+ST\)</span></h3>
+<p><span class="math inline">\((R\cup S)T=RT \cup ST\)</span> <span
+class="math display">\[\sphericalangle w\in (R\cup S)T \Leftrightarrow
+w=at, a\in R\cup S \Leftrightarrow w=\begin{cases}
+    rt \\
+    st
+\end{cases} , r\in R, s\in S, t\in T\]</span> <span
+class="math display">\[\sphericalangle w\in RT \cup ST \Leftrightarrow
+w=\begin{cases}
+    rt \\
+    st
+\end{cases} , r\in R, s\in S, t\in T\]</span> <span
+class="math display">\[\Rightarrow(R\cup S)T=RT \cup  ST \]</span> <span
+class="math inline">\((R\cap S)T=RT \cap ST\)</span> <span
+class="math display">\[\sphericalangle w\in (R\cap S)T \Leftrightarrow
+w=at, a\in R\cap S \Leftrightarrow a\in R \text{ и } a\in S
+\Leftrightarrow w=rt \text{ и }w=st\]</span> <span
+class="math display">\[\sphericalangle w\in RT \cap ST \Leftrightarrow
+w\in RT \text{ и } w\in ST \Leftrightarrow w = rt \text{ и } w =
+st\]</span> <span class="math display">\[\Rightarrow (R\cap S)T=RT \cap
+ST\]</span></p>
+<h3
+id="пусть-l---язык.-обозначим-как-lc-язык-который-получается-из-l-дописыванием-в-конец-каждому-слову-символа-c.-обозначим-как-lc-1-язык-который-получается-из-l-откидыванием-всех-слов-которые-не-заканчиваются-на-c-а-затем-у-оставшихся-слов-откидыванием-конечного-символа-c.-докажите-или-опровергните-что-lcc-1l-lc-1cl">90.
+Пусть <span class="math inline">\(L\)</span> - язык. Обозначим как <span
+class="math inline">\(Lc\)</span> язык, который получается из <span
+class="math inline">\(L\)</span> дописыванием в конец каждому слову
+символа <span class="math inline">\(c\)</span>. Обозначим как <span
+class="math inline">\(Lc^{-1}\)</span> язык, который получается из <span
+class="math inline">\(L\)</span> откидыванием всех слов, которые не
+заканчиваются на <span class="math inline">\(c\)</span>, а затем у
+оставшихся слов откидыванием конечного символа <span
+class="math inline">\(c\)</span>. Докажите или опровергните, что <span
+class="math inline">\((Lc)c^{-1}=L\)</span>, <span
+class="math inline">\((Lc^{-1})c=L\)</span></h3>
+<p><span class="math display">\[\forall w\in Lc \quad w=lc, l\in
+L\]</span> <span class="math display">\[(lc) c^{-1}=l\]</span> Поэтому
+да.</p>
+<p>Контрпример ко второму: <span class="math inline">\(L=\{a\}, \quad
+\{a\}c^{-1}=\{\} \quad \{\}c=\{c\}\)</span></p>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-четность-числа-0-равна-четности-числа-1.">91.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых четность числа <span class="math inline">\(0\)</span> равна
+четности числа <span class="math inline">\(1\)</span>.</h3>
+<figure>
+<img src="imgs/91.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3.">92.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3.</h3>
+<figure>
+<img src="imgs/92.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-не-кратно-3.-сделайте-вывод-из-последних-двух-заданий.">93.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей не кратно 3. Сделайте вывод из последних двух
+заданий.</h3>
+<figure>
+<img src="imgs/93.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<p>Вывод: они в объединении - <span class="math inline">\(\{0,
+1\}^*\)</span>. Более общее утверждение: <span class="math inline">\(A,
+B\)</span> - ДКА над алфавитом <span
+class="math inline">\(\Sigma\)</span>, <span
+class="math inline">\(A\)</span> построен для бинарного выражения <span
+class="math inline">\(f\)</span>, <span class="math inline">\(B\)</span>
+для <span class="math inline">\(\neg f\)</span>, <span
+class="math inline">\(L(A)\cup L(B) = \Sigma^*\)</span></p>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-нет-трех-нулей-подряд.">94.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых нет трех нулей подряд.</h3>
+<p>На паре было</p>
+<figure>
+<img src="imgs/94.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-есть-три-нуля-подряд.">95.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых есть три нуля подряд.</h3>
+<p>На паре было</p>
+<figure>
+<img src="imgs/95.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-которые-представляют-собой-двоичную-запись-чисел-кратных-5">96.
+Постройте конечный автомат для языка слов над бинарным алфавитом,
+которые представляют собой двоичную запись чисел, кратных 5</h3>
+<figure>
+<img src="imgs/96.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3-и-которые-представляют-собой-двоичную-запись-чисел-кратных-5.">97.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3 и которые представляют собой двоичную
+запись чисел кратных 5.</h3>
+<p><img src="imgs/97.dot.svg" alt="bruh" /> <img src="imgs/97v2.dot.svg"
+alt="bruh" /></p>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-нулей-кратно-3-или-которые-представляют-собой-двоичную-запись-чисел-кратных-5.-сделайте-вывод-из-последних-двух-заданий.">98.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число нулей кратно 3 или которые представляют собой двоичную
+запись чисел кратных 5. Сделайте вывод из последних двух заданий.</h3>
+<figure>
+<img src="imgs/98v2.dot.svg" alt="bruh" />
+<figcaption aria-hidden="true">bruh</figcaption>
+</figure>
+<p>Вывод: В 97 было прямое произведение ДКА, в 98 - объединение ДКА.
+<span class="math display">\[A\times B \leftrightarrow L(A)\cap L(B)
+\quad A\cup B \leftrightarrow L(A)\cup L(B)\]</span></p>
+<h3
+id="постройте-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-число-единиц-кратно-3.-сделайте-вывод.">99.
+Постройте конечный автомат для языка слов над бинарным алфавитом, в
+которых число единиц кратно 3. Сделайте вывод.</h3>
+<p><img src="imgs/99.dot.svg" /></p>
+<p>Это 92 номер с точностью до наоборот по алфавиту.</p>
+<h3
+id="постройте-детерминированный-конечный-автомат-для-языка-слов-над-бинарным-алфавитом-в-которых-второй-символ-с-конца-равен-последнему-символу.">100.
+Постройте детерминированный конечный автомат для языка слов над бинарным
+алфавитом, в которых второй символ с конца равен последнему
+символу.</h3>
+<p><img src="imgs/100.dot.svg" /></p>
+</body>
+</html>

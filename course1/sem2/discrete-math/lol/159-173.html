@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>159-173</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#задания-159-173">Задания 159-173</a>
+<ul>
+<li><a
+href="#кс-грамматика-называется-смешанной-линейной-если-в-правых-частях-правил-встречается-максимум-один-нетерминал-причем-если-он-есть-то-находится-либо-на-первом-либо-на-последнем-месте.-докажите-что-существует-кс-язык-не-являющийся-регулярным-который-можно-породить-смешанной-линейной-грамматикой.">159.
+КС грамматика называется смешанной линейной, если в правых частях правил
+встречается максимум один нетерминал, причем если он есть, то находится
+либо на первом, либо на последнем месте. Докажите, что существует КС
+язык, не являющийся регулярным, который можно породить смешанной
+линейной грамматикой.</a></li>
+<li><a href="#постройте-кс-грамматику-для-описаний-кс-грамматик.">160.
+Постройте КС-грамматику для описаний КС грамматик.</a></li>
+<li><a
+href="#верно-ли-что-любую-кс-грамматику-можно-привести-к-форме-когда-любое-правило-имеет-вид-arightarrow-bcd-или-arightarrow-a">161.
+Верно ли, что любую КС-грамматику можно привести к форме, когда любое
+правило имеет вид <span class="math inline">\(A\rightarrow BCD\)</span>
+или <span class="math inline">\(A\rightarrow a\)</span>?</a></li>
+<li><a
+href="#приведите-пример-кс-языка-не-являющегося-регулярным-дополнение-к-которому-также-является-кс.">162.
+Приведите пример КС-языка, не являющегося регулярным, дополнение к
+которому также является КС.</a></li>
+<li><a
+href="#приведите-пример-двух-кс-языков-не-являющихся-регулярными-пересечение-которых-также-является-кс-но-не-регулярным-причем-отлично-от-обоих-пересекаемых-языков.">163.
+Приведите пример двух КС-языков, не являющихся регулярными, пересечение
+которых также является КС, но не регулярным, причем отлично от обоих
+пересекаемых языков.</a></li>
+<li><a
+href="#предложите-алгоритм-проверки-что-в-грамматике-выводится-хотя-бы-одно-слово.">164.
+Предложите алгоритм проверки, что в грамматике выводится хотя бы одно
+слово.</a></li>
+<li><a
+href="#предложите-алгоритм-нахождения-слова-минимальной-длины-выводящегося-в-заданной-грамматике.">165.
+Предложите алгоритм нахождения слова минимальной длины, выводящегося в
+заданной грамматике.</a></li>
+<li><a
+href="#грамматика-называется-леворекурсивной-если-найдется-такой-нетерминал-a-что-за-один-или-более-шаг-из-a-можно-вывести-строку-которая-начинается-с-a-arightarrowaα.-предложите-алгоритм-который-проверяет-является-ли-грамматика-леворекурсивной.">166.
+Грамматика называется леворекурсивной, если найдется такой нетерминал
+<span class="math inline">\(A\)</span>, что за один или более шаг из A
+можно вывести строку, которая начинается с <span
+class="math inline">\(A\)</span> (<span
+class="math inline">\(A\Rightarrow^+Aα\)</span>). Предложите алгоритм,
+который проверяет, является ли грамматика леворекурсивной.</a></li>
+<li><a
+href="#предложите-алгоритм-проверки-что-в-заданная-кс-грамматика-в-нфх-порождает-конечное-число-слов.">167.
+Предложите алгоритм проверки, что в заданная КС грамматика в НФХ
+порождает конечное число слов.</a></li>
+<li><a
+href="#предложите-алгоритм-который-получает-на-вход-кс-грамматику-в-нфх-про-которую-с-помощью-алгоритма-из-предыдущего-задания-выяснили-что-она-порождает-конечное-число-слов.-на-выход-необходимо-выдать-самое-длинное-слово-которое-порождается-этой-ксг.">168.
+Предложите алгоритм, который получает на вход КС грамматику в НФХ, про
+которую с помощью алгоритма из предыдущего задания выяснили, что она
+порождает конечное число слов. На выход необходимо выдать самое длинное
+слово, которое порождается этой КСГ.</a></li>
+<li><a
+href="#билл-поменял-местами-шаги-алгоритма-приведения-ксг-к-нфх-он-сначала-удаляет-цепные-правила-а-затем-eps-правила.-будет-ли-корректно-работать-алгоритм">169.
+Билл поменял местами шаги алгоритма приведения КСГ к НФХ: он сначала
+удаляет цепные правила, а затем eps-правила. Будет ли корректно работать
+алгоритм?</a></li>
+<li><a
+href="#билл-поменял-местами-шаги-алгоритма-приведения-ксг-к-нфх-он-сначала-удаляет-eps-правила-а-затем-длинные-правые-части.-можно-ли-поправить-алгоритм-удаления-eps-правил-чтобы-он-работал-с-длинными-правыми-частями-чем-эта-версия-алгоритма-хуже-оригинальной">170.
+Билл поменял местами шаги алгоритма приведения КСГ к НФХ: он сначала
+удаляет eps-правила, а затем длинные правые части. Можно ли поправить
+алгоритм удаления eps-правил, чтобы он работал с длинными правыми
+частями? Чем эта версия алгоритма хуже оригинальной?</a></li>
+<li><a
+href="#алиса-разработала-свою-нормальную-форму-грамматики-в-которой-каждое-правило-имеет-вид-abcd-abc-или-ac.-как-обобщить-алгоритм-кяк-на-грамматики-в-такой-форме-сравните-получившийся-алгоритм-с-оригинальным.">171.
+Алиса разработала свою нормальную форму грамматики, в которой каждое
+правило имеет вид <span class="math inline">\(A→BCD\)</span>, <span
+class="math inline">\(A→BC\)</span> или <span
+class="math inline">\(A→c\)</span>. Как обобщить алгоритм КЯК на
+грамматики в такой форме? Сравните получившийся алгоритм с
+оригинальным.</a></li>
+<li><a
+href="#алиса-разработала-свою-нормальную-форму-грамматики-в-которой-каждое-правило-имеет-вид-abc-ab-или-ac.-как-обобщить-алгоритм-кяк-на-грамматики-в-такой-форме-сравните-получившийся-алгоритм-с-оригинальным.">172.
+Алиса разработала свою нормальную форму грамматики, в которой каждое
+правило имеет вид <span class="math inline">\(A→BC\)</span>, <span
+class="math inline">\(A→B\)</span> или <span
+class="math inline">\(A→c\)</span>. Как обобщить алгоритм КЯК на
+грамматики в такой форме? Сравните получившийся алгоритм с
+оригинальным.</a></li>
+<li><a
+href="#рассмотрим-дерево-разбора-некоторого-слова-в-грамматике-в-нфх.-как-соотносятся-количество-нетерминалов-и-терминалов-в-дереве">173.
+Рассмотрим дерево разбора некоторого слова в грамматике в НФХ. Как
+соотносятся количество нетерминалов и терминалов в дереве?</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="задания-159-173">Задания 159-173</h1>
+<h3
+id="кс-грамматика-называется-смешанной-линейной-если-в-правых-частях-правил-встречается-максимум-один-нетерминал-причем-если-он-есть-то-находится-либо-на-первом-либо-на-последнем-месте.-докажите-что-существует-кс-язык-не-являющийся-регулярным-который-можно-породить-смешанной-линейной-грамматикой.">159.
+КС грамматика называется смешанной линейной, если в правых частях правил
+встречается максимум один нетерминал, причем если он есть, то находится
+либо на первом, либо на последнем месте. Докажите, что существует КС
+язык, не являющийся регулярным, который можно породить смешанной
+линейной грамматикой.</h3>
+<p>Грамматика: - <span class="math inline">\(S\to aA\)</span> - <span
+class="math inline">\(A\to Sb\)</span> - <span
+class="math inline">\(S\to\varepsilon\)</span></p>
+<p>Дает язык <span class="math inline">\(a^ib^i\)</span>, не являющийся
+регулярным.</p>
+<h3 id="постройте-кс-грамматику-для-описаний-кс-грамматик.">160.
+Постройте КС-грамматику для описаний КС грамматик.</h3>
+<p>Для всех грамматик невозможно, т.к. различных нетерминалов можно
+придумать произвольно много, как и элементов алфавита.</p>
+<ul>
+<li><span class="math inline">\(S\to A``\rightarrow&quot;B ``\backslash
+n&quot;S\)</span></li>
+<li><span class="math inline">\(S\to\varepsilon\)</span></li>
+<li><span class="math inline">\(A\to A_0\)</span></li>
+<li><span class="math inline">\(A\to A_1\)</span></li>
+<li><span class="math inline">\(\vdots\)</span></li>
+<li><span class="math inline">\(B\to CB\)</span></li>
+<li><span class="math inline">\(B\to AB\)</span></li>
+<li><span class="math inline">\(B\to \varepsilon\)</span></li>
+<li><span class="math inline">\(C\to a_0\)</span></li>
+<li><span class="math inline">\(C\to a_1\)</span></li>
+<li><span class="math inline">\(\vdots\)</span></li>
+</ul>
+<h3
+id="верно-ли-что-любую-кс-грамматику-можно-привести-к-форме-когда-любое-правило-имеет-вид-arightarrow-bcd-или-arightarrow-a">161.
+Верно ли, что любую КС-грамматику можно привести к форме, когда любое
+правило имеет вид <span class="math inline">\(A\rightarrow BCD\)</span>
+или <span class="math inline">\(A\rightarrow a\)</span>?</h3>
+<p><span class="math inline">\(a\)</span> может быть <span
+class="math inline">\(\varepsilon\)</span>? Если нет, то очевидно
+нельзя, контрпример - грамматика <span
+class="math inline">\(S\to\varepsilon\)</span></p>
+<p>Допустим, что <span
+class="math inline">\(a\in\Sigma\cup\{\varepsilon\}\)</span></p>
+<p>Тогда очевидно можно, т.к. можно грамматику сначала свести к НФХ,
+потом к каждому правилу вида <span class="math inline">\(A\to
+BC\)</span> дописать <span class="math inline">\(D\)</span>, где <span
+class="math inline">\(D\to\varepsilon\)</span> и других переходов из
+<span class="math inline">\(D\)</span> нет.</p>
+<h3
+id="приведите-пример-кс-языка-не-являющегося-регулярным-дополнение-к-которому-также-является-кс.">162.
+Приведите пример КС-языка, не являющегося регулярным, дополнение к
+которому также является КС.</h3>
+<p>Язык <span class="math inline">\(0^i1^i\)</span> нерегулярен,
+грамматика к нему - 143.</p>
+<p>Его дополнение - <span class="math inline">\(\overline L = \{0^i1^j \
+|\ i\not=j\}\)</span></p>
+<p><span class="math inline">\(\overline L = L_0\cup L_1, L_0=\{0^i1^j\
+|\ i&gt;j\}, L_1=\{0^i1^j\ |\ i&lt;j\}\)</span></p>
+<p><span class="math inline">\(L_0 =0^+(01)^*, L_1 =
+(01)^*1^+\)</span></p>
+<p>Альтернативно: <span class="math inline">\(\overline L = 0\overline
+L_0\cup \overline L_11 \quad \overline L_0=0^*(01)^*, \overline
+L_1=(01)^*1^*\)</span></p>
+<p>КС-грамматика для <span class="math inline">\(\overline L\)</span>: -
+<span class="math inline">\(S\to 0Q \quad S\to R1 \quad\)</span> (либо
+<span class="math inline">\(\overline L_0\)</span>, либо <span
+class="math inline">\(\overline L_1\)</span>) - <span
+class="math inline">\(Q\to0Q \quad Q\to T \quad\)</span> (<span
+class="math inline">\(0^*\)</span>) - <span class="math inline">\(R\to
+R1 \quad R\to T \quad\)</span> (<span
+class="math inline">\(1^*\)</span>) - <span class="math inline">\(T\to
+0T1 \quad T\to\varepsilon \quad\)</span> (<span
+class="math inline">\((01)^*\)</span>)</p>
+<p>Итого, <span class="math inline">\(\overline L\)</span> тоже КС.</p>
+<h3
+id="приведите-пример-двух-кс-языков-не-являющихся-регулярными-пересечение-которых-также-является-кс-но-не-регулярным-причем-отлично-от-обоих-пересекаемых-языков.">163.
+Приведите пример двух КС-языков, не являющихся регулярными, пересечение
+которых также является КС, но не регулярным, причем отлично от обоих
+пересекаемых языков.</h3>
+<ul>
+<li><span class="math inline">\(L_1 = \{0^i1^i \ |\ i\mid
+2\}\)</span></li>
+<li><span class="math inline">\(L_2 = \{0^i1^i \ |\ i\mid
+3\}\)</span></li>
+<li><span class="math inline">\(L_3 = L_1\cap L_2 = \{0^i1^i \ |\ i\mid
+2\ \wedge\ i\mid 3 \} = \{0^i1^i \ |\ i\mid 6\}\)</span></li>
+</ul>
+<h3
+id="предложите-алгоритм-проверки-что-в-грамматике-выводится-хотя-бы-одно-слово.">164.
+Предложите алгоритм проверки, что в грамматике выводится хотя бы одно
+слово.</h3>
+<p>Есть два варианта: либо в условии подразумевается КС грамматика, либо
+произвольная.</p>
+<p>Для произвольной: какой-то бан.</p>
+<p>Для КС: уберем все нетерминалы, тогда исходная грамматика пустая
+<span class="math inline">\(\Leftrightarrow\)</span> полученный язык не
+генерит пустую строку <em>(ничего другого он не может
+сгенерить)</em>.</p>
+<p>Нетерминал <span class="math inline">\(A\)</span> генерит пустую
+строку <span class="math inline">\(\Leftrightarrow\)</span> <span
+class="math inline">\(\exists\)</span> правило <span
+class="math inline">\(A\to B\in N^*+*, \forall b\in B\)</span> генерит
+пустую строку.</p>
+<p>Линейным сканом найдем все правила вида <span
+class="math inline">\(A\to\varepsilon\)</span>, заменим во правых частях
+правил <span class="math inline">\(A\)</span> на <span
+class="math inline">\(\varepsilon\)</span>, повторим.</p>
+<h3
+id="предложите-алгоритм-нахождения-слова-минимальной-длины-выводящегося-в-заданной-грамматике.">165.
+Предложите алгоритм нахождения слова минимальной длины, выводящегося в
+заданной грамматике.</h3>
+<p><span class="math inline">\(dp[A]=0\)</span>, если <span
+class="math inline">\(\exists : A\to\varepsilon\)</span></p>
+<p>Переберем правила:</p>
+<ul>
+<li><span class="math inline">\(A\to B_0a_0B_1a_1\ldots\)</span> <span
+class="math inline">\(\quad, B_i\in N \quad a_i\in
+\Sigma^*\)</span></li>
+<li><span class="math inline">\(dp[A]=\min(dp[A],
+dp[B_0]+|a_0|+dp[B_1]+|a_1|+\ldots)\)</span></li>
+</ul>
+<p>Асимптотика: <span class="math inline">\(\mathcal O(nm)\)</span>,
+<span class="math inline">\(n\)</span> - число правил, <span
+class="math inline">\(m\)</span> - средняя длина элементов в
+правиле.</p>
+<h3
+id="грамматика-называется-леворекурсивной-если-найдется-такой-нетерминал-a-что-за-один-или-более-шаг-из-a-можно-вывести-строку-которая-начинается-с-a-arightarrowaα.-предложите-алгоритм-который-проверяет-является-ли-грамматика-леворекурсивной.">166.
+Грамматика называется леворекурсивной, если найдется такой нетерминал
+<span class="math inline">\(A\)</span>, что за один или более шаг из A
+можно вывести строку, которая начинается с <span
+class="math inline">\(A\)</span> (<span
+class="math inline">\(A\Rightarrow^+Aα\)</span>). Предложите алгоритм,
+который проверяет, является ли грамматика леворекурсивной.</h3>
+<p>Переберем все нетерминалы как кандитаты на леворекурсивный.</p>
+<p>Построим отношение <span class="math inline">\(A\Rightarrow
+B\alpha\)</span> в линию: 1. Найдем все терминалы <span
+class="math inline">\(C: C_i\Rightarrow^+\varepsilon\)</span> 2.
+Переберем все переходы, <span class="math inline">\(A\Rightarrow
+B\alpha\)</span>, если: 1. <span class="math inline">\(A\to
+B\ldots\)</span> 2. <span class="math inline">\(A\to C_iC_j\ldots
+C_kB\ldots\)</span></p>
+<p>Замкнем это отношение и найдем петли.</p>
+<h3
+id="предложите-алгоритм-проверки-что-в-заданная-кс-грамматика-в-нфх-порождает-конечное-число-слов.">167.
+Предложите алгоритм проверки, что в заданная КС грамматика в НФХ
+порождает конечное число слов.</h3>
+<ol type="1">
+<li>Найдем все терминирующие нетерминалы, т.е. <span
+class="math inline">\(A : A\Rightarrow^*\alpha\in\Sigma^*\)</span>:
+<ol type="1">
+<li>Линейным сканом найдем <span
+class="math inline">\(A\Rightarrow\alpha\)</span></li>
+<li>Если <span class="math inline">\(A\Rightarrow BC\)</span> и <span
+class="math inline">\(BC\)</span> терминирующие, то <span
+class="math inline">\(A\)</span> тоже терминирующий <span
+class="math inline">\(\Rightarrow\)</span> можно найти за линию с
+мемоизацией.</li>
+</ol></li>
+<li>Построим граф для всех правил вида <span class="math inline">\(A\to
+BC\)</span>, каждое такое правило дает два ребра.</li>
+<li>Найдем все циклы в этом графе. Если в цикле есть нетерминирующий
+нетерминал, то есть бесконечное число путей, оканчивающихся в
+нетерминирующем нетерминале <span
+class="math inline">\(\Rightarrow\)</span> слов бесконечно.</li>
+<li>Если такого цикла нет, то слов конечно.</li>
+<li>Ещё надо проверить, что в этот цикл можно прийти.</li>
+</ol>
+<h3
+id="предложите-алгоритм-который-получает-на-вход-кс-грамматику-в-нфх-про-которую-с-помощью-алгоритма-из-предыдущего-задания-выяснили-что-она-порождает-конечное-число-слов.-на-выход-необходимо-выдать-самое-длинное-слово-которое-порождается-этой-ксг.">168.
+Предложите алгоритм, который получает на вход КС грамматику в НФХ, про
+которую с помощью алгоритма из предыдущего задания выяснили, что она
+порождает конечное число слов. На выход необходимо выдать самое длинное
+слово, которое порождается этой КСГ.</h3>
+<p>Перебор всех решений <em>(по какому из правил идти)</em>, не заходя в
+нетерминирующие нетерминалы, <span
+class="math inline">\(\Omega\)</span>лул.</p>
+<p>Будем игнорить все нетерминирующие терминалы.</p>
+<p><span class="math inline">\(maximum(A)\)</span> - мемоизованная
+функция:</p>
+<p>Для каждого ребра вида: - <span class="math inline">\(A\to
+a\)</span>: <span class="math inline">\(maximum[A]=\max(maximum(A),
+a)\)</span> - <span class="math inline">\(A\to BC\)</span>: <span
+class="math inline">\(maximum[A]=\max(maximum(B),
+maximum(C))\)</span></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>maximum(A):</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">max</span>([a <span class="cf">for</span> A<span class="op">-&gt;</span>a], [<span class="bu">max</span>(B), <span class="bu">max</span>(C) <span class="cf">for</span> A<span class="op">-&gt;</span>BC])</span></code></pre></div>
+<h3
+id="билл-поменял-местами-шаги-алгоритма-приведения-ксг-к-нфх-он-сначала-удаляет-цепные-правила-а-затем-eps-правила.-будет-ли-корректно-работать-алгоритм">169.
+Билл поменял местами шаги алгоритма приведения КСГ к НФХ: он сначала
+удаляет цепные правила, а затем eps-правила. Будет ли корректно работать
+алгоритм?</h3>
+<p>Нет, т.к. удаление <span
+class="math inline">\(\varepsilon\)</span>-правил может привести к
+появлению новых цепных правил</p>
+<p>TODO: пример</p>
+<h3
+id="билл-поменял-местами-шаги-алгоритма-приведения-ксг-к-нфх-он-сначала-удаляет-eps-правила-а-затем-длинные-правые-части.-можно-ли-поправить-алгоритм-удаления-eps-правил-чтобы-он-работал-с-длинными-правыми-частями-чем-эта-версия-алгоритма-хуже-оригинальной">170.
+Билл поменял местами шаги алгоритма приведения КСГ к НФХ: он сначала
+удаляет eps-правила, а затем длинные правые части. Можно ли поправить
+алгоритм удаления eps-правил, чтобы он работал с длинными правыми
+частями? Чем эта версия алгоритма хуже оригинальной?</h3>
+<p>Алгоритм поправить можно, но время будет хуже.</p>
+<p>TODO: пояснить</p>
+<h3
+id="алиса-разработала-свою-нормальную-форму-грамматики-в-которой-каждое-правило-имеет-вид-abcd-abc-или-ac.-как-обобщить-алгоритм-кяк-на-грамматики-в-такой-форме-сравните-получившийся-алгоритм-с-оригинальным.">171.
+Алиса разработала свою нормальную форму грамматики, в которой каждое
+правило имеет вид <span class="math inline">\(A→BCD\)</span>, <span
+class="math inline">\(A→BC\)</span> или <span
+class="math inline">\(A→c\)</span>. Как обобщить алгоритм КЯК на
+грамматики в такой форме? Сравните получившийся алгоритм с
+оригинальным.</h3>
+<p><span class="math display">\[d[A][i][j] = \left(\bigvee_{A\to
+BC}\bigvee_{k=i}^{j-1}d[B][i][k]\wedge d[C][k+1][j]\right) \vee
+\left(\bigvee_{A\to
+BCD}\bigvee_{k=i}^{j-2}\bigvee_{l=k+1}^{j-1}d[B][i][k]\wedge
+d[C][k+1][l] \wedge d[D][l+1][j]\right)\]</span></p>
+<p>Проход по подстрокам <span class="math inline">\(\mathcal
+O(n^2)\)</span>, для каждой подстроки <span
+class="math inline">\(\mathcal
+O(n\cdot|\Gamma|+n^2\cdot|\Gamma|)=\mathcal
+O(n^2\cdot|\Gamma|)\)</span></p>
+<p>Итого: <span class="math inline">\(\mathcal O(n^4\cdot
+|\Gamma|)\)</span>.</p>
+<h3
+id="алиса-разработала-свою-нормальную-форму-грамматики-в-которой-каждое-правило-имеет-вид-abc-ab-или-ac.-как-обобщить-алгоритм-кяк-на-грамматики-в-такой-форме-сравните-получившийся-алгоритм-с-оригинальным.">172.
+Алиса разработала свою нормальную форму грамматики, в которой каждое
+правило имеет вид <span class="math inline">\(A→BC\)</span>, <span
+class="math inline">\(A→B\)</span> или <span
+class="math inline">\(A→c\)</span>. Как обобщить алгоритм КЯК на
+грамматики в такой форме? Сравните получившийся алгоритм с
+оригинальным.</h3>
+<p><span class="math display">\[d[A][i][j] = \left(\bigvee_{A\to
+BC}\bigvee_{k=i}^{j-1}d[B][i][k]\wedge d[C][k+1][j]\right) \vee
+\left(\bigvee_{A\to B} d[B][i][j]\right)\]</span></p>
+<p><span class="math display">\[\mathcal O(n^2 \cdot
+(n|\Gamma|+|\Gamma|))=\mathcal O(n^3|\Gamma|)\]</span></p>
+<h3
+id="рассмотрим-дерево-разбора-некоторого-слова-в-грамматике-в-нфх.-как-соотносятся-количество-нетерминалов-и-терминалов-в-дереве">173.
+Рассмотрим дерево разбора некоторого слова в грамматике в НФХ. Как
+соотносятся количество нетерминалов и терминалов в дереве?</h3>
+<p>В строго двоичном дереве соотношение узлы+листы/листы <span
+class="math inline">\(\frac{2n-1}{n}\)</span>.</p>
+</body>
+</html>

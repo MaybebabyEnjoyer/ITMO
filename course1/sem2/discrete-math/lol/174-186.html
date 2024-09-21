@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>174-186</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#задания-174-186">Задания 174-186</a>
+<ul>
+<li><a href="#докажите-что-язык-не-является-кс-0i1j2k-ijk.">174.
+Докажите, что язык не является КС: <span
+class="math inline">\(0^i1^j2^k, i&lt;j&lt;k\)</span>.</a></li>
+<li><a href="#докажите-что-язык-не-является-кс-0n1n2k-kn">175. Докажите,
+что язык не является КС: <span class="math inline">\(0^n1^n2^k,
+k&lt;n\)</span></a></li>
+<li><a href="#докажите-что-язык-не-является-кс-0p-p---простое">176.
+Докажите, что язык не является КС: <span class="math inline">\(0^p,
+p\)</span> - простое</a></li>
+<li><a
+href="#докажите-что-язык-двоичных-записей-простых-чисел-не-является-кс.">177.
+Докажите, что язык двоичных записей простых чисел не является
+КС.</a></li>
+<li><a href="#докажите-что-язык-не-является-кс-0i1j-ji2.">178. Докажите,
+что язык не является КС: <span class="math inline">\(0^i1^j,
+j=i^2\)</span>.</a></li>
+<li><a href="#докажите-что-язык-не-является-кс-0n1n2k-nk2n.">179.
+Докажите, что язык не является КС: <span
+class="math inline">\(0^n1^n2^k\)</span>, <span
+class="math inline">\(n&lt;k&lt;2n\)</span>.</a></li>
+<li><a
+href="#докажите-что-язык-не-является-кс-wwrw-w---строка-из-0-и-1-wr---развернутая-строка-w.">180.
+Докажите, что язык не является КС: <span
+class="math inline">\(ww^Rw\)</span>, <span
+class="math inline">\(w\)</span> - строка из 0 и 1, <span
+class="math inline">\(w^R\)</span> - развернутая строка <span
+class="math inline">\(w\)</span>.</a></li>
+<li><a href="#докажите-что-язык-0n1m2n3m-не-является-кс.">181. Докажите,
+что язык <span class="math inline">\(0^n1^m2^n3^m\)</span> не является
+КС.</a></li>
+<li><a href="#докажите-что-язык-0n1m2n-nm-не-является-кс.">182.
+Докажите, что язык <span class="math inline">\(0^n1^m2^n\ |\
+n≠m\)</span> не является КС.</a></li>
+<li><a
+href="#верно-ли-что-любой-кс-язык-над-односимвольным-алфавитом-является-регулярным">183.
+Верно ли, что любой КС-язык над односимвольным алфавитом является
+регулярным?</a></li>
+<li><a
+href="#рассмотрим-несколько-неправильных-модификаций-леммы-о-разрастании-для-кс-языков.-для-каждой-модификации-придумайте-кс-язык-который-не-удовлетворяет-этой-лемме.-для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-четыре-части-wuvyz-где-vyn-vyε-что-для-любого-k0-uvkykzl.">184.
+Рассмотрим несколько неправильных модификаций леммы о разрастании для
+КС-языков. Для каждой модификации придумайте КС-язык, который не
+удовлетворяет этой лемме. Для КС-языка <span
+class="math inline">\(L\)</span> существует число <span
+class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L, |w|≥n\)</span> можно разбить на четыре части
+<span class="math inline">\(w=uvyz\)</span>, где <span
+class="math inline">\(|vy|≤n\)</span>, <span
+class="math inline">\(vy≠ε\)</span> что для любого <span
+class="math inline">\(k≥0, uv^ky^kz∈L\)</span>.</a></li>
+<li><a
+href="#для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-четыре-части-wvxyz-где-vxyn-vyε-что-для-любого-k0-vkxykzl.">185.
+Для КС-языка <span class="math inline">\(L\)</span> существует число
+<span class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L\)</span>, <span
+class="math inline">\(|w|≥n\)</span> можно разбить на четыре части <span
+class="math inline">\(w=vxyz\)</span>, где <span
+class="math inline">\(|vxy|≤n\)</span>, <span
+class="math inline">\(vy≠ε\)</span>, что для любого <span
+class="math inline">\(k≥0, v^kxy^kz∈L\)</span>.</a></li>
+<li><a
+href="#докажите-что-следующая-модификация-леммы-о-разрастании-верна-для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-пять-частей-wuvxyz-где-vxyn-vε-yε-что-для-любого-k0-uvkxykzl.">186.
+Докажите, что следующая модификация леммы о разрастании верна: Для
+КС-языка <span class="math inline">\(L\)</span> существует число <span
+class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L\)</span>, <span
+class="math inline">\(|w|≥n\)</span> можно разбить на пять частей <span
+class="math inline">\(w=uvxyz\)</span>, где <span
+class="math inline">\(|vxy|≤n, v≠ε, y≠ε\)</span> что для любого <span
+class="math inline">\(k≥0, uv^kxy^kz∈L\)</span>.</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="задания-174-186">Задания 174-186</h1>
+<h3 id="докажите-что-язык-не-является-кс-0i1j2k-ijk.">174. Докажите, что
+язык не является КС: <span class="math inline">\(0^i1^j2^k,
+i&lt;j&lt;k\)</span>.</h3>
+<p>Слово <span class="math inline">\(0^n1^{n+1}2^{n+2}\)</span></p>
+<ul>
+<li><span class="math inline">\(v=0^a, y=0^b, x=0^c,
+z=0^d1^{n+1}2^{n+2}, u=0^{n-a-b-c-d}, k=n+1,
+uv^{n+1}xy^{n+1}z=0^{n+na+nb}1^{n+1}2^{n+2},n+na+nb&gt;n+1\Rightarrow
+uv^{n+1}xy^{n+1}z\not\in L\)</span></li>
+<li><span class="math inline">\(v=0^a, y=0^b1^d, x=0^c,
+z=1^{n+1-d}2^{n+2}, u=0^{n-a-b-c}, k=n+1,
+uv^{n+1}xy^{n+1}z=0^{n+na+nb}1^{n+1+nd}2^{n+2}, n+1+nd&gt;n+2\Rightarrow
+uv^{n+1}xy^{n+1}z\not\in L\)</span></li>
+<li><span class="math inline">\(v=0^a1^b, y=1^c, x=1^d,
+z=1^{n+1-b-c-d}2^{n+2}, u=0^{n-a}, k=n+1,
+uv^{n+1}xy^{n+1}z=0^{n+na}1^{n+1+nc+nd}2^{n+2},
+n+1+nc+nd&gt;n+2\Rightarrow uv^{n+1}xy^{n+1}z\not\in L\)</span></li>
+<li><span class="math inline">\(v=1^b, y=1^c2^a, x=1^d, z=2^{n+2-a},
+u=0^n1^{n+1-b-c-d}, k=0, uxz=0^n1^{n+1-b-c-d}1^d2^{n+2-a}, n+1-b-c\le
+n\Rightarrow uxz\not\in L\)</span></li>
+<li><span class="math inline">\(v=1^b2^c, y=2^a, x=2^d, z=2^{n+2-a-c-d},
+u=0^n1^{n+1-b}, k=0, uxz=0^n1^{n+1-b}2^d2^{n+2-a-c-d}, n+1-b\le
+n\Rightarrow uxz\not\in L\)</span></li>
+<li><span class="math inline">\(v=2^b, y=2^a, x=2^c, z=2^{n+2-a-b-c-d},
+u=0^n1^{n+1}2^d, k=0, uxz=0^n1^{n+1}2^d2^c2^{n+2-a-b-c-d}, n+2-a-b\le
+n+1\Rightarrow uxz\not\in L\)</span></li>
+</ul>
+<h3 id="докажите-что-язык-не-является-кс-0n1n2k-kn">175. Докажите, что
+язык не является КС: <span class="math inline">\(0^n1^n2^k,
+k&lt;n\)</span></h3>
+<p>Слово <span class="math inline">\(0^n1^n2^{n-1}\)</span></p>
+<ul>
+<li><span class="math inline">\(v=0^a, y=0^b, x=0^c, z=0^d1^n2^{n-1},
+u=0^{n-a-b-c-d}, uxz=0^{n-a-b}1^n2^{n-1}, n-a-b\not=n \Rightarrow
+uxz\not\in L\)</span></li>
+<li><span class="math inline">\(v=0^a, y=0^b1^d, x=0^c,
+z=1^{n-d}2^{n-1}, u=0^{n-a-b-c}, uxz=0^{n-a-b}1^{n-d}2^{n-1}, n-d\le n-1
+\Rightarrow uxz\not\in L\)</span></li>
+<li><span class="math inline">\(v=0^a1^b, y=1^c, x=1^d,
+z=1^{n-b-c-d}2^{n-1}, u=0^{n-a}, uxz=0^{n-a}1^{n-b-c}2^{n-1}, n-a\le n-1
+\Rightarrow uxz\not\in L\)</span></li>
+<li><span class="math inline">\(v=1^b, y=1^c2^a, x=1^d, z=2^{n-1-a},
+u=0^n1^{n-b-c-d}, uv^{e+1}xy^{e+1}z=0^n1^{n+eb+ec}2^{n-1+ea},
+n=n+eb+ec\Rightarrow b=c=0\Rightarrow a&gt;0, n-1+ea\ge n\Rightarrow
+uv^{e+1}xy^{e+1}z\not\in L\)</span></li>
+<li><span class="math inline">\(v=1^b2^c, y=2^a, x=2^d, z=2^{n-1-a-c-d},
+u=0^n1^{n-b}, uv^{e+1}xy^{e+1}z=0^n1^{n+eb}2^{n-1+ea+ec},
+n=n+eb\Rightarrow b=0\Rightarrow a&gt;0\wedge c&gt;0 \Rightarrow
+n-1+ea+ec\ge n\Rightarrow uv^{e+1}xy^{e+1}z\not\in L\)</span></li>
+</ul>
+<h3 id="докажите-что-язык-не-является-кс-0p-p---простое">176. Докажите,
+что язык не является КС: <span class="math inline">\(0^p, p\)</span> -
+простое</h3>
+<p><span class="math display">\[uvxyz=0^p\]</span> <span
+class="math display">\[uv^kxy^kz=0^{p+(k-1)n}\]</span> <span
+class="math display">\[k:=p+1\]</span> <span
+class="math display">\[uv^kxy^kz=0^{p+pn}, p+pn\mid p \Rightarrow p+pn
+\text{ не простое}\]</span> Альтернативы: - над унарным алфавитом КС
+<span class="math inline">\(\Leftrightarrow\)</span> регулярность -
+Parikh theorem</p>
+<h3
+id="докажите-что-язык-двоичных-записей-простых-чисел-не-является-кс.">177.
+Докажите, что язык двоичных записей простых чисел не является КС.</h3>
+<p><span class="math display">\[a\in L = uvxyz\]</span> <span
+class="math display">\[u\leftrightarrow U, v\leftrightarrow
+V,\ldots\]</span> <span class="math display">\[uvxyz \leftrightarrow
+U\cdot 2^a+V\cdot 2^b+X\cdot 2^c+Y\cdot2^d+Z=p\]</span> <span
+class="math display">\[uv^{p+1}xy^{p+1}z\leftrightarrow U\cdot 2^a\cdot
+2^{(|v|+|y|)p} + \sum_{k=0}^{p} V\cdot 2^b\cdot2^{|y|p}\cdot
+2^{k|x|}+X\cdot 2^c\cdot 2^{|y|p} + \sum_{k=0}^{p} Y\cdot 2^d\cdot
+2^{k|y|} + Z=\]</span> <span class="math display">\[=U\cdot 2^a\cdot
+2^{(|v|+|y|)p} + V\cdot 2^b\cdot2^{|y|p}\cdot 2^{|x|} \sum_{k=0}^{p} 2^k
++ X\cdot 2^c\cdot 2^{|y|p} + Y\cdot 2^d\cdot2^{|y|}\sum_{k=0}^{p} 2^k +
+Z=\]</span> <span class="math display">\[=U\cdot 2^a\cdot 2^{(|v|+|y|)p}
++ V\cdot 2^b\cdot2^{|y|p}\cdot 2^{|x|} (2^{p+1} - 1) + X\cdot 2^c\cdot
+2^{|y|p} + Y\cdot 2^d\cdot2^{|y|}\cdot(2^{p+1} - 1) + Z\]</span> По
+малой теореме ферма <span class="math inline">\(a^p\equiv a\pmod
+p\)</span> для простых <span class="math inline">\(p\)</span>. Дальше
+вычисления идут <span class="math inline">\(\pmod p\)</span>: <span
+class="math display">\[\equiv U\cdot 2^a\cdot 2^{|v|+|y|} + V\cdot
+2^b\cdot2^{|y|}\cdot 2^{|x|} (2 - 1) + X\cdot 2^c\cdot 2^{|y|} + Y\cdot
+2^d\cdot2^{|y|}\cdot(2 - 1) + Z\equiv \]</span> <span
+class="math display">\[\equiv U\cdot 2^a\cdot 2^{|v|+|y|} + V\cdot
+2^b\cdot2^{|y|}\cdot 2^{|x|} + X\cdot 2^c\cdot 2^{|y|} + Y\cdot
+2^d\cdot2^{|y|} + Z\equiv \]</span> <span class="math inline">\(p \ge
+2^a &gt; 2^{|x|}, p&gt;2^{|y|} \Rightarrow 2^{|x|} \equiv 1\pmod
+p\)</span> и <span class="math inline">\(2^{|y|} \equiv 1\pmod
+p\)</span>, т.к. <span class="math inline">\(p\)</span> и <span
+class="math inline">\(2^{|x|}\)</span> взаимно простые. (<span
+class="math inline">\(p^{2|y|}\)</span> тоже) <span
+class="math display">\[\equiv U\cdot 2^a + V\cdot 2^b + X\cdot 2^c +
+Y\cdot 2^d + Z\equiv p\equiv 0\]</span> Итого <span
+class="math inline">\(uv^{p+1}xy^{p+1}z\leftrightarrow\)</span> числу,
+которые делится на <span class="math inline">\(p \Rightarrow\)</span> не
+простое <span class="math inline">\(\Rightarrow uv^{p+1}xy^{p+1}z\not\in
+L\)</span></p>
+<h3 id="докажите-что-язык-не-является-кс-0i1j-ji2.">178. Докажите, что
+язык не является КС: <span class="math inline">\(0^i1^j,
+j=i^2\)</span>.</h3>
+<p>Слово <span class="math inline">\(0^n1^{n^2}\)</span></p>
+<!-- - $v=0^a, y=0^b, x=0^c, u=0^d, z=0^{n-a-b-c-d}1^{n^2}, uxz=0^{n-a-b}1^{n^2}\not\in L$ -->
+<ul>
+<li><span class="math inline">\(v=0^a, y=0^b1^c, x=0^d, u=0^{n-a-b-d},
+z=1^{n^2-c},
+uv^{e+1}xy^{e+1}z=0^{n-a-b-d}0^{(e+1)a}0^d0^{(e+1)b}1^{(e+1)c}1^{n^2-c}=0^{n+ea+eb}1^{n^2+ec}\)</span>
+<span class="math display">\[(n+ea+eb)^2\not= n^2+ec\]</span> <span
+class="math display">\[n^2+(ea)^2+(eb)^2+2nea+2neb+2e^2ab\not=
+n^2+ec\]</span> <span
+class="math display">\[(ea)^2+(eb)^2+2nea+2neb+2e^2ab\not= ec\]</span>
+<span class="math display">\[e:=c\]</span></li>
+<li><span class="math inline">\(v=0^a1^b, y=1^c, x=1^d, u=0^{n-a},
+z=1^{n^2-c-d}, uv^{e+1}xy^{e+1}z=0^{n+ea}1^{n^2+eb+ec}\)</span> <span
+class="math display">\[(n+ea)^2\not=n^2+eb+ec\]</span> <span
+class="math display">\[n^2+(ea)^2+2nea\not=n^2+eb+ec\]</span> <span
+class="math display">\[(ea)^2+2nea \not = eb+ec\]</span> <span
+class="math display">\[ea^2+2na \not= b + c\]</span> <span
+class="math display">\[e:=b+c\]</span></li>
+</ul>
+<h3 id="докажите-что-язык-не-является-кс-0n1n2k-nk2n.">179. Докажите,
+что язык не является КС: <span class="math inline">\(0^n1^n2^k\)</span>,
+<span class="math inline">\(n&lt;k&lt;2n\)</span>.</h3>
+<p>Слово <span class="math inline">\(0^n1^n2^{2n-1}\)</span></p>
+<ul>
+<li><span class="math inline">\(v=0^a, y=0^b, x=0^c, z=0^d1^n2^{2n-1},
+u=0^{n-a-b-c-d}, uxz=0^{n-a-b}1^n2^{2n-1}, n-a-b&lt;n\)</span></li>
+<li><span class="math inline">\(v=0^a, y=0^b1^d, x=0^c,
+z=1^{n-d}2^{2n-1}, u=0^{n-a-b-c}, uxz=0^{n-a-b}1^{n-d}2^{2n-1}, n-d&lt;n
+\Rightarrow 2(n-d)&lt;2n\Rightarrow 2(n-d)&lt;2n-1\)</span></li>
+<li><span class="math inline">\(v=0^a1^b, y=1^c, x=1^d,
+z=1^{n-b-c-d}2^{2n-1}, u=0^{n-a}, uxz=0^{n-a}1^{n-b-c}2^{2n-1}, n-a&lt;n
+\Rightarrow 2(n-a)&lt;2n\Rightarrow 2(n-a)&lt;2n-1\)</span></li>
+<li><span class="math inline">\(v=1^b, y=1^c2^a, x=1^d, z=2^{2n-1-a},
+u=0^n1^{n-b-c-d},
+uv^{e+1}xy^{e+1}z=0^n1^{n-b-c-d}1^{(e+1)b}1^d1^{(e+1)c}2^{(e+1)a}2^{2n-1-a}=0^n1^{n+eb+ec}2^{2n-1+ea},
+e:=n\)</span>, либо <span class="math inline">\(a\not=0\)</span> и тогда
+<span class="math inline">\(2n&lt;2n-1+na\)</span>, либо <span
+class="math inline">\(b+c\not=0\)</span> и <span
+class="math inline">\(n\not= n+e(b+c)\)</span></li>
+<li><span class="math inline">\(v=1^b2^c, y=2^a, x=2^d,
+z=2^{2n-1-a-c-d}, u=0^n1^{n-b},
+uv^{e+1}xy^{e+1}z=0^n1^{n-b}1^{(e+1)b}2^{(e+1)c}2^d2^{(e+1)a}2^{2n-1-a-c-d}=0^n1^{n+eb}2^{2n-1+ec+ea},
+e:=n\)</span>, аналогично.</li>
+</ul>
+<h3
+id="докажите-что-язык-не-является-кс-wwrw-w---строка-из-0-и-1-wr---развернутая-строка-w.">180.
+Докажите, что язык не является КС: <span
+class="math inline">\(ww^Rw\)</span>, <span
+class="math inline">\(w\)</span> - строка из 0 и 1, <span
+class="math inline">\(w^R\)</span> - развернутая строка <span
+class="math inline">\(w\)</span>.</h3>
+<p><span class="math inline">\(w=0^{n-1}10^{n-1}1\)</span>, слово: <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1}0^{n-1}10^{n-1}1\)</span></p>
+<p>Очевидно, что все больше, чем две <span
+class="math inline">\(1\)</span> не могут попасть в <span
+class="math inline">\(v\)</span> или <span
+class="math inline">\(y\)</span>, т.к. между ними расстояние <span
+class="math inline">\(\hspace{0pt}&gt;n\)</span>. Если <span
+class="math inline">\(v\)</span> или <span
+class="math inline">\(y\)</span> содержат хотя бы одну <span
+class="math inline">\(1\)</span>, в слове <span
+class="math inline">\(uxz\)</span> единиц <span
+class="math inline">\(t\)</span> штук <span class="math inline">\(: 4\le
+t\le 5 \Rightarrow uxz\not\in L\)</span></p>
+<p><span class="math inline">\(\sphericalangle v,y : 1\not\in v,
+1\not\in y\)</span></p>
+<p>Идея: вырезая <span class="math inline">\(v\)</span> и <span
+class="math inline">\(y\)</span> не получится слово <span
+class="math inline">\(\in L\)</span>, т.к. вырезание происходит из двух
+<span class="math inline">\(w\)</span>, третья <span
+class="math inline">\(\approx\)</span> чексумма. После вырезания нет
+альтернативного разбиения на <span class="math inline">\(ww^Rw\)</span>
+из-за <span class="math inline">\(1\)</span>.</p>
+<p>С <span class="math inline">\(w=0^{n-1}1\)</span> не заходит, т.к.
+(<span
+class="math inline">\(\underbrace{0\ldots0}_{I}11\underbrace{0\ldots0}_{II}1\)</span>)
+можно резать из <span class="math inline">\(II\)</span> в два раза
+больше, чем из <span class="math inline">\(I\)</span>, тогда получается
+верно.</p>
+<p>Три <span class="math inline">\(\tiny{\sout{пять}}^{²}\)</span>
+случая: 1. <span
+class="math inline">\(\underbrace{0\ldots}_{uvxy}\underbrace{.010..0110..010..010..01}_{z}
+\quad v=0^a, y=0^b,
+uxz=0^{n-1-a-b}10^{n-1}110^{n-1}10^{n-1}0^{n-1}10^{n-1}1, a+b\not=0
+\Rightarrow uxz\not\in L\)</span> 2. <span
+class="math inline">\(\underbrace{0\ldots}_{uv}\underbrace{.010.}_{x}\underbrace{\ldots}_{y}\underbrace{.0110..010..010..01}_{z}
+\quad v=0^a, y=0^b,
+uxz=0^{n-1-a}10^{n-1-b}110^{n-1}10^{n-1}0^{n-1}10^{n-1}1, a+b\not=0
+\Rightarrow uxz\not\in L\)</span> 3. <span
+class="math inline">\(\underbrace{0..1..}_{u}\underbrace{\ldots}_{vxy}\underbrace{.0110..010..010..01}_{z}
+\quad v=0^a, y=0^b,
+uxz=0^{n-1}10^{n-1-a-b}110^{n-1}10^{n-1}0^{n-1}10^{n-1}1, n-1-a\not=n-1
+\Rightarrow uxz\not\in L\)</span> 3. <span
+class="math inline">\(\underbrace{0..1..}_{u}\underbrace{\ldots}_{v}\underbrace{.0110.}_{x}\underbrace{\ldots}_{y}\underbrace{.010..010..01}_{z}
+\quad v=0^a, y=0^b,
+uxz=0^{n-1}10^{n-1-a}110^{n-1-b}10^{n-1}0^{n-1}10^{n-1}1, n-1-a\not=n-1
+\Rightarrow uxz\not\in L\)</span></p>
+<p><span class="math inline">\(\quad \quad \vdots\)</span></p>
+<p>И т.д: либо режем из одной части, либо из двух соседних: - <span
+class="math inline">\(0^{n-1}10^{n-1-a}110^{n-1-b}10^{n-1}0^{n-1}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1-a-b}10^{n-1}0^{n-1}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1-a}10^{n-1-b}0^{n-1}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1-a-b}0^{n-1}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1-a}0^{n-1-b}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1}0^{n-1-a-b}10^{n-1}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1}0^{n-1-a}10^{n-1-b}1\)</span>
+- <span
+class="math inline">\(0^{n-1}10^{n-1}110^{n-1}10^{n-1}0^{n-1}10^{n-1-a-b}1\)</span></p>
+<p>Очев каждый из случаев <span class="math inline">\(\not\in
+L\)</span></p>
+<h3 id="докажите-что-язык-0n1m2n3m-не-является-кс.">181. Докажите, что
+язык <span class="math inline">\(0^n1^m2^n3^m\)</span> не является
+КС.</h3>
+<p>Слово <span class="math inline">\(0^n1^n2^n3^n\)</span></p>
+<p>В <span class="math inline">\(v\)</span> и <span
+class="math inline">\(y\)</span> попадут только соседние (или
+одинаковые) числа: - Попало <span class="math inline">\(&gt;0\)</span>
+нулей: <span class="math inline">\(n&gt;uxz\#0\not=n=uxz\#2\)</span> -
+Попало <span class="math inline">\(&gt;0\)</span> единиц: <span
+class="math inline">\(n&gt;uxz\#1\not=n=uxz\#3\)</span></p>
+<p>Остальное симметрично</p>
+<h3 id="докажите-что-язык-0n1m2n-nm-не-является-кс.">182. Докажите, что
+язык <span class="math inline">\(0^n1^m2^n\ |\ n≠m\)</span> не является
+КС.</h3>
+<p>Слово <span class="math inline">\(0^{n!}1^{n}2^{n!}\)</span></p>
+<p>В <span class="math inline">\(v\)</span> и <span
+class="math inline">\(y\)</span> попадут только соседние (или
+одинаковые) числа: - Попало <span class="math inline">\(&gt;0\)</span>
+нулей: <span class="math inline">\(n!&gt;uxz\#0\not=n! =uxz\#2\)</span>
+- Попало <span class="math inline">\(&gt;0\)</span> двоек: <span
+class="math inline">\(n!&gt;uxz\#2\not=n! =uxz\#0\)</span> - Только
+единицы: <span
+class="math inline">\(uv^{e+1}xy^{e+1}z=0^{n!}1^{n+e(a+b)}2^{n!},
+e=\frac{n!}{a+b}-n \quad a+b\le n\Rightarrow n! \equiv 0\pmod {a+b}
+\Rightarrow e\in\N\)</span></p>
+<h3
+id="верно-ли-что-любой-кс-язык-над-односимвольным-алфавитом-является-регулярным">183.
+Верно ли, что любой КС-язык над односимвольным алфавитом является
+регулярным?</h3>
+<p>Да. “<span class="math inline">\(\Rightarrow\)</span>” Построим НКА
+для КС-языка.</p>
+<p>Воспользуемся тем, что языки над унарным алфавитом инвариантны по
+перестановкам.</p>
+<p>Будем поддерживать множество листов-нетерминалов <span
+class="math inline">\(N\)</span>, изначально это <span
+class="math inline">\(\{S\}\)</span>. Для <span
+class="math inline">\(n\in N\)</span> (недетерм. выбранного) переберем
+деревья разбора <span class="math inline">\(T\)</span> глубины <span
+class="math inline">\(\le 2^{|\Gamma|}\)</span>. Для каждого дерева
+создадим путь из <span class="math inline">\(N\rightsquigarrow N\cup
+T_s\)</span>, в котором <span class="math inline">\(a\)</span> (не <span
+class="math inline">\(\varepsilon\)</span>) переходов, где <span
+class="math inline">\(a\)</span> - число терминалов <span
+class="math inline">\(\in T\)</span>. Таким образом, для каждого дерева
+поглотится нужное число <span class="math inline">\(0\)</span> и
+появятся новые нетерминалы.</p>
+<p>Мб стоит делать то же самое, но с деревьями глубины <span
+class="math inline">\(1\)</span>, т.е. с переходами.</p>
+<p>“<span class="math inline">\(\Leftarrow\)</span>” Тривиально.</p>
+<h3
+id="рассмотрим-несколько-неправильных-модификаций-леммы-о-разрастании-для-кс-языков.-для-каждой-модификации-придумайте-кс-язык-который-не-удовлетворяет-этой-лемме.-для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-четыре-части-wuvyz-где-vyn-vyε-что-для-любого-k0-uvkykzl.">184.
+Рассмотрим несколько неправильных модификаций леммы о разрастании для
+КС-языков. Для каждой модификации придумайте КС-язык, который не
+удовлетворяет этой лемме. Для КС-языка <span
+class="math inline">\(L\)</span> существует число <span
+class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L, |w|≥n\)</span> можно разбить на четыре части
+<span class="math inline">\(w=uvyz\)</span>, где <span
+class="math inline">\(|vy|≤n\)</span>, <span
+class="math inline">\(vy≠ε\)</span> что для любого <span
+class="math inline">\(k≥0, uv^ky^kz∈L\)</span>.</h3>
+<p>Язык <span class="math inline">\(0^n10^n\)</span> - КС: <span
+class="math inline">\(S\to 0S0, S\to 1\)</span></p>
+<p>Раскачивать <span class="math inline">\(1\)</span> нельзя <span
+class="math inline">\(\Rightarrow\)</span> <span
+class="math inline">\(1\)</span> либо в суффиксе, либо в префиксе. Тогда
+раскачивается либо часть до <span class="math inline">\(1\)</span>, либо
+после <span class="math inline">\(\Rightarrow\)</span> левая часть не
+равна правой.</p>
+<h3
+id="для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-четыре-части-wvxyz-где-vxyn-vyε-что-для-любого-k0-vkxykzl.">185.
+Для КС-языка <span class="math inline">\(L\)</span> существует число
+<span class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L\)</span>, <span
+class="math inline">\(|w|≥n\)</span> можно разбить на четыре части <span
+class="math inline">\(w=vxyz\)</span>, где <span
+class="math inline">\(|vxy|≤n\)</span>, <span
+class="math inline">\(vy≠ε\)</span>, что для любого <span
+class="math inline">\(k≥0, v^kxy^kz∈L\)</span>.</h3>
+<p>Язык <span class="math inline">\(10^n\)</span> - КС: <span
+class="math inline">\(S\to 1T, T\to 0T, T\to\varepsilon\)</span></p>
+<p>Раскачивать <span class="math inline">\(1\)</span> нельзя, но
+придется.</p>
+<h3
+id="докажите-что-следующая-модификация-леммы-о-разрастании-верна-для-кс-языка-l-существует-число-n-что-любое-слово-wl-wn-можно-разбить-на-пять-частей-wuvxyz-где-vxyn-vε-yε-что-для-любого-k0-uvkxykzl.">186.
+Докажите, что следующая модификация леммы о разрастании верна: Для
+КС-языка <span class="math inline">\(L\)</span> существует число <span
+class="math inline">\(n\)</span>, что любое слово <span
+class="math inline">\(w∈L\)</span>, <span
+class="math inline">\(|w|≥n\)</span> можно разбить на пять частей <span
+class="math inline">\(w=uvxyz\)</span>, где <span
+class="math inline">\(|vxy|≤n, v≠ε, y≠ε\)</span> что для любого <span
+class="math inline">\(k≥0, uv^kxy^kz∈L\)</span>.</h3>
+<p><span class="math inline">\(\sphericalangle\)</span> КC <span
+class="math inline">\(L, n\in\N, w\in L : |w|\ge n\)</span></p>
+<p><span class="math inline">\(\tilde n := \frac{n}{2}\)</span></p>
+<p>По адекватной лемме:</p>
+<p><span class="math inline">\(\exist u,v,x,y,z : \begin{cases}  w=uvxyz
+\\  |vxy|\le \tilde n \\  |vx|\not=\varepsilon \end{cases} \quad \forall
+i\in\N\ \ uv^ixy^iz\in L\)</span></p>
+<ul>
+<li><span class="math inline">\(v\not=\varepsilon\)</span> и <span
+class="math inline">\(y\not=\varepsilon\)</span>: все норм</li>
+<li><span class="math inline">\(y=\varepsilon\)</span>: <span
+class="math display">\[\overline x := \varepsilon, \overline y=v,
+\overline z=xz \quad uv^i\overline x\overline y^i\overline
+z=uv^iv^ixz=uv^{2i}x\varepsilon^{2i}z=uv^{2i}x\varepsilon^{2i}z\in L,
+|v\overline x\overline y|=2|v|\le 2\frac{n}{2}\le n\]</span></li>
+<li><span class="math inline">\(v=\varepsilon\)</span>: аналогично</li>
+</ul>
+</body>
+</html>

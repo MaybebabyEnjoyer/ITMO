@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>121-141</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#задания-121-140">Задания 121-140</a>
+<ul>
+<li><a
+href="#докажите-нерегулярность-языка-палиндромов-если-алфавит-содержит-хотя-бы-два-символа.-что-если-алфавит-унарный">121.
+Докажите нерегулярность языка палиндромов, если алфавит содержит хотя бы
+два символа. Что если алфавит унарный?</a></li>
+<li><a
+href="#докажите-нерегулярность-языка-тандемных-повторов-l-ww-w-in-sigma-если-алфавит-содержит-хотя-бы-два-символа.-что-если-алфавит-унарный">122.
+Докажите нерегулярность языка тандемных повторов <span
+class="math inline">\(L = \{ ww | w \in \Sigma^* \}\)</span>, если
+алфавит содержит хотя бы два символа. Что если алфавит унарный?</a></li>
+<li><a href="#докажите-нерегулярность-языка-0n1m-n-le-m.">123. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(n \le m\)</span>.</a></li>
+<li><a href="#докажите-нерегулярность-языка-0n1m-n-ne-m">124. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(n \ne m\)</span></a></li>
+<li><a href="#докажите-нерегулярность-языка-0n2">125. Докажите
+нерегулярность языка <span
+class="math inline">\(0^{n^2}\)</span></a></li>
+<li><a href="#докажите-нерегулярность-языка-0p-p-простое">126. Докажите
+нерегулярность языка <span class="math inline">\(0^p\)</span>, <span
+class="math inline">\(p\)</span> — простое</a></li>
+<li><a
+href="#докажите-нерегулярность-языка-двоичных-записей-простых-чисел.">127.
+Докажите нерегулярность языка двоичных записей простых чисел.</a></li>
+<li><a href="#докажите-нерегулярность-языка-0n1m-gcdn-m-1">128. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(gcd(n, m) = 1\)</span></a></li>
+<li><a
+href="#приведите-пример-нерегулярного-языка-для-которого-выполнена-лемма-о-разрастании">129.
+Приведите пример нерегулярного языка, для которого выполнена лемма о
+разрастании</a></li>
+<li><a
+href="#обозначим-как-min-l-множество-слов-w-in-l-таких-что-никакой-собственный-префикс-w-не-является-словом-языка-l.-докажите-что-если-l-регулярный-то-и-min-l-регулярный.">130.
+Обозначим как <span class="math inline">\(\min L\)</span> множество слов
+<span class="math inline">\(w \in L\)</span>, таких что никакой
+собственный префикс <span class="math inline">\(w\)</span> не является
+словом языка <span class="math inline">\(L\)</span>. Докажите, что если
+<span class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\min L\)</span> регулярный.</a></li>
+<li><a
+href="#обозначим-как-max-l-множество-слов-w-in-l-таких-что-w-не-является-собственным-префиксом-никакого-словом-языка-l.-докажите-что-если-l-регулярный-то-и-max-l-регулярный.">131.
+Обозначим как <span class="math inline">\(\max L\)</span> множество слов
+<span class="math inline">\(w \in L\)</span>, таких что <span
+class="math inline">\(w\)</span> не является собственным префиксом
+никакого словом языка <span class="math inline">\(L\)</span>. Докажите,
+что если <span class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\max L\)</span> регулярный.</a></li>
+<li><a
+href="#обозначим-как-textprefl-множество-префиксов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textprefl-регулярный.">132.
+Обозначим как <span class="math inline">\(\text{pref}\,L\)</span>
+множество префиксов слов языка <span class="math inline">\(L\)</span>.
+Докажите, что если <span class="math inline">\(L\)</span> регулярный, то
+и <span class="math inline">\(\text{pref}\,L\)</span>
+регулярный.</a></li>
+<li><a
+href="#обозначим-как-textsufl-множество-суффиксов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textsufl-регулярный.">133.
+Обозначим как <span class="math inline">\(\text{suf}\,L\)</span>
+множество суффиксов слов языка <span class="math inline">\(L\)</span>.
+Докажите, что если <span class="math inline">\(L\)</span> регулярный, то
+и <span class="math inline">\(\text{suf}\,L\)</span>
+регулярный.</a></li>
+<li><a
+href="#пусть-a-и-b---слова-равной-длины-n.-обозначим-как-textalta-b-слово-a_1b_2a_2b_2ldots-a_nb_n.-для-языков-r-и-s-обозначим-как-textaltr-s-множество-всех-слов-которые-получаются-как-textalta-b-где-a-in-r-b-in-s.-докажите-что-если-r-и-s-регулярные-то-textaltr-s-регулярный.">134.
+Пусть <span class="math inline">\(a\)</span> и <span
+class="math inline">\(b\)</span> - слова равной длины <span
+class="math inline">\(n\)</span>. Обозначим как <span
+class="math inline">\(\text{alt}(a, b)\)</span> слово <span
+class="math inline">\(a_1b_2a_2b_2\ldots a_nb_n\)</span>. Для языков
+<span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> обозначим как <span
+class="math inline">\(\text{alt}(R, S)\)</span> множество всех слов,
+которые получаются как <span class="math inline">\(\text{alt}(a,
+b)\)</span> где <span class="math inline">\(a \in R\)</span>, <span
+class="math inline">\(b \in S\)</span>. Докажите, что если <span
+class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> регулярные, то <span
+class="math inline">\(\text{alt}(R, S)\)</span> регулярный.</a></li>
+<li><a
+href="#пусть-a-и-b---слова.-обозначим-как-textshufflea-b-множество-слов-которые-можно-составить-вставив-в-слово-a-все-буквы-слова-b-в-том-порядке-в-котором-они-идут-в-b.-например-textshuffle01-230123-0213-0231-2013-2031-2301.-для-языков-r-и-s-обозначим-как-textshuffler-s-объединение-всех-множеств-textshufflea-b-где-a-in-r-b-in-s.-докажите-что-если-r-и-s-регулярные-то-textshuffler-s-регулярный.">135.
+Пусть <span class="math inline">\(a\)</span> и <span
+class="math inline">\(b\)</span> - слова. Обозначим как <span
+class="math inline">\(\text{shuffle}(a, b)\)</span> множество слов,
+которые можно составить, вставив в слово <span
+class="math inline">\(a\)</span> все буквы слова <span
+class="math inline">\(b\)</span> в том порядке, в котором они идут в
+<span class="math inline">\(b\)</span>. Например, <span
+class="math inline">\(\text{shuffle}(01, 23)=\{0123, 0213, 0231, 2013,
+2031, 2301\}\)</span>. Для языков <span class="math inline">\(R\)</span>
+и <span class="math inline">\(S\)</span> обозначим как <span
+class="math inline">\(\text{shuffle}(R, S)\)</span> объединение всех
+множеств <span class="math inline">\(\text{shuffle}(a, b)\)</span> где
+<span class="math inline">\(a \in R\)</span>, <span
+class="math inline">\(b \in S\)</span>. Докажите, что если <span
+class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> регулярные, то <span
+class="math inline">\(\text{shuffle}(R, S)\)</span> регулярный.</a></li>
+<li><a
+href="#обозначим-как-textcyclel-множество-циклических-сдвигов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textcyclel-регулярный.">136.
+Обозначим как <span class="math inline">\(\text{cycle}\,L\)</span>
+множество циклических сдвигов слов языка <span
+class="math inline">\(L\)</span>. Докажите, что если <span
+class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\text{cycle}\,L\)</span> регулярный.</a></li>
+<li><a
+href="#обозначим-как-texthalfl-множество-таких-слов-a-что-существует-слово-b-такой-же-длины-как-и-a-что-ab-in-l.-докажите-что-если-l-регулярный-то-и-texthalfl-регулярный.">137.
+Обозначим как <span class="math inline">\(\text{half}\,L\)</span>
+множество таких слов <span class="math inline">\(a\)</span>, что
+существует слово <span class="math inline">\(b\)</span> такой же длины,
+как и <span class="math inline">\(a\)</span>, что <span
+class="math inline">\(ab \in L\)</span>. Докажите, что если <span
+class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\text{half}\,L\)</span> регулярный.</a></li>
+<li><a
+href="#рассмотрим-язык-x_0-y_0-z_0-x_1-y_1-z_1-dots-x_n-1-y_n-1-z_n-1-mid-x_i-y_i-z_i-in-0-1-где-x-x_n-1x_n-2dots-x_0-и-аналогично-представляется-y-и-z-причем-x-y-z.-докажите-что-этот-язык-регулярный.">138.
+Рассмотрим язык <span class="math inline">\(\{x_0 y_0 z_0 x_1 y_1 z_1
+\dots x_{n-1} y_{n-1} z_{n-1} \mid x_i, y_i, z_i \in \{0,
+1\}\}\)</span>, где <span class="math inline">\(X = x_{n-1}x_{n-2}\dots
+x_0\)</span> и аналогично представляется <span
+class="math inline">\(Y\)</span> и <span
+class="math inline">\(Z\)</span>, причем <span class="math inline">\(X +
+Y = Z\)</span>. Докажите, что этот язык регулярный.</a></li>
+<li><a
+href="#то-же-что-и-предыдущее-только-x_n-1-y_n-1-z_n-1-dots-x_1-y_1-z_1-x_0-y_0-z_0-mid-dots">139.
+То же, что и предыдущее, только <span class="math inline">\(\{x_{n-1}
+y_{n-1} z_{n-1} \dots x_1 y_1 z_1 x_0 y_0 z_0 \mid \dots
+\}\)</span></a></li>
+<li><a
+href="#рассмотрим-язык-x_0-y_0-z_0-x_1-y_1-z_1-dots-x_n-1-y_n-1-z_n-1-mid-x_i-y_i-z_i-in-0-1-где-x-x_n-1x_n-2dots-x_0-и-аналогично-представляется-y-и-z-причем-x-times-y-z.-докажите-что-этот-язык-не-является-регулярным.">140.
+Рассмотрим язык <span class="math inline">\(\{x_0 y_0 z_0 x_1 y_1 z_1
+\dots x_{n-1} y_{n-1} z_{n-1} \mid x_i, y_i, z_i \in \{0,
+1\}\}\)</span>, где <span class="math inline">\(X = x_{n-1}x_{n-2}\dots
+x_0\)</span> и аналогично представляется <span
+class="math inline">\(Y\)</span> и <span
+class="math inline">\(Z\)</span>, причем <span class="math inline">\(X
+\times Y = Z\)</span>. Докажите, что этот язык не является
+регулярным.</a></li>
+<li><a
+href="#из-алгоритма-построения-множества-различимых-состояний-следует-что-u-и-v-автомата-различимы-то-u-и-v-различимы-строкой-длины-on2.-докажите-что-если-состояния-u-и-v-автомата-различимы-то-u-и-v-различимы-строкой-длины-on.">141.
+Из алгоритма построения множества различимых состояний следует, что
+<span class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> автомата различимы, то <span
+class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> различимы строкой длины <span
+class="math inline">\(O(n^2)\)</span>. Докажите, что если состояния
+<span class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> автомата различимы, то <span
+class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> различимы строкой длины <span
+class="math inline">\(O(n)\)</span>.</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="задания-121-140">Задания 121-140</h1>
+<h3
+id="докажите-нерегулярность-языка-палиндромов-если-алфавит-содержит-хотя-бы-два-символа.-что-если-алфавит-унарный">121.
+Докажите нерегулярность языка палиндромов, если алфавит содержит хотя бы
+два символа. Что если алфавит унарный?</h3>
+<p>Достаточно доказать, что <span class="math inline">\(\forall n\in\N \
+\ \exists w\in P: |w| \geq n \ \ \forall x,y,z:\begin{cases}  w=xyz
+\\  y\not=\varepsilon \\  |xy| \leq n \end{cases} \exists k :
+xy^kz\not\in P\)</span></p>
+<p><span class="math display">\[] a,b\in \Sigma, w:=a^n b a^n, |w|=2n+1,
+y=a^i, x=a^j, i&gt;0, j\geq 0\]</span></p>
+<p><span class="math display">\[] k=2 \quad y^2=a^{2i} \quad
+xy^2z=a^ja^{2i} a^{n-i-j} b a^n=a^{n+i}ba^n\]</span> <span
+class="math inline">\(a^{n+i}ba^n\)</span> - не палиндром <span
+class="math inline">\(\forall i&gt;0\)</span>.</p>
+<p>Если алфавит унарный, то язык палиндромов - язык всех слов над этим
+языком <span class="math inline">\(=a^*\)</span> - регулярен.</p>
+<h3
+id="докажите-нерегулярность-языка-тандемных-повторов-l-ww-w-in-sigma-если-алфавит-содержит-хотя-бы-два-символа.-что-если-алфавит-унарный">122.
+Докажите нерегулярность языка тандемных повторов <span
+class="math inline">\(L = \{ ww | w \in \Sigma^* \}\)</span>, если
+алфавит содержит хотя бы два символа. Что если алфавит унарный?</h3>
+<p><span class="math display">\[] a,b\in\Sigma, w:=ba^{n-1}ba^{n-1},
+|w|=2n\]</span></p>
+<ol type="i">
+<li><span class="math inline">\(x=\varepsilon, y=ba^i, i\geq0,
+z=a^{n-i-1}ba^{n-1}\)</span></li>
+</ol>
+<p><span class="math inline">\(] k=2 \quad y^2=ba^iba^i \quad
+xy^2z=ba^iba^ia^{n-i-1}ba^{n-1}=ba^iba^{n-1}ba^{n-1}\not\in
+L\)</span></p>
+<ol start="2" type="i">
+<li><span class="math inline">\(y=a^i, x=ba^j, z=a^{n-1-i-j}ba^{n-1},
+i&gt;0\)</span></li>
+</ol>
+<p><span class="math inline">\(] k=2 \quad y^2=a^{2i},
+xy^2z=ba^ja^{2i}a^{n-1-i-j}ba^{n-1}=ba^{n-1+i}ba^{n-1}\not\in
+L\)</span></p>
+<p>Если алфавит унарный, то язык тандемных повторов - язык всех слов над
+этим языком <span class="math inline">\(=a^*\)</span> - регулярен.</p>
+<h3 id="докажите-нерегулярность-языка-0n1m-n-le-m.">123. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(n \le m\)</span>.</h3>
+<p><span class="math display">\[|w|=n+m, y=0^i, x=0^j, z=0^{n-i-j}1^m,
+i&gt;0, j\geq 0, i+j\leq n\]</span></p>
+<p><span class="math display">\[] k = m+1, y^{m+1}=0^{(m+1)i},
+xy^{m+1}z=0^j0^{(m+1)i}0^{n-i-j}1^m=0^{n+mi}1^m, i&gt;0 \Rightarrow
+0^{n+mi}1^m\not\in L\]</span></p>
+<h3 id="докажите-нерегулярность-языка-0n1m-n-ne-m">124. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(n \ne m\)</span></h3>
+<p><span class="math display">\[w=0^{n!}1^{2n!}, y=0^i, x=0^j,
+z=0^{n!-i-j}1^{2n!}, i&gt;0, j\geq 0, i+j\leq n\]</span></p>
+<p><span class="math display">\[] k = \frac{n!}{i}+1,
+y^k=0^{i(\frac{n!}{i}+1)}=0^{n!+i},
+xy^kz=0^j0^{n!+i}0^{n!-i-j}1^{2n!}=0^{2n!}1^{2n!} \not\in L\]</span></p>
+<h3 id="докажите-нерегулярность-языка-0n2">125. Докажите нерегулярность
+языка <span class="math inline">\(0^{n^2}\)</span></h3>
+<p><span class="math display">\[x=0^j, y=0^i, i&gt;0, j\geq0\]</span>
+<span class="math display">\[]k=2, xy^2z=0^j0^{2i}0^{n^2-j-i}=0^{n^2+i}
+\quad n^2+i\leq n^2+n &lt; n^2+2n+1=(n+1)^2=\text{следующий
+квадрат}\]</span></p>
+<h3 id="докажите-нерегулярность-языка-0p-p-простое">126. Докажите
+нерегулярность языка <span class="math inline">\(0^p\)</span>, <span
+class="math inline">\(p\)</span> — простое</h3>
+<p><span class="math display">\[x=0^j, y=0^i, i&gt;0, j\geq0\]</span>
+<span class="math display">\[] k = p+1,
+xy^{p+1}z=0^{(p+1)i}0^{p-i}=0^{p+pi} \quad p+pi\text{ не
+простое}\]</span></p>
+<h3
+id="докажите-нерегулярность-языка-двоичных-записей-простых-чисел.">127.
+Докажите нерегулярность языка двоичных записей простых чисел.</h3>
+<p>Докажем по лемме о разрастании в общем виде. Хотим доказать, что
+<span class="math inline">\(\forall n\in\N \ \ \exists uwv\in P :
+|w|\geq n \ \ \forall x,y,z:\begin{cases}  w=xyz \\  y\not=\varepsilon
+\\  |xy| \leq n \end{cases} \exists k : uxy^kzv\not\in P\)</span></p>
+<p>Нам дали <span class="math inline">\(n\)</span>. Тогда <span
+class="math inline">\(\exists m_k\to\infty :
+p=\underbrace{\ldots\ldots\ldots}_{m_k \text{ в
+двоичной}}\underbrace{0\ldots0}_{n}1\)</span> - простое по теореме
+Дирихле, т.к. <span class="math inline">\(p=2^{n+1}m_k+1\)</span> и
+НОД<span class="math inline">\((2^{n+1}, 1)=1\)</span>. Возьмём
+произвольное <span class="math inline">\(m\in \{m_k\}\)</span>.</p>
+<p><span class="math display">\[w:=0^n, u =
+\underbrace{\ldots\ldots\ldots}_{m \text{ в двоичной}}, v = 1\]</span>
+<span class="math display">\[x=0^j, y=0^i, i&gt;0, j\geq 0,
+z=0^{n-i-j}\]</span> <span
+class="math display">\[q:=uxy^kzw=\underbrace{\ldots\ldots\ldots}_{m
+\text{ в
+двоичной}}\underbrace{00\ldots00}_{n+(k-1)i}1=2^{n+(k-1)i+1}m+1=2^{(k-1)i}2^{n+1}m+1=(p-1)2^{(k-1)i}+1\]</span>
+<span class="math display">\[q=p2^{(k-1)i}+1-2^{(k-1)i}\]</span> По
+малой теореме Ферма <span class="math inline">\(2^p\equiv 2\pmod p
+\Rightarrow 2^{p-1}\equiv 1\pmod p\)</span> <span
+class="math display">\[1 \equiv 2^{p-1}\equiv 2^{2(p-1)}\equiv
+2^{i(p-1)} \pmod p\]</span> <span class="math display">\[0 \equiv
+2^{i(p-1)}-1 \pmod p \Rightarrow 2^{i(p-1)}-1 \mid p\]</span> <span
+class="math inline">\(2^{i(p-1)}-1\)</span> делится на <span
+class="math inline">\(p \Rightarrow p\)</span> не простое, если <span
+class="math inline">\(p\not=2^{i(p-1)}-1\)</span>. Корни <span
+class="math inline">\(p=3, p\approx-0.69^{\quad \tiny nice}\)</span></p>
+<p>Т.к. <span class="math inline">\(\exist\)</span> сколь угодно большой
+<span class="math inline">\(m\)</span>, не будем брать такой, что <span
+class="math inline">\(p=3\)</span>. <span class="math display">\[k:=p
+\Rightarrow 1-2^{i(p-1)} \mid p \Rightarrow (p2^{(k-1)i}+1-2^{(k-1)i})
+\mid p \Rightarrow q\not\in P\]</span></p>
+<h3 id="докажите-нерегулярность-языка-0n1m-gcdn-m-1">128. Докажите
+нерегулярность языка <span class="math inline">\(0^n1^m\)</span>, <span
+class="math inline">\(gcd(n, m) = 1\)</span></h3>
+<p>Рассмотрим множество <span class="math inline">\(S=\{0^n\ |\ n \text{
+простое}\}\)</span>. Все элементы этого множества лежат в разных классах
+эквивалентности Майхилла—Нероуда по <span
+class="math inline">\(L\)</span>, т.к. для <span
+class="math inline">\(x=0^n, y=0^m\)</span> есть различающий суффикс
+<span class="math inline">\(z=0^n, xz\not\in L, yz\in L\)</span>. Но
+<span class="math inline">\(S\)</span> бесконечное <span
+class="math inline">\(\Rightarrow\)</span> бесконечное число классов
+Майхилла—Нероуда <span class="math inline">\(\Rightarrow L\)</span> не
+регулярный.</p>
+<h3
+id="приведите-пример-нерегулярного-языка-для-которого-выполнена-лемма-о-разрастании">129.
+Приведите пример нерегулярного языка, для которого выполнена лемма о
+разрастании</h3>
+<p>Нерк.</p>
+<h3
+id="обозначим-как-min-l-множество-слов-w-in-l-таких-что-никакой-собственный-префикс-w-не-является-словом-языка-l.-докажите-что-если-l-регулярный-то-и-min-l-регулярный.">130.
+Обозначим как <span class="math inline">\(\min L\)</span> множество слов
+<span class="math inline">\(w \in L\)</span>, таких что никакой
+собственный префикс <span class="math inline">\(w\)</span> не является
+словом языка <span class="math inline">\(L\)</span>. Докажите, что если
+<span class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\min L\)</span> регулярный.</h3>
+<p>Заметим, что регулярность языка <span
+class="math inline">\(\Leftrightarrow\)</span> его распознаваемости НКА
+<span
+class="math inline">\(\stackrel{\text{Томпсон}}\Leftrightarrow\)</span>
+распознаваемости ДКА. Построим ДКА для <span class="math inline">\(\min
+L\)</span> по ДКА для <span class="math inline">\(L\)</span>.</p>
+<p>Создадим терминальное состояние <span
+class="math inline">\(q_{-1}\not\in\mathcal F\)</span>, такое что: <span
+class="math inline">\(\forall q\in \mathcal F, s\in\Sigma \ \ \delta(q,
+s)=q_{-1}, \delta(q_{-1}, s)=q_{-1}\)</span>. Все остальные переходы не
+трогаем. Этот ДКА распознает <span class="math inline">\(\min
+L\)</span>.</p>
+<h3
+id="обозначим-как-max-l-множество-слов-w-in-l-таких-что-w-не-является-собственным-префиксом-никакого-словом-языка-l.-докажите-что-если-l-регулярный-то-и-max-l-регулярный.">131.
+Обозначим как <span class="math inline">\(\max L\)</span> множество слов
+<span class="math inline">\(w \in L\)</span>, таких что <span
+class="math inline">\(w\)</span> не является собственным префиксом
+никакого словом языка <span class="math inline">\(L\)</span>. Докажите,
+что если <span class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\max L\)</span> регулярный.</h3>
+<p><span class="math display">\[w\in\max L \Leftrightarrow \begin{cases}
+    w\in L \\
+    \not\exists v\not=\varepsilon : wv\in L
+\end{cases}\]</span></p>
+<p>Сделаем непринимающими все состояния <span class="math inline">\(q\in
+\mathcal F\)</span> такие, что <span
+class="math inline">\(q\rightsquigarrow \overline q\in \mathcal
+F\)</span>, получим искомый ДКА.</p>
+<h3
+id="обозначим-как-textprefl-множество-префиксов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textprefl-регулярный.">132.
+Обозначим как <span class="math inline">\(\text{pref}\,L\)</span>
+множество префиксов слов языка <span class="math inline">\(L\)</span>.
+Докажите, что если <span class="math inline">\(L\)</span> регулярный, то
+и <span class="math inline">\(\text{pref}\,L\)</span> регулярный.</h3>
+<p><span class="math display">\[w\in\text{pref}\,L \Leftrightarrow
+\exists v : wv\in L\]</span></p>
+<p>Сделаем принимающими все состояния <span
+class="math inline">\(q\)</span> такие, что <span
+class="math inline">\(q\rightsquigarrow \overline q\in \mathcal
+F\)</span>, получим искомый ДКА.</p>
+<h3
+id="обозначим-как-textsufl-множество-суффиксов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textsufl-регулярный.">133.
+Обозначим как <span class="math inline">\(\text{suf}\,L\)</span>
+множество суффиксов слов языка <span class="math inline">\(L\)</span>.
+Докажите, что если <span class="math inline">\(L\)</span> регулярный, то
+и <span class="math inline">\(\text{suf}\,L\)</span> регулярный.</h3>
+<p>Из 132 мы знаем, что <span
+class="math inline">\(\text{pref}\,L\)</span> регулярный. Тогда докажем,
+что если <span class="math inline">\(L\)</span> регулярный, то <span
+class="math inline">\(\text{reverse}\,L\)</span> регулярный. Возьмём ДКА
+для <span class="math inline">\(L\)</span>, поменяем направления всех
+ребер и заменим принимающие состояния на входные, входное состояние на
+принимающее. Получился НКА, принимающий <span
+class="math inline">\(\text{reverse}\,L \Rightarrow
+\text{reverse}\,L\)</span> регулярный</p>
+<p><span
+class="math display">\[\text{suf}\,L=\text{reverse}\,(\text{pref}\,(\text{reverse}\,L))\]</span></p>
+<h3
+id="пусть-a-и-b---слова-равной-длины-n.-обозначим-как-textalta-b-слово-a_1b_2a_2b_2ldots-a_nb_n.-для-языков-r-и-s-обозначим-как-textaltr-s-множество-всех-слов-которые-получаются-как-textalta-b-где-a-in-r-b-in-s.-докажите-что-если-r-и-s-регулярные-то-textaltr-s-регулярный.">134.
+Пусть <span class="math inline">\(a\)</span> и <span
+class="math inline">\(b\)</span> - слова равной длины <span
+class="math inline">\(n\)</span>. Обозначим как <span
+class="math inline">\(\text{alt}(a, b)\)</span> слово <span
+class="math inline">\(a_1b_2a_2b_2\ldots a_nb_n\)</span>. Для языков
+<span class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> обозначим как <span
+class="math inline">\(\text{alt}(R, S)\)</span> множество всех слов,
+которые получаются как <span class="math inline">\(\text{alt}(a,
+b)\)</span> где <span class="math inline">\(a \in R\)</span>, <span
+class="math inline">\(b \in S\)</span>. Докажите, что если <span
+class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> регулярные, то <span
+class="math inline">\(\text{alt}(R, S)\)</span> регулярный.</h3>
+<p><span class="math display">\[\mathfrak R:\Sigma^*\times \Sigma^*\to
+\Sigma^*, (a,b)\mapsto a\]</span> <span class="math display">\[\mathfrak
+S:\Sigma^*\times \Sigma^*\to \Sigma^*, (a,b)\mapsto b\]</span> Это
+гомоморфизмы. <span class="math display">\[\mathfrak R^{-1}(R)=\{(r, w)\
+|\ r\in R, w\in \Sigma^*\}\]</span> <span
+class="math display">\[\mathfrak S^{-1}(S)=\{(w, s)\ |\ s\in S, w\in
+\Sigma^*\}\]</span> Т.к. множество регулярных языков замкнуто по
+обратным гомоморфизмам, <span class="math inline">\(\mathfrak
+R^{-1}(R)\)</span> и <span class="math inline">\(\mathfrak
+S^{-1}(S)\)</span> регулярны <span class="math display">\[\mathfrak
+R^{-1}(R) \cap \mathfrak S^{-1}(S)=\{(r, s)\ |\ r\in R, s\in
+S\}\]</span> Этот язык регулярен по замкнутости регулярных языков по
+пересечению. <span class="math display">\[\mathfrak P:\Sigma^*\times
+\Sigma^*\to \Sigma^*, (a,b)\mapsto a_1b_1a_2b_2\ldots\]</span> <span
+class="math display">\[\mathfrak P(\mathfrak R^{-1}(R) \cap \mathfrak
+S^{-1}(S))=\text{alt}(R, S)\]</span> Этот язык регулярен по замкнутости
+регулярных языков по гомоморфизму.</p>
+<h3
+id="пусть-a-и-b---слова.-обозначим-как-textshufflea-b-множество-слов-которые-можно-составить-вставив-в-слово-a-все-буквы-слова-b-в-том-порядке-в-котором-они-идут-в-b.-например-textshuffle01-230123-0213-0231-2013-2031-2301.-для-языков-r-и-s-обозначим-как-textshuffler-s-объединение-всех-множеств-textshufflea-b-где-a-in-r-b-in-s.-докажите-что-если-r-и-s-регулярные-то-textshuffler-s-регулярный.">135.
+Пусть <span class="math inline">\(a\)</span> и <span
+class="math inline">\(b\)</span> - слова. Обозначим как <span
+class="math inline">\(\text{shuffle}(a, b)\)</span> множество слов,
+которые можно составить, вставив в слово <span
+class="math inline">\(a\)</span> все буквы слова <span
+class="math inline">\(b\)</span> в том порядке, в котором они идут в
+<span class="math inline">\(b\)</span>. Например, <span
+class="math inline">\(\text{shuffle}(01, 23)=\{0123, 0213, 0231, 2013,
+2031, 2301\}\)</span>. Для языков <span class="math inline">\(R\)</span>
+и <span class="math inline">\(S\)</span> обозначим как <span
+class="math inline">\(\text{shuffle}(R, S)\)</span> объединение всех
+множеств <span class="math inline">\(\text{shuffle}(a, b)\)</span> где
+<span class="math inline">\(a \in R\)</span>, <span
+class="math inline">\(b \in S\)</span>. Докажите, что если <span
+class="math inline">\(R\)</span> и <span
+class="math inline">\(S\)</span> регулярные, то <span
+class="math inline">\(\text{shuffle}(R, S)\)</span> регулярный.</h3>
+<p>Создадим НКА, в котором каждое состояние - пара состояний из <span
+class="math inline">\(A&#39;\)</span> из <span
+class="math inline">\(B&#39;\)</span>. На каждом шаге мы
+недетерминированно продвигаемся либо по <span
+class="math inline">\(A&#39;\)</span>, либо по <span
+class="math inline">\(B&#39;\)</span>. Состояние является принимающим,
+если оба его порождающих состояния - принимающие.</p>
+<h3
+id="обозначим-как-textcyclel-множество-циклических-сдвигов-слов-языка-l.-докажите-что-если-l-регулярный-то-и-textcyclel-регулярный.">136.
+Обозначим как <span class="math inline">\(\text{cycle}\,L\)</span>
+множество циклических сдвигов слов языка <span
+class="math inline">\(L\)</span>. Докажите, что если <span
+class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\text{cycle}\,L\)</span> регулярный.</h3>
+<p>Идея: иметь автомат для каждого возможного сдвига. Это невозможно,
+зато можно иметь автомат для каждого состояния. Тогда если <span
+class="math inline">\(ab\in\text{cycle}\,L, ba\in L\)</span>, то в ДКА
+для <span class="math inline">\(L\)</span> (<span
+class="math inline">\(A\)</span>) по слову <span
+class="math inline">\(b\)</span> приходим в некоторую вершину <span
+class="math inline">\(q\)</span>, откуда по <span
+class="math inline">\(a\)</span> приходим в <span
+class="math inline">\(f\in\mathcal F\)</span>:</p>
+<p><img src="imgs/136.dot.svg" /></p>
+<p>У нас сначала приходит <span class="math inline">\(a\)</span>, потом
+<span class="math inline">\(b\)</span>, поэтому просто начнем с <span
+class="math inline">\(q\)</span>:</p>
+<p><img src="imgs/136_2.dot.svg" /></p>
+<p>Для каждого состояния <span class="math inline">\(q\in Q\)</span>
+создадим такой “свдинутый” автомат, “or” от всех автоматов -
+искомый.</p>
+<h3
+id="обозначим-как-texthalfl-множество-таких-слов-a-что-существует-слово-b-такой-же-длины-как-и-a-что-ab-in-l.-докажите-что-если-l-регулярный-то-и-texthalfl-регулярный.">137.
+Обозначим как <span class="math inline">\(\text{half}\,L\)</span>
+множество таких слов <span class="math inline">\(a\)</span>, что
+существует слово <span class="math inline">\(b\)</span> такой же длины,
+как и <span class="math inline">\(a\)</span>, что <span
+class="math inline">\(ab \in L\)</span>. Докажите, что если <span
+class="math inline">\(L\)</span> регулярный, то и <span
+class="math inline">\(\text{half}\,L\)</span> регулярный.</h3>
+<p>Meet-in-the-middle по <span class="math inline">\(a\)</span> с
+начального состояния и недетерминированно идем со всех принимающих
+состояний назад.</p>
+<h3
+id="рассмотрим-язык-x_0-y_0-z_0-x_1-y_1-z_1-dots-x_n-1-y_n-1-z_n-1-mid-x_i-y_i-z_i-in-0-1-где-x-x_n-1x_n-2dots-x_0-и-аналогично-представляется-y-и-z-причем-x-y-z.-докажите-что-этот-язык-регулярный.">138.
+Рассмотрим язык <span class="math inline">\(\{x_0 y_0 z_0 x_1 y_1 z_1
+\dots x_{n-1} y_{n-1} z_{n-1} \mid x_i, y_i, z_i \in \{0,
+1\}\}\)</span>, где <span class="math inline">\(X = x_{n-1}x_{n-2}\dots
+x_0\)</span> и аналогично представляется <span
+class="math inline">\(Y\)</span> и <span
+class="math inline">\(Z\)</span>, причем <span class="math inline">\(X +
+Y = Z\)</span>. Докажите, что этот язык регулярный.</h3>
+<p>Построим ДКА</p>
+<p><img src="imgs/138.dot.svg" /></p>
+<p>Для переноса 1 аналогичная штука.</p>
+<h3
+id="то-же-что-и-предыдущее-только-x_n-1-y_n-1-z_n-1-dots-x_1-y_1-z_1-x_0-y_0-z_0-mid-dots">139.
+То же, что и предыдущее, только <span class="math inline">\(\{x_{n-1}
+y_{n-1} z_{n-1} \dots x_1 y_1 z_1 x_0 y_0 z_0 \mid \dots
+\}\)</span></h3>
+<p>Докажем регулярность <span class="math inline">\(\{z_0 y_0 x_0 z_1
+y_1 x_1 \dots z_{n-1} y_{n-1} x_{n-1} \mid x_i, y_i, z_i \in \{0,
+1\}\}\)</span>, тогда искомый язык <span
+class="math inline">\(=L^R\)</span>.</p>
+<p>Т.к. <span class="math inline">\(Z-Y=X\)</span>, ДКА аналогичный 138,
+но для вычитания решает эту задачу.</p>
+<h3
+id="рассмотрим-язык-x_0-y_0-z_0-x_1-y_1-z_1-dots-x_n-1-y_n-1-z_n-1-mid-x_i-y_i-z_i-in-0-1-где-x-x_n-1x_n-2dots-x_0-и-аналогично-представляется-y-и-z-причем-x-times-y-z.-докажите-что-этот-язык-не-является-регулярным.">140.
+Рассмотрим язык <span class="math inline">\(\{x_0 y_0 z_0 x_1 y_1 z_1
+\dots x_{n-1} y_{n-1} z_{n-1} \mid x_i, y_i, z_i \in \{0,
+1\}\}\)</span>, где <span class="math inline">\(X = x_{n-1}x_{n-2}\dots
+x_0\)</span> и аналогично представляется <span
+class="math inline">\(Y\)</span> и <span
+class="math inline">\(Z\)</span>, причем <span class="math inline">\(X
+\times Y = Z\)</span>. Докажите, что этот язык не является
+регулярным.</h3>
+<p>Докажем, что классов эквивалентности бесконечно.</p>
+<p><span class="math display">\[s_n:=111(110)^{n-1}\]</span> <span
+class="math display">\[s_n\leftrightarrow X=1^n, Y=1^n,
+Z=10^{n-1}\]</span> <span class="math display">\[X\times
+Y=\left(\sum_{i=0}^{n-1}2^i\right)^2=(2^n-1)^2=2^{2n}-2^{n+1}+1
+\leftrightarrow
+\underbrace{1\ldots1}_{n}\underbrace{0\ldots0}_{n}1\leftrightarrow
+10^n1^n\]</span> <span class="math display">\[s_n(000)(001)^{n+1}\in L
+\quad \forall m&gt;n \quad s_n(000)(001)^{m+1}\not\in L\]</span>
+Докажем, что <span class="math inline">\(\forall m\not=n \quad
+s_m\not\equiv_L s_n\)</span> <span class="math display">\[] m &lt; n
+\quad s_m(000)(001)^{n+1}\not\in L, s_n(000)(001)^{n+1}\in L\]</span>
+<span class="math inline">\(\forall s_n, s_m\in S\)</span> -
+бесконечного <span class="math inline">\(s_n\not\equiv_L s_m
+\Rightarrow\)</span> число классов эквивалентности бесконечно <span
+class="math inline">\(\Rightarrow \not\exists\)</span> ДКА.</p>
+<h3
+id="из-алгоритма-построения-множества-различимых-состояний-следует-что-u-и-v-автомата-различимы-то-u-и-v-различимы-строкой-длины-on2.-докажите-что-если-состояния-u-и-v-автомата-различимы-то-u-и-v-различимы-строкой-длины-on.">141.
+Из алгоритма построения множества различимых состояний следует, что
+<span class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> автомата различимы, то <span
+class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> различимы строкой длины <span
+class="math inline">\(O(n^2)\)</span>. Докажите, что если состояния
+<span class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> автомата различимы, то <span
+class="math inline">\(u\)</span> и <span
+class="math inline">\(v\)</span> различимы строкой длины <span
+class="math inline">\(O(n)\)</span>.</h3>
+<p>Запустим <span class="math inline">\(\tiny \sout{гуся}\)</span>
+алгоритм Мура. Он строит классы <span
+class="math inline">\(k\)</span>-эквивалентности, т.е. множества вершин,
+различимых строкой длины <span class="math inline">\(\le k\)</span>.
+Если при переходе <span class="math inline">\(k\to k+1\)</span> классы
+не изменились, то алгоритм заканчивает работу, поэтому шагов <span
+class="math inline">\(\le n-1\)</span>. Так как алгоритм верный, то и
+разбиение на классы эквивалентности верно, поэтому различимость строкой
+длины <span class="math inline">\(\le i\)</span>, где <span
+class="math inline">\(i\)</span> - число шагов алгоритма <span
+class="math inline">\(\Leftrightarrow\)</span> различимости произвольной
+строкой.</p>
+</body>
+</html>
