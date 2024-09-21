@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>142-158</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#задания-142-158">Задания 142-158</a>
+<ul>
+<li><a
+href="#постройте-кс-грамматику-для-правильных-скобочных-последовательностей-с-двумя-типами-скобок.-в-этом-и-следующих-заданиях-после-разработки-кс-грамматики-необходимо-выбрать-в-качестве-примера-слово-и-продемонстрировать-его-левосторонний-вывод-и-дерево-разбора.">142.
+Постройте КС-грамматику для правильных скобочных последовательностей с
+двумя типами скобок. В этом и следующих заданиях, после разработки КС
+грамматики необходимо выбрать в качестве примера слово и
+продемонстрировать его левосторонний вывод и дерево разбора.</a></li>
+<li><a href="#постройте-кс-грамматику-для-языка-0n1n.">143. Постройте
+КС-грамматику для языка <span
+class="math inline">\(0^n1^n\)</span>.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-равно-числу-единиц.-докажите-что-ваша-грамматика-является-правильной.">144.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей равно
+числу единиц. Докажите, что ваша грамматика является
+правильной.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-равно-удвоенному-числу-единиц.-докажите-что-ваша-грамматика-является-правильной.">145.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей равно
+удвоенному числу единиц. Докажите, что ваша грамматика является
+правильной.</a></li>
+<li><a href="#постройте-кс-грамматику-для-языка-0k1n2kn.">146. Постройте
+КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}\)</span>.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-0k1n2kncup-1k0n2kn.-сделайте-вывод-про-кс-языки.">147.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}\cup 1^k0^n2^{k+n}\)</span>. Сделайте
+вывод про КС языки.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-0k1n2kn1i0j2ij.-сделайте-вывод-про-кс-языки.">148.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}1^i0^j2^{i+j}\)</span>. Сделайте
+вывод про КС языки.</a></li>
+<li><a
+href="#пусть-задана-кс-грамматика-для-языка-l.-укажите-как-построить-кс-грамматику-для-языка-l.">149.
+Пусть задана КС-грамматика для языка <span
+class="math inline">\(L\)</span>. Укажите, как построить КС-грамматику
+для языка <span class="math inline">\(L^*\)</span>.</a></li>
+<li><a
+href="#пусть-задана-кс-грамматика-для-языка-l.-обозначим-как-lr-язык-составленный-из-слов-которые-если-их-прочитать-от-конца-к-началу-принадлежат-языку-l.-укажите-как-построить-кс-грамматику-для-языка-lr.">150.
+Пусть задана КС-грамматика для языка <span
+class="math inline">\(L\)</span>. Обозначим как <span
+class="math inline">\(L^R\)</span> язык, составленный из слов, которые,
+если их прочитать от конца к началу, принадлежат языку <span
+class="math inline">\(L\)</span>. Укажите, как построить КС-грамматику
+для языка <span class="math inline">\(L^R\)</span>.</a></li>
+<li><a href="#постройте-кс-грамматику-для-языка-0i1j2k-ij-или-jk.">151.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^i1^j2^k\)</span>, <span
+class="math inline">\(i≠j\)</span> или <span
+class="math inline">\(j≠k\)</span>.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-палиндромами.">152.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются
+палиндромами.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-правильными-скобочными-последовательностями.">153.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются правильными
+скобочными последовательностями.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-не-равно-числу-единиц.">154.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей не равно
+числу единиц.</a></li>
+<li><a
+href="#постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-тандемными-повторами-не-имеют-вид-xx-для-некоторого-слова-x.">155.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются тандемными
+повторами (не имеют вид <span class="math inline">\(xx\)</span> для
+некоторого слова <span class="math inline">\(x\)</span>).</a></li>
+<li><a
+href="#постройте-кс-грамматику-описывающие-академические-регулярные-выражения-над-алфавитом-01.">156.
+Постройте КС-грамматику, описывающие академические регулярные выражения
+над алфавитом <span class="math inline">\(\{0,1\}\)</span>.</a></li>
+<li><a
+href="#приведите-пример-линейной-грамматики-которая-порождает-нерегулярный-язык.">157.
+Приведите пример линейной грамматики, которая порождает нерегулярный
+язык.</a></li>
+<li><a
+href="#множество-языков-порожденных-лево-линейными-грамматиками-равно-множеству-регулярных-языков">158.
+Множество языков, порожденных лево-линейными грамматиками равно
+множеству регулярных языков</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="задания-142-158">Задания 142-158</h1>
+<h3
+id="постройте-кс-грамматику-для-правильных-скобочных-последовательностей-с-двумя-типами-скобок.-в-этом-и-следующих-заданиях-после-разработки-кс-грамматики-необходимо-выбрать-в-качестве-примера-слово-и-продемонстрировать-его-левосторонний-вывод-и-дерево-разбора.">142.
+Постройте КС-грамматику для правильных скобочных последовательностей с
+двумя типами скобок. В этом и следующих заданиях, после разработки КС
+грамматики необходимо выбрать в качестве примера слово и
+продемонстрировать его левосторонний вывод и дерево разбора.</h3>
+<p><span class="math inline">\(\Sigma = \{(,[,],)\},
+N=\{S\}\)</span></p>
+<p><span class="math inline">\(S\to SS \quad S\to [S] \quad S\to (S)
+\quad S\to\varepsilon\)</span></p>
+<p>Слово: <span class="math inline">\([()]()\)</span></p>
+<ul>
+<li><span class="math inline">\(S\to SS\to [S]S\to [(S)]S\to [()]S\to
+[()](S)\to [()]()\)</span></li>
+<li><img src="imgs/142.drawio.svg" /></li>
+</ul>
+<h3 id="постройте-кс-грамматику-для-языка-0n1n.">143. Постройте
+КС-грамматику для языка <span
+class="math inline">\(0^n1^n\)</span>.</h3>
+<p><span class="math inline">\(\Sigma = \{0,1\}, N = \{S\}\)</span></p>
+<p><span class="math inline">\(S\to 0S1 \quad
+S\to\varepsilon\)</span></p>
+<p>Слово: <span class="math inline">\(0011\)</span></p>
+<ul>
+<li><span class="math inline">\(S\to 0S1\to 00S11\to 0011\)</span></li>
+<li><img src="imgs/143.drawio.svg" /></li>
+</ul>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-равно-числу-единиц.-докажите-что-ваша-грамматика-является-правильной.">144.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей равно
+числу единиц. Докажите, что ваша грамматика является правильной.</h3>
+<p><span class="math inline">\(\Sigma = \{0,1\}, N = \{S\}\)</span></p>
+<p><span class="math inline">\(S\to SS \quad S\to 0S1 \quad S\to 1S0
+\quad S\to\varepsilon\)</span></p>
+<p>Докажем верность по индукции по длине слова:</p>
+<ul>
+<li><strong>База</strong>: <span class="math inline">\(\varepsilon\in
+L\)</span>, <span class="math inline">\(\varepsilon\)</span> можно
+получить этой грамматикой</li>
+<li><strong>Переход</strong>: Все слова длины <span
+class="math inline">\(\le 2n-2\)</span> можно получить, докажем что
+слово длины <span class="math inline">\(2n\)</span> тоже можно получить.
+<span class="math inline">\(\mathfrak H(k):=\#_0 - \#_1\)</span> на
+префиксе длины <span class="math inline">\(k\)</span>. Пусть первый
+символ это <span class="math inline">\(0\)</span>, тогда <span
+class="math inline">\(\mathfrak H(1)=1\)</span>, обратный случай
+симметричен. Тогда есть два случая:
+<ul>
+<li>Последний символ слова это <span class="math inline">\(1\)</span>.
+<span class="math inline">\(w=0v1, v\in L \Rightarrow\)</span> можно
+сгенерить из <span class="math inline">\(v\)</span> по правилу 2.</li>
+<li>Последний символ слова это <span class="math inline">\(0\)</span>.
+Тогда т.к. <span class="math inline">\(\mathfrak H(2n)=0\)</span> по
+определению <span class="math inline">\(L\)</span>, <span
+class="math inline">\(\mathfrak H(2n-1)=-1\)</span>. <span
+class="math inline">\(\exists \overline n&lt;2n : \mathfrak H(\overline
+n)=0\)</span>. Разобьем <span class="math inline">\(w\)</span> на две
+части <span class="math inline">\(w[0:\overline n], w[\overline
+n:]\)</span>, оба эти слова можно построить грамматикой и по <span
+class="math inline">\(S\to SS\)</span> конкатенацию слов тоже можем
+построить. <span class="math inline">\(\square\)</span></li>
+</ul></li>
+</ul>
+<p>Слово: <span class="math inline">\(001101\)</span></p>
+<ul>
+<li><span class="math inline">\(S\to 0S1\to 0SS1\to 001S1\to
+001101\)</span></li>
+<li><img src="imgs/144.drawio.svg" /></li>
+</ul>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-равно-удвоенному-числу-единиц.-докажите-что-ваша-грамматика-является-правильной.">145.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей равно
+удвоенному числу единиц. Докажите, что ваша грамматика является
+правильной.</h3>
+<p>Аналогично 144.</p>
+<p>TODO: дерево</p>
+<h3 id="постройте-кс-грамматику-для-языка-0k1n2kn.">146. Постройте
+КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}\)</span>.</h3>
+<p><span class="math inline">\(\Sigma = \{0,1,2\} \quad N=\{S,
+Q\}\)</span></p>
+<p><span class="math inline">\(S\to 0S2 \quad S\to Q \quad Q\to
+\varepsilon \quad Q\to 1Q2\)</span></p>
+<p>Слово: <span class="math inline">\(001222\)</span></p>
+<ul>
+<li><span class="math inline">\(S\Rightarrow 0S2\Rightarrow
+00S22\Rightarrow 00Q22\Rightarrow 001222\)</span></li>
+<li><img src="imgs/146.drawio.svg" /></li>
+</ul>
+<h3
+id="постройте-кс-грамматику-для-языка-0k1n2kncup-1k0n2kn.-сделайте-вывод-про-кс-языки.">147.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}\cup 1^k0^n2^{k+n}\)</span>. Сделайте
+вывод про КС языки.</h3>
+<p><span class="math inline">\(N = \{S, Q, R\}\cup \overline N_1 \cup
+\overline N_2\)</span>, черта переименовывает <span
+class="math inline">\(S\)</span> в <span
+class="math inline">\(Q\)</span> или <span
+class="math inline">\(R\)</span></p>
+<p><span class="math inline">\(S\to Q \quad S\to R \quad\)</span> <span
+class="math inline">\(S\)</span> флексит для первого языка, <span
+class="math inline">\(R\)</span> для второго.</p>
+<p><strong>Вывод</strong>: КС языки замкнуты по объединению
+<em>(конечному)</em></p>
+<p>TODO: дерево</p>
+<h3
+id="постройте-кс-грамматику-для-языка-0k1n2kn1i0j2ij.-сделайте-вывод-про-кс-языки.">148.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^k1^n2^{k+n}1^i0^j2^{i+j}\)</span>. Сделайте
+вывод про КС языки.</h3>
+<p><span class="math inline">\(N = \{S, Q, R\}\cup N_1 \cup
+N_2\)</span></p>
+<p><span class="math inline">\(S\to QR \quad\)</span> <span
+class="math inline">\(Q\)</span> флексит для первого языка, <span
+class="math inline">\(R\)</span> для второго.</p>
+<p><strong>Вывод</strong>: КС языки замкнуты по конкатенации
+<em>(конечной)</em></p>
+<p>TODO: дерево</p>
+<h3
+id="пусть-задана-кс-грамматика-для-языка-l.-укажите-как-построить-кс-грамматику-для-языка-l.">149.
+Пусть задана КС-грамматика для языка <span
+class="math inline">\(L\)</span>. Укажите, как построить КС-грамматику
+для языка <span class="math inline">\(L^*\)</span>.</h3>
+<p><span class="math inline">\(N = \{S\} \cup \overline N_L\)</span></p>
+<p><span class="math inline">\(S\to SS_L \quad
+S\to\varepsilon\)</span></p>
+<h3
+id="пусть-задана-кс-грамматика-для-языка-l.-обозначим-как-lr-язык-составленный-из-слов-которые-если-их-прочитать-от-конца-к-началу-принадлежат-языку-l.-укажите-как-построить-кс-грамматику-для-языка-lr.">150.
+Пусть задана КС-грамматика для языка <span
+class="math inline">\(L\)</span>. Обозначим как <span
+class="math inline">\(L^R\)</span> язык, составленный из слов, которые,
+если их прочитать от конца к началу, принадлежат языку <span
+class="math inline">\(L\)</span>. Укажите, как построить КС-грамматику
+для языка <span class="math inline">\(L^R\)</span>.</h3>
+<p><span class="math inline">\(N = N_L\)</span></p>
+<p><span class="math inline">\(P = \{\langle A, w^R\rangle\ |\ \forall
+\langle A, w\rangle \in P_L\}\)</span></p>
+<h3 id="постройте-кс-грамматику-для-языка-0i1j2k-ij-или-jk.">151.
+Постройте КС-грамматику для языка <span
+class="math inline">\(0^i1^j2^k\)</span>, <span
+class="math inline">\(i≠j\)</span> или <span
+class="math inline">\(j≠k\)</span>.</h3>
+<p><span class="math inline">\(L = \{0^i1^j2^k\ |\
+i\not=j\}\cup\{0^i1^j2^k\ |\ j\not=k\}=\{0^i1^j2^*\ |\
+i\not=j\}\cup\{0^*1^j2^k\ |\ j\not=k\}\)</span></p>
+<p><span class="math inline">\(\sphericalangle \{0^i1^j\ |\ i\not=j\} =
+\overline L\)</span></p>
+<p><span class="math inline">\(\overline L = L_0\cup L_1, L_0=\{0^i1^j\
+|\ i&gt;j\}, L_1=\{0^i1^j\ |\ i&lt;j\}\)</span></p>
+<p><span class="math inline">\(L_0 =0^+(01)^*, L_1 =
+(01)^*1^+\)</span></p>
+<p>Альтернативно: <span class="math inline">\(\overline L = 0\overline
+L_0\cup \overline L_11 \quad \overline L_0=0^*(01)^*, \overline
+L_1=(01)^*1^*\)</span></p>
+<p>КС-грамматика для <span class="math inline">\(\overline L\)</span>: -
+<span class="math inline">\(S\to 0Q \quad S\to R1 \quad\)</span> (либо
+<span class="math inline">\(\overline L_0\)</span>, либо <span
+class="math inline">\(\overline L_1\)</span>) - <span
+class="math inline">\(Q\to0Q \quad Q\to T \quad\)</span> (<span
+class="math inline">\(0^*\)</span>) - <span class="math inline">\(R\to
+R1 \quad R\to T \quad\)</span> (<span
+class="math inline">\(1^*\)</span>) - <span class="math inline">\(T\to
+0T1 \quad T\to\varepsilon \quad\)</span> (<span
+class="math inline">\((01)^*\)</span>)</p>
+<p><span class="math inline">\(\overline L2^*\)</span>: - <span
+class="math inline">\(S\to S2\)</span></p>
+<p>Аналогично для <span class="math inline">\(1^j2^k\)</span>: - <span
+class="math inline">\(\overline S\to 1\overline Q \quad S\to\overline
+R2\)</span> - <span class="math inline">\(\overline Q\to 1\overline Q
+\quad \overline Q\to \overline T \quad\)</span> (<span
+class="math inline">\(1^*\)</span>) - <span
+class="math inline">\(\overline R\to \overline R2 \quad \overline R\to
+\overline T \quad\)</span> (<span class="math inline">\(2^*\)</span>) -
+<span class="math inline">\(\overline T\to 1\overline T2 \quad \overline
+T\to\varepsilon \quad\)</span> (<span
+class="math inline">\((12)^*\)</span>) - <span
+class="math inline">\(\overline S\to 0\overline S\)</span></p>
+<p>Объединим оба: - <span class="math inline">\(A\to S \quad A\to
+\overline S\)</span></p>
+<p>Стартовое состояние - <span class="math inline">\(A\)</span></p>
+<p>Пример: <span class="math inline">\(00122\)</span></p>
+<ul>
+<li><span class="math inline">\(A\Rightarrow S\Rightarrow S2 \Rightarrow
+S22 \Rightarrow 0Q22 \Rightarrow 0T22 \Rightarrow 00T122 \Rightarrow
+00122\)</span></li>
+<li>TODO: дерево</li>
+</ul>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-палиндромами.">152.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются
+палиндромами.</h3>
+<p><span class="math inline">\(L=sa(a|b)^*bs\ |\ sb(a|b)^*as\)</span>,
+где <span class="math inline">\(s\)</span> - произвольная строка.</p>
+<p><span class="math inline">\(S \to aSa \quad S\to bSb \quad S\to
+aTb\quad S\to bTa\)</span></p>
+<p><span class="math inline">\(T \to aT \quad T\to bT \quad T\to
+\epsilon\)</span></p>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-правильными-скобочными-последовательностями.">153.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются правильными
+скобочными последовательностями.</h3>
+<ul>
+<li><span class="math inline">\(S \to U)V \quad S\to V(U\)</span></li>
+<li><span class="math inline">\(U \to UU \quad U\to (U) \quad
+U\to\varepsilon \quad\)</span> ПСП</li>
+<li><span class="math inline">\(V \to (V \quad V\to )V \quad V\to
+\varepsilon \quad\)</span> произвольная последовательность</li>
+</ul>
+<p>Доказательство: - “<span class="math inline">\(\Rightarrow\)</span>”
+Очевидно, что все сгенерированные слова - не ПСП. - “<span
+class="math inline">\(\Leftarrow\)</span>” - Если слово кончается на
+<span class="math inline">\((\)</span>, то оно подходит для пустой ПСП
+справа - Если слово начинается на <span
+class="math inline">\()\)</span>, то оно подходит для пустой ПСП слева -
+Если слово <span class="math inline">\((w)\)</span>, то в хз</p>
+<p>Альтернативное доказательство по индукции по длине строки: -
+<strong>База</strong>: минимальные строки не ПСП это <span
+class="math inline">\((\)</span> и <span
+class="math inline">\()\)</span>, обе строятся для <span
+class="math inline">\(V=U=\varepsilon\)</span> -
+<strong>Переход</strong>: - Если <span
+class="math inline">\(w=v)\)</span> или <span
+class="math inline">\(w=(v\)</span>, где <span
+class="math inline">\(v\)</span> - ПСП, то строится для <span
+class="math inline">\(V=\varepsilon\)</span> - Если <span
+class="math inline">\(w=v)\)</span>, <span
+class="math inline">\(v\)</span> не ПСП, то <span
+class="math inline">\(v\)</span> либо 1, либо 2 вида: 1. <span
+class="math inline">\(w=U)V)\)</span> - первого вида 2. <span
+class="math inline">\(w=V(U)\)</span> - Последний символ <span
+class="math inline">\(V\)</span> это <span
+class="math inline">\((\)</span>, тогда <span
+class="math inline">\(w=\overline V((U)=\overline V(\overline U\)</span>
+- второго вида - Последний символ <span class="math inline">\(V\)</span>
+это <span class="math inline">\()\)</span>, тогда <span
+class="math inline">\(w=\overline V)(U)\)</span> - Первый символ <span
+class="math inline">\(V\)</span> это <span
+class="math inline">\()\)</span>, тогда первый вид с пустым <span
+class="math inline">\(U\)</span> -</p>
+<p>TODO: доказать, дерево, вывод слова</p>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-в-которых-число-нулей-не-равно-числу-единиц.">154.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, в которых число нулей не равно
+числу единиц.</h3>
+<ul>
+<li><span class="math inline">\(L=\{w\ |\ \#_0 &lt; \#_1\} \cup \{w\ |\
+\#_0 &gt; \#_1\}=L_0\cup L_1\)</span></li>
+<li><span class="math inline">\(L_0=(L_=0L_=)^+\)</span></li>
+<li><span class="math inline">\(L_1=(L_=1L_=)^+\)</span></li>
+</ul>
+<p>Альтернативно: - <span class="math inline">\(L=L_=0L_=\overline
+L_0\cup L_=1L_=\overline L_1\)</span> - <span
+class="math inline">\(L_0=(L_=0L_=)^*\)</span> - <span
+class="math inline">\(L_1=(L_=1L_=)^*\)</span></p>
+<p>Грамматика для <span class="math inline">\(L_=\)</span>: (из 144) -
+<span class="math inline">\(T \to TT \quad T\to 1T0 \quad T\to 0T1 \quad
+T\to\varepsilon\)</span></p>
+<p>Для <span class="math inline">\(L_0\)</span>: - <span
+class="math inline">\(Q \to T0TQ\)</span></p>
+<p>Для <span class="math inline">\(L_1\)</span>: - <span
+class="math inline">\(R \to T1TR\)</span></p>
+<p><span class="math inline">\(S\to T0TQ \quad S\to T1TR\)</span></p>
+<h3
+id="постройте-кс-грамматику-для-языка-слов-над-алфавитом-01-которые-не-являются-тандемными-повторами-не-имеют-вид-xx-для-некоторого-слова-x.">155.
+Постройте КС-грамматику для языка слов над алфавитом <span
+class="math inline">\(\{0,1\}\)</span>, которые не являются тандемными
+повторами (не имеют вид <span class="math inline">\(xx\)</span> для
+некоторого слова <span class="math inline">\(x\)</span>).</h3>
+<p>Заметим, что любое слово нечетной длины - не тандемный повтор,
+заифаем это.</p>
+<ul>
+<li><span class="math inline">\(U\to FFU\quad U\to F\)</span></li>
+<li><span class="math inline">\(F\to 0 \quad F\to1\)</span></li>
+</ul>
+<p><span class="math inline">\(U\)</span> производит все слова из <span
+class="math inline">\(\{0,1\}^*\)</span> нечетной длины.</p>
+<ul>
+<li><span class="math inline">\(S\to C \quad S\to U \quad
+S\to\varepsilon\)</span></li>
+<li><span class="math inline">\(C\to AB \quad C\to BA\)</span></li>
+<li><span class="math inline">\(A\to FAF \quad A\to 0\)</span></li>
+<li><span class="math inline">\(B\to FBF \quad B\to 1\)</span></li>
+</ul>
+<p><span class="math inline">\(A\)</span> производит <span
+class="math inline">\(\Sigma^i0\Sigma^i, B\)</span> производит <span
+class="math inline">\(\Sigma^j1\Sigma^j\)</span></p>
+<p><span class="math inline">\(AB =
+\Sigma^i0\Sigma^i\Sigma^j1\Sigma^j\)</span>. Это слово <span
+class="math inline">\(\underbrace{\ldots}_{i}0\underbrace{\ldots}_{i}\underbrace{\ldots}_{j}1\underbrace{\ldots}_{j}\)</span>
+- не палиндром, т.к. середина это <span
+class="math inline">\(i+j+1\)</span>, <span
+class="math inline">\(\rho(1,
+mid)=\rho(1,start)-\rho(start,mid)=2i+j+1-(i+j+1)=i=\rho(0,
+start)\)</span></p>
+<p>Теперь докажем, что любое слово, не являющееся повтором, может быть
+произведено этой грамматикой.</p>
+<p>Слова <strong>нечетной</strong> длины: очевидно</p>
+<p>Слова <strong>четной</strong> длины: возьмём два символа, ломающих
+тандемность. Пусть <span class="math inline">\(0\)</span> идет до <span
+class="math inline">\(1\)</span>, обратный случай симметричен. Тогда
+заменим <span class="math inline">\(0\)</span> на <span
+class="math inline">\(A\)</span>, <span class="math inline">\(1\)</span>
+на <span class="math inline">\(B\)</span>, остальные символы на <span
+class="math inline">\(F\)</span>. Эту строку из нетерминалов производима
+данной грамматикой. <span
+class="math inline">\(\blacksquare\)</span></p>
+<h3
+id="постройте-кс-грамматику-описывающие-академические-регулярные-выражения-над-алфавитом-01.">156.
+Постройте КС-грамматику, описывающие академические регулярные выражения
+над алфавитом <span class="math inline">\(\{0,1\}\)</span>.</h3>
+<p><span class="math inline">\(S\to \varepsilon \quad S\to 0\quad S\to 1
+\quad S\to (T)|(T) \quad S\to (S)(S) \quad S\to (S)^* \quad S\to
+(S)\)</span></p>
+<h3
+id="приведите-пример-линейной-грамматики-которая-порождает-нерегулярный-язык.">157.
+Приведите пример линейной грамматики, которая порождает нерегулярный
+язык.</h3>
+<p>Язык <span class="math inline">\(0^n1^n\)</span> - нерегулярный.</p>
+<p>Грамматика из 143:</p>
+<p><span class="math inline">\(\Sigma = \{0,1\}, N = \{S\}\)</span></p>
+<p><span class="math inline">\(S\to 0S1 \quad
+S\to\varepsilon\)</span></p>
+<h3
+id="множество-языков-порожденных-лево-линейными-грамматиками-равно-множеству-регулярных-языков">158.
+Множество языков, порожденных лево-линейными грамматиками равно
+множеству регулярных языков</h3>
+<p>Построим по ДКА лево-линейную грамматику и по лево-линейной
+грамматике ДКА.</p>
+<h4 id="дка-to-грамматика">ДКА <span class="math inline">\(\to\)</span>
+грамматика</h4>
+<p>Задача: построить для регулярного языка <span
+class="math inline">\(L\)</span> лево-линейную грамматику. Возьмем для
+этого ДКА от <span class="math inline">\(L^R\)</span>: <span
+class="math inline">\(\langle \Sigma, Q, s, T,
+\delta\rangle\)</span></p>
+<ul>
+<li><span class="math inline">\(S=s\)</span></li>
+<li><span class="math inline">\(\Sigma=\Sigma\)</span></li>
+<li><span class="math inline">\(\forall P, R, w : \delta(P,w)=R \quad
+P\to Rw\)</span></li>
+<li><span class="math inline">\(\forall P\in T \quad
+P\to\varepsilon\)</span></li>
+</ul>
+<h4 id="грамматика-to-дка">Грамматика <span
+class="math inline">\(\to\)</span> ДКА</h4>
+<ul>
+<li><span class="math inline">\(s=S\)</span></li>
+<li><span class="math inline">\(\Sigma=\Sigma\)</span></li>
+<li><span class="math inline">\(\forall P, R, w : P\to Rw \quad
+\delta(P,w)=R\)</span></li>
+<li><span class="math inline">\(T = \{P\ |\ \forall P :
+P\to\varepsilon\}\)</span></li>
+</ul>
+</body>
+</html>

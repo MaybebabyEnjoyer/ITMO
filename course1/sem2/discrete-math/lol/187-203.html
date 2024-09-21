@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>187-203</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#задания-187-203">Задания 187-203</a>
+<ul>
+<li><a
+href="#постройте-мп-автомат-для-языка-слов-где-число-нулей-равно-числу-единиц.">187.
+Постройте МП-автомат для языка слов, где число нулей равно числу
+единиц.</a></li>
+<li><a href="#постройте-мп-автомат-для-языка-0n12n">188. Постройте
+МП-автомат для языка <span
+class="math inline">\(0^n1^{2n}\)</span></a></li>
+<li><a href="#постройте-мп-автомат-для-языка-0n1m2nm">189. Постройте
+МП-автомат для языка <span
+class="math inline">\(0^n1^m2^{n+m}\)</span></a></li>
+<li><a href="#постройте-мп-автомат-для-языка-02n1n">190. Постройте
+МП-автомат для языка <span
+class="math inline">\(0^{2n}1^{n}\)</span></a></li>
+<li><a href="#постройте-мп-автомат-для-языка-0n12ncup-0n1n">191.
+Постройте МП-автомат для языка <span
+class="math inline">\(0^{n}1^{2n}\cup 0^{n}1^{n}\)</span></a></li>
+<li><a href="#постройте-мп-автомат-для-языка-0n1m-minn-2n">192.
+Постройте МП-автомат для языка <span class="math inline">\(0^{n}1^{m},
+m\in[n, 2n]\)</span></a></li>
+<li><a
+href="#докажите-что-для-любых-p-и-q-существует-мп-автомат-для-языка-слов-0n1m-где-nmpq">193.
+Докажите, что для любых <span class="math inline">\(p\)</span> и <span
+class="math inline">\(q\)</span> существует МП-автомат для языка слов
+<span class="math inline">\(0^n1^m\)</span>, где <span
+class="math inline">\(n/m=p/q\)</span></a></li>
+<li><a
+href="#постройте-автомат-с-магазинной-памятью-для-языка-слов-над-алфавитом-012-которые-содержат-равное-число-двоек-и-равное-число-единиц-или-равное-число-двоек-и-равное-число-нулей.">194.
+Постройте автомат с магазинной памятью для языка слов над алфавитом
+<span class="math inline">\(\{0,1,2\}\)</span>, которые содержат равное
+число двоек и равное число единиц, или равное число двоек и равное число
+нулей.</a></li>
+<li><a
+href="#рассмотрим-список-слов-a-alpha_1-alpha_2-ldots-alpha_n-над-алфавитом-sigma.-введем-n-новых-различных-символов-d_1-d_2-ldots-d_n.-рассмотрим-алфавит-sigma-sigma-cup-d_1-d_2-ldots-d_n.-рассмотрим-язык-списка-a-обозначаемый-как-l_a-в-который-входят-все-слова-вида-alpha_i_1alpha_i_2ldotsalpha_i_kd_i_kd_i_k-1ldots-d_i_1.-докажите-что-для-любого-списка-a-язык-l_a-является-контекстно-свободным.">195.
+Рассмотрим список слов <span class="math inline">\(A = \{\alpha_1,
+\alpha_2, \ldots, \alpha_n\}\)</span> над алфавитом <span
+class="math inline">\(\Sigma\)</span>. Введем <span
+class="math inline">\(n\)</span> новых различных символов <span
+class="math inline">\(d_1, d_2, \ldots, d_n\)</span>. Рассмотрим алфавит
+<span class="math inline">\(\Sigma&#39; = \Sigma \cup \{d_1, d_2,
+\ldots, d_n\}\)</span>. Рассмотрим язык списка <span
+class="math inline">\(A\)</span>, обозначаемый как <span
+class="math inline">\(L_A\)</span>, в который входят все слова вида
+<span
+class="math inline">\(\alpha_{i_1}\alpha_{i_2}\ldots\alpha_{i_k}d_{i_k}d_{i_{k-1}}\ldots
+d_{i_1}\)</span>. Докажите, что для любого списка <span
+class="math inline">\(A\)</span> язык <span
+class="math inline">\(L_A\)</span> является
+контекстно-свободным.</a></li>
+<li><a
+href="#докажите-что-дополнение-к-языку-списка-l_a-является-контекстно-свободным-для-любого-списка-a.">196.
+Докажите, что дополнение к языку списка <span
+class="math inline">\(L_A\)</span> является контекстно-свободным для
+любого списка <span class="math inline">\(A\)</span>.</a></li>
+<li><a
+href="#можно-неправильно-определить-язык-списка-a-alpha_1-alpha_2-ldots-alpha_n-из-предыдущего-задания-составив-его-из-слов-вида-alpha_i_1alpha_i_2ldotsalpha_i_kd_i_1d_i_2ldots-d_i_k.-докажите-или-опровергните-что-при-таком-неправильном-определении-язык-списка-все-еще-будет-конткстно-свободным-для-любого-списка-a.">197.
+Можно неправильно определить язык списка <span class="math inline">\(A =
+\{\alpha_1, \alpha_2, \ldots, \alpha_n\}\)</span> из предыдущего
+задания, составив его из слов вида <span
+class="math inline">\(\alpha_{i_1}\alpha_{i_2}\ldots\alpha_{i_k}d_{i_1}d_{i_2}\ldots
+d_{i_k}\)</span>. Докажите или опровергните, что при таком неправильном
+определении язык списка все еще будет конткстно-свободным для любого
+списка <span class="math inline">\(A\)</span>.</a></li>
+<li><a
+href="#предложите-алгоритм-проверки-что-мп-автомат-допускает-заданное-слово.">198.
+Предложите алгоритм проверки, что МП-автомат допускает заданное
+слово.</a></li>
+<li><a
+href="#назовем-состояние-мп-автомата-бесполезным-если-автомат-не-может-перейти-в-него-ни-при-каком-входном-слове.-предложите-алгоритм-проверки-состояния-мп-автомата-на-бесполезность.">199.
+Назовем состояние МП-автомата бесполезным, если автомат не может перейти
+в него ни при каком входном слове. Предложите алгоритм проверки
+состояния МП-автомата на бесполезность.</a></li>
+<li><a
+href="#предложите-алгоритм-проверки-что-мп-автомат-допускает-хотя-бы-одно-слово-содержащее-заданное-в-качестве-подстроки.">200.
+Предложите алгоритм проверки, что МП-автомат допускает хотя бы одно
+слово, содержащее заданное в качестве подстроки.</a></li>
+<li><a
+href="#предложите-алгоритм-проверки-что-мп-автомат-допускает-бесконечное-число-слов.">201.
+Предложите алгоритм проверки, что МП-автомат допускает бесконечное число
+слов.</a></li>
+<li><a href="#замкнутость-кс-по-изморофизму.">202. Замкнутость КС по
+изморофизму.</a></li>
+<li><a href="#замкнутость-кс-по-обратному-изморофизму.">203. Замкнутость
+КС по обратному изморофизму.</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="задания-187-203">Задания 187-203</h1>
+<h3
+id="постройте-мп-автомат-для-языка-слов-где-число-нулей-равно-числу-единиц.">187.
+Постройте МП-автомат для языка слов, где число нулей равно числу
+единиц.</h3>
+<p><img src="imgs/187.drawio.svg" /></p>
+<h3 id="постройте-мп-автомат-для-языка-0n12n">188. Постройте МП-автомат
+для языка <span class="math inline">\(0^n1^{2n}\)</span></h3>
+<p><img src="imgs/188.drawio.svg" /></p>
+<h3 id="постройте-мп-автомат-для-языка-0n1m2nm">189. Постройте
+МП-автомат для языка <span
+class="math inline">\(0^n1^m2^{n+m}\)</span></h3>
+<p><img src="imgs/189.drawio.svg" /></p>
+<h3 id="постройте-мп-автомат-для-языка-02n1n">190. Постройте МП-автомат
+для языка <span class="math inline">\(0^{2n}1^{n}\)</span></h3>
+<p><img src="imgs/190.drawio.svg" /></p>
+<h3 id="постройте-мп-автомат-для-языка-0n12ncup-0n1n">191. Постройте
+МП-автомат для языка <span class="math inline">\(0^{n}1^{2n}\cup
+0^{n}1^{n}\)</span></h3>
+<p><img src="imgs/191.drawio.svg" /></p>
+<h3 id="постройте-мп-автомат-для-языка-0n1m-minn-2n">192. Постройте
+МП-автомат для языка <span class="math inline">\(0^{n}1^{m}, m\in[n,
+2n]\)</span></h3>
+<p><img src="imgs/192.drawio.svg" /></p>
+<h3
+id="докажите-что-для-любых-p-и-q-существует-мп-автомат-для-языка-слов-0n1m-где-nmpq">193.
+Докажите, что для любых <span class="math inline">\(p\)</span> и <span
+class="math inline">\(q\)</span> существует МП-автомат для языка слов
+<span class="math inline">\(0^n1^m\)</span>, где <span
+class="math inline">\(n/m=p/q\)</span></h3>
+<p><img src="imgs/193.drawio.svg" /></p>
+<p><span class="math inline">\(T=\{w_0\}, s=v\)</span></p>
+<h3
+id="постройте-автомат-с-магазинной-памятью-для-языка-слов-над-алфавитом-012-которые-содержат-равное-число-двоек-и-равное-число-единиц-или-равное-число-двоек-и-равное-число-нулей.">194.
+Постройте автомат с магазинной памятью для языка слов над алфавитом
+<span class="math inline">\(\{0,1,2\}\)</span>, которые содержат равное
+число двоек и равное число единиц, или равное число двоек и равное число
+нулей.</h3>
+<p><img src="imgs/194.drawio.svg" /></p>
+<h3
+id="рассмотрим-список-слов-a-alpha_1-alpha_2-ldots-alpha_n-над-алфавитом-sigma.-введем-n-новых-различных-символов-d_1-d_2-ldots-d_n.-рассмотрим-алфавит-sigma-sigma-cup-d_1-d_2-ldots-d_n.-рассмотрим-язык-списка-a-обозначаемый-как-l_a-в-который-входят-все-слова-вида-alpha_i_1alpha_i_2ldotsalpha_i_kd_i_kd_i_k-1ldots-d_i_1.-докажите-что-для-любого-списка-a-язык-l_a-является-контекстно-свободным.">195.
+Рассмотрим список слов <span class="math inline">\(A = \{\alpha_1,
+\alpha_2, \ldots, \alpha_n\}\)</span> над алфавитом <span
+class="math inline">\(\Sigma\)</span>. Введем <span
+class="math inline">\(n\)</span> новых различных символов <span
+class="math inline">\(d_1, d_2, \ldots, d_n\)</span>. Рассмотрим алфавит
+<span class="math inline">\(\Sigma&#39; = \Sigma \cup \{d_1, d_2,
+\ldots, d_n\}\)</span>. Рассмотрим язык списка <span
+class="math inline">\(A\)</span>, обозначаемый как <span
+class="math inline">\(L_A\)</span>, в который входят все слова вида
+<span
+class="math inline">\(\alpha_{i_1}\alpha_{i_2}\ldots\alpha_{i_k}d_{i_k}d_{i_{k-1}}\ldots
+d_{i_1}\)</span>. Докажите, что для любого списка <span
+class="math inline">\(A\)</span> язык <span
+class="math inline">\(L_A\)</span> является контекстно-свободным.</h3>
+<p><img src="imgs/195.drawio.svg" /></p>
+<h3
+id="докажите-что-дополнение-к-языку-списка-l_a-является-контекстно-свободным-для-любого-списка-a.">196.
+Докажите, что дополнение к языку списка <span
+class="math inline">\(L_A\)</span> является контекстно-свободным для
+любого списка <span class="math inline">\(A\)</span>.</h3>
+<p><img src="imgs/196.drawio.svg" /></p>
+<p><span class="math inline">\(T=\{t\}\)</span></p>
+<h3
+id="можно-неправильно-определить-язык-списка-a-alpha_1-alpha_2-ldots-alpha_n-из-предыдущего-задания-составив-его-из-слов-вида-alpha_i_1alpha_i_2ldotsalpha_i_kd_i_1d_i_2ldots-d_i_k.-докажите-или-опровергните-что-при-таком-неправильном-определении-язык-списка-все-еще-будет-конткстно-свободным-для-любого-списка-a.">197.
+Можно неправильно определить язык списка <span class="math inline">\(A =
+\{\alpha_1, \alpha_2, \ldots, \alpha_n\}\)</span> из предыдущего
+задания, составив его из слов вида <span
+class="math inline">\(\alpha_{i_1}\alpha_{i_2}\ldots\alpha_{i_k}d_{i_1}d_{i_2}\ldots
+d_{i_k}\)</span>. Докажите или опровергните, что при таком неправильном
+определении язык списка все еще будет конткстно-свободным для любого
+списка <span class="math inline">\(A\)</span>.</h3>
+<p><span class="math inline">\(\sphericalangle A = \{0,1,2\}, d_1=3,
+d_2=4, d_3=5\)</span></p>
+<p><span class="math inline">\(0^n12^n3^n45^n\in L_A\)</span></p>
+<p>Докажем не КС по лемме о разрастании.</p>
+<ul>
+<li>Если раскачивается только одна сторона, то очевидно <span
+class="math inline">\(\not\in L_A\)</span></li>
+<li>Если раскачиваются обе стороны, то <span
+class="math inline">\(\#_3\not=\#_0\)</span>.</li>
+</ul>
+<h3
+id="предложите-алгоритм-проверки-что-мп-автомат-допускает-заданное-слово.">198.
+Предложите алгоритм проверки, что МП-автомат допускает заданное
+слово.</h3>
+<p>Умножим состояния на <span class="math inline">\(\{1\ldots
+n\}\)</span>, оставим только те, которые переходят по искомому слову,
+получим МПА <span class="math inline">\(P&#39;\)</span>, <span
+class="math inline">\(L(P&#39;)=P&#39;\cap\{w\}\)</span>, проверим
+непустоту языка через достижимость принимающего состояния, см. 199.</p>
+<p>Эмулируем автомат, обход недетерминированности - ДФС.</p>
+<p>Проблема: эпсилон-циклы дают бесконечный цикл. Решение: не ходить по
+переходам, по которым уже прошли ровно в таком же состоянии стека.</p>
+<p>Проблема: цикл <span class="math inline">\(\varepsilon, *\to
+A*\)</span> дает бесконечное множество различных состояний. Решение:
+если путь до вершины, то есть путь с переходами $$</p>
+<p>На нерке есть алгоритм получения КСГ из МП-автомата, КЯК определяет
+для КСГ.</p>
+<h3
+id="назовем-состояние-мп-автомата-бесполезным-если-автомат-не-может-перейти-в-него-ни-при-каком-входном-слове.-предложите-алгоритм-проверки-состояния-мп-автомата-на-бесполезность.">199.
+Назовем состояние МП-автомата бесполезным, если автомат не может перейти
+в него ни при каком входном слове. Предложите алгоритм проверки
+состояния МП-автомата на бесполезность.</h3>
+<p>Построим НКА достижимости по МПА (с допуском по пустому стеку):</p>
+<p><span class="math inline">\(\langle \Sigma, \Gamma, Q, q_0\in Q,
+\delta\rangle\xrightarrow[построение]{}\langle Q, \Gamma, \delta_n,
+q_0\rangle\)</span></p>
+<p>В этом НКА достижимость состояния <span
+class="math inline">\(q\)</span> по слову <span
+class="math inline">\(\alpha \Leftrightarrow\)</span> достижимость <span
+class="math inline">\(q\)</span> в МПА, имея при достижении стек <span
+class="math inline">\(\alpha\)</span>. Тогда ответом на запрос будет
+достижимость <span class="math inline">\(q\)</span> в НКА, что мы умеем
+делать.</p>
+<p>Сконвертим переходы МПА в переходы вида <span
+class="math inline">\((q, \varepsilon)\to (q&#39;, a)\)</span> или <span
+class="math inline">\((q, a)\to (q&#39;, \varepsilon)\)</span>, т.е. при
+каждом переходе либо добавляется символ в стек, либо удаляется.</p>
+<p>Будем поддерживать <span
+class="math inline">\(\delta_n^*\)</span></p>
+<p><span class="math inline">\(\forall (q, \varepsilon)\to (q&#39;,
+a)\in\delta : (q, a)\to q&#39;\)</span> кладется в <span
+class="math inline">\(\delta_n\)</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="op">(</span>q<span class="op">,</span> ε<span class="op">)</span> <span class="op">-&gt;</span> <span class="op">(</span>q′<span class="op">,</span> a<span class="op">)</span> <span class="op">:</span> δ</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    δₙ<span class="op">.</span>insert<span class="op">((</span>q<span class="op">,</span> a<span class="op">)</span> <span class="op">-&gt;</span> q′<span class="op">)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> flag<span class="op">:</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    flag <span class="op">=</span> false</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="op">(</span>q<span class="op">,</span> a<span class="op">)</span> <span class="op">-&gt;</span> <span class="op">(</span>q′<span class="op">,</span> ε<span class="op">)</span> <span class="op">:</span> δ</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="op">(</span>q′′<span class="op">,</span> a<span class="op">)</span> <span class="op">-&gt;</span> q <span class="op">:</span> δ⃰ₙ</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>            δₙ<span class="op">.</span>insert<span class="op">((</span>q′′<span class="op">,</span> ε<span class="op">)</span> <span class="op">-&gt;</span> q′<span class="op">)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            flag <span class="op">=</span> true</span></code></pre></div>
+<h4 id="объяснение">Объяснение</h4>
+<p>Переходы с добавлением в стек (первый <code>for</code>) очевидны.</p>
+<p><code>while</code>: делаем пока есть что делать</p>
+<p>Если мы можем прийти в <span class="math inline">\(q\)</span> из
+<span class="math inline">\(q&#39;&#39;\)</span> таким образом, что на
+стеке сверху будет <span class="math inline">\(a\)</span> и есть переход
+в МПА <span class="math inline">\(q\to q&#39;\)</span>, удаляющий <span
+class="math inline">\(a\)</span>, то есть переход <span
+class="math inline">\(q&#39;&#39;\to q&#39;\)</span> без изменения
+стека.</p>
+<h3
+id="предложите-алгоритм-проверки-что-мп-автомат-допускает-хотя-бы-одно-слово-содержащее-заданное-в-качестве-подстроки.">200.
+Предложите алгоритм проверки, что МП-автомат допускает хотя бы одно
+слово, содержащее заданное в качестве подстроки.</h3>
+<p>Сконвертим в КСГ. Запустим CYK, получим множество нетерминалов, из
+которых можно получить <span class="math inline">\(w\)</span>. Проверим
+достижимость из <span class="math inline">\(S\)</span> всех таких
+нетерминалов, если хотя бы один достижим, да.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>algo<span class="op">(</span>PDA<span class="op">,</span> w<span class="op">):</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    CFG <span class="op">=</span> PDA<span class="op">.</span>toCFG<span class="op">()</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    dp <span class="op">=</span> CYK<span class="op">(</span>CFG<span class="op">,</span> w<span class="op">)</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> A ∈ Q<span class="op">:</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> dp<span class="op">[</span>A<span class="op">][</span><span class="dv">1</span><span class="op">][</span>n<span class="op">]</span> and CFG<span class="op">.</span>reachable<span class="op">(</span>A<span class="op">):</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> true</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> false</span></code></pre></div>
+<h3
+id="предложите-алгоритм-проверки-что-мп-автомат-допускает-бесконечное-число-слов.">201.
+Предложите алгоритм проверки, что МП-автомат допускает бесконечное число
+слов.</h3>
+<p>Конверт в КСГ, проверка в ней.</p>
+<!-- Для этого необходимо и достаточно, чтобы существовал достижимый цикл, по которому можно ходить произвольное число раз и из которого можно прийти в принимающее состояние.
+
+Пройдем дфсом по всему графу, игнорируя стак, запомним циклы. Проверим достижимость циклов (тривиально, 199) и можно ли ходить бесконечно по циклу: -->
+<!-- Заметим, что за 1 проход по циклу стак может увеличиться только на $\sum |\alpha_i|$, где $\alpha_i$ -  -->
+<h3 id="замкнутость-кс-по-изморофизму.">202. Замкнутость КС по
+изморофизму.</h3>
+<p>Возьмем МПА к <span class="math inline">\(L\)</span>, вместо перехода
+по <span class="math inline">\(c_i\)</span> сделаем <span
+class="math inline">\(|f(c_i)|\)</span> переходов, которые идут по этой
+строке.</p>
+<h3 id="замкнутость-кс-по-обратному-изморофизму.">203. Замкнутость КС по
+обратному изморофизму.</h3>
+<p>Состояния <span class="math inline">\(Q\times S, S=\{suffix(f(a))\ |\
+\forall a\in\Sigma\}\)</span>. Будем хранить во втором элементе
+состояния как в буффере какой-то необработанный суффикс <span
+class="math inline">\(f(a)\)</span>, который скармливается МПА для <span
+class="math inline">\(L\)</span>.</p>
+<ul>
+<li>Восполнение: <span class="math inline">\((q, \varepsilon), w, X \to
+(q, f(w)), X\)</span></li>
+<li>Кормление: <span class="math inline">\(q, a, X \to q&#39;, Y
+\Rightarrow (q, ab), \varepsilon, X \to (q&#39;, b), Y\)</span></li>
+</ul>
+<p>Очевидно эквивалентны следующие вещи: - <span
+class="math inline">\((q, \varepsilon), w, \alpha \xRightarrow{M_1}^*
+(q&#39;, \varepsilon), \varepsilon, \beta\)</span> - <span
+class="math inline">\(q, f(w), \alpha \xRightarrow{M_2}^* q&#39;,
+\varepsilon, \beta\)</span></p>
+</body>
+</html>
