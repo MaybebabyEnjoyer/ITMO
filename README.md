@@ -32,6 +32,7 @@ _Автор категорически против списывания_ by [ma
 ## 3 семестр
 
 ### [Матлог](https://www.instagram.com/modus_ponos/) by я + Варя
+### [Матлог](https://github.com/MaybebabyEnjoyer/ITMO/tree/main/course2/sem3/matlog) by Максимум По Включению
 
 ---
 
