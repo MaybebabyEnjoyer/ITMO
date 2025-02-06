@@ -25,9 +25,17 @@ _Автор категорически против списывания_ by [ma
 
 ---
 
+## 5 cеместр
+
+### [Функциональное программирование](https://github.com/NikitaMsln/ct-homework/tree/main/5-sem/fp) by [NikitaMsln](https://github.com/NikitaMsln)
+
+---
+
 ## 4 семестр
 
 ### [Алгоритмы и структуры данных](https://github.com/internet-director/ITMO_y2021/tree/main/term4/alko) by [internet_director](https://github.com/internet-director)
+
+### [Теория типов](https://github.com/NikitaMsln/ct-homework/tree/main/4-sem/tt) by [NikitaMsln](https://github.com/NikitaMsln)
 
 ## 3 семестр
 
