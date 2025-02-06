@@ -29,6 +29,8 @@ _Автор категорически против списывания_ by [ma
 
 ### [Функциональное программирование](https://github.com/NikitaMsln/ct-homework/tree/main/5-sem/fp) by [NikitaMsln](https://github.com/NikitaMsln)
 
+### [Ассемблер](https://github.com/NikitaMsln/ct-homework/tree/main/5-sem/asm) by [NikitaMsln](https://github.com/NikitaMsln)
+
 ---
 
 ## 4 семестр
